@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Abs</key>
+	<array>
+		<string>Cable Crunches</string>
+		<string>Cable Oblique Crunches</string>
+		<string>Decline Crunches</string>
+		<string>Decline Oblique</string>
+		<string>Floor Crunches</string>
+		<string>Hanging Knee Raises</string>
+		<string>Oblique Floor Crunches</string>
+		<string>Reverse Crunches</string>
+	</array>
+	<key>Back</key>
+	<array>
+		<string>Back Extensions</string>
+		<string>One-Arm Dumbbell Rows</string>
+		<string>Pull-Ups</string>
+		<string>Seated Cable Rows</string>
+		<string>Straight Arm Pulldowns</string>
+		<string>Wide Grip Lat Pulldowns</string>
+	</array>
+	<key>Biceps</key>
+	<array>
+		<string>Alternate Dumbbell Curls</string>
+		<string>Barbell Curls</string>
+		<string>Cable Curls</string>
+		<string>Concentrated Curls</string>
+		<string>Hammer Curls</string>
+		<string>Preacher Curls</string>
+	</array>
+	<key>Calves</key>
+	<array>
+		<string>Seated Calf Raises</string>
+		<string>Standing Heel Raises</string>
+	</array>
+	<key>Chest</key>
+	<array>
+		<string>Cable Crossovers</string>
+		<string>Decline Bench Press</string>
+		<string>Dumbbell Bench Press</string>
+		<string>Dumbbell Bench Press</string>
+		<string>Dumbbell Decline Bench Press</string>
+		<string>Dumbbell Flyes</string>
+		<string>Dumbbell Incline Bench Press</string>
+		<string>Flat Bench Press</string>
+		<string>Incline Bench Press</string>
+	</array>
+	<key>Hamstrings</key>
+	<array>
+		<string>Dumbbell Lunges</string>
+		<string>Lying Leg Curls</string>
+		<string>Straight-Leg Deadlifts</string>
+	</array>
+	<key>Quadriceps</key>
+	<array>
+		<string>Barbell Squats</string>
+		<string>Leg Extensions</string>
+		<string>Leg Presses</string>
+	</array>
+	<key>Shoulders</key>
+	<array>
+		<string>Front Raises</string>
+		<string>Lateral Raises</string>
+		<string>Military Presses</string>
+		<string>Reverse Flyes</string>
+		<string>Upright Cable Rows</string>
+	</array>
+</dict>
+</plist>

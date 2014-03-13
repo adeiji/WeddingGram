@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* _0DayFitnessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* _0DayFitnessAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		3211C22A10879FD8009F4D17 /* Small RED Button 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211C22910879FD8009F4D17 /* Small RED Button 1.png */; };
+		3211C2521087A742009F4D17 /* Selected Buttons 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211C2511087A742009F4D17 /* Selected Buttons 2.png */; };
+		3211C2541087A749009F4D17 /* Select Buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211C2531087A749009F4D17 /* Select Buttons.png */; };
+		3211C2781087AAD6009F4D17 /* Select Buttons Small 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211C2761087AAD6009F4D17 /* Select Buttons Small 2.png */; };
+		3211C2791087AAD6009F4D17 /* Select Buttons Small 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211C2771087AAD6009F4D17 /* Select Buttons Small 1.png */; };
+		3211C28D1087B26F009F4D17 /* Selected Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211C28C1087B26F009F4D17 /* Selected Background.png */; };
+		321738850FF86A11009BFA0D /* ExerciseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321738840FF86A11009BFA0D /* ExerciseView.xib */; };
+		321739DE0FF88D1A009BFA0D /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321739DD0FF88D1A009BFA0D /* ExerciseViewController.m */; };
+		3221F9B30FFD03C90079A2EB /* CalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221F9B20FFD03C90079A2EB /* CalendarDay.m */; };
+		322263A20FF5C02400102BFA /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322263A10FF5C02400102BFA /* BodyViewController.m */; };
+		322263A40FF5C09D00102BFA /* BodyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322263A30FF5C09D00102BFA /* BodyView.xib */; };
+		322263A90FF5C42300102BFA /* Black Buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 322263A80FF5C42300102BFA /* Black Buttons.png */; };
+		322CB1321012DD2D00862D79 /* Small Black Buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 322CB1311012DD2D00862D79 /* Small Black Buttons.png */; };
+		322CB1361012E94C00862D79 /* Small Green Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 322CB1351012E94C00862D79 /* Small Green Button.png */; };
+		32408CD71027DDB2004452D9 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32408CD61027DDB2004452D9 /* SelectionView.xib */; };
+		32408CDC1027DDDA004452D9 /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32408CDB1027DDDA004452D9 /* SelectionViewController.m */; };
+		325C382410E9C81C00DC55A1 /* Arrow-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C382310E9C81C00DC55A1 /* Arrow-small.png */; };
+		32651FC610156A0000EE8799 /* Darken.png in Resources */ = {isa = PBXBuildFile; fileRef = 32651FC510156A0000EE8799 /* Darken.png */; };
+		326861BA0FFE8FDE00A0295A /* On Black 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 326861B90FFE8FDE00A0295A /* On Black 2.png */; };
+		326861BD0FFE907400A0295A /* Off Black 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 326861BC0FFE907400A0295A /* Off Black 2.png */; };
+		32A2E26D0FEC28BF00EE78FC /* X2.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A2E26B0FEC28BF00EE78FC /* X2.png */; };
+		32A2E26E0FEC28BF00EE78FC /* X1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A2E26C0FEC28BF00EE78FC /* X1.png */; };
+		32A2E2700FEC293D00EE78FC /* 90DayFitness.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A2E26F0FEC293D00EE78FC /* 90DayFitness.png */; };
+		32A2E2B70FEC3F5A00EE78FC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A2E2B60FEC3F5A00EE78FC /* icon.png */; };
+		32A2E2E90FEC443D00EE78FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A2E2E80FEC443D00EE78FC /* Default.png */; };
+		32C379BE0FF5E9E000629F0F /* CardioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C379BD0FF5E9E000629F0F /* CardioViewController.m */; };
+		32C379C00FF5E9F100629F0F /* CardioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C379BF0FF5E9F100629F0F /* CardioView.xib */; };
+		32D698C70FFBA4FB00B409DD /* ExerciseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D698C60FFBA4FB00B409DD /* ExerciseViewCell.m */; };
+		32D698C90FFBA53900B409DD /* ExerciseViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D698C80FFBA53900B409DD /* ExerciseViewCell.xib */; };
+		32D698EC0FFBC01500B409DD /* Exercise Glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D698EB0FFBC01500B409DD /* Exercise Glass.png */; };
+		32D9C4330FF687C300E82822 /* Grey Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D9C4320FF687C300E82822 /* Grey Button.png */; };
+		32D9C4370FF68A3900E82822 /* Red Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D9C4360FF68A3900E82822 /* Red Button.png */; };
+		32D9C4440FF68D2100E82822 /* Green Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D9C4430FF68D2100E82822 /* Green Button.png */; };
+		32DCF9240FFA5B1500ED4A50 /* Snake Better.png in Resources */ = {isa = PBXBuildFile; fileRef = 32DCF9230FFA5B1500ED4A50 /* Snake Better.png */; };
+		32E26648108719EC0068FC96 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E26647108719EC0068FC96 /* Entitlements.plist */; };
+		DD02677C1032C351009BD5E3 /* DayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD02677B1032C351009BD5E3 /* DayView.m */; };
+		DDF50C651089756E001ABC7F /* PresetsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF50C641089756E001ABC7F /* PresetsView.xib */; };
+		DDF50C68108975AB001ABC7F /* PresetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF50C67108975AB001ABC7F /* PresetsViewController.m */; };
+		DDF50C8510897D1E001ABC7F /* presets.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF50C8410897D1E001ABC7F /* presets.plist */; };
+		DDF95F1610941E060087E64B /* NSData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95EF710941E060087E64B /* NSData-SQLitePersistence.m */; };
+		DDF95F1710941E070087E64B /* NSDate-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95EF910941E060087E64B /* NSDate-SQLitePersistence.m */; };
+		DDF95F1810941E070087E64B /* NSMutableArray-MultipleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95EFB10941E060087E64B /* NSMutableArray-MultipleSort.m */; };
+		DDF95F1910941E070087E64B /* NSMutableData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95EFD10941E060087E64B /* NSMutableData-SQLitePersistence.m */; };
+		DDF95F1A10941E070087E64B /* NSNumber-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95EFF10941E060087E64B /* NSNumber-SQLitePersistence.m */; };
+		DDF95F1B10941E070087E64B /* NSObject-ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0110941E060087E64B /* NSObject-ClassName.m */; };
+		DDF95F1C10941E070087E64B /* NSObject-MissingKV.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0310941E060087E64B /* NSObject-MissingKV.m */; };
+		DDF95F1D10941E070087E64B /* NSObject-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0510941E060087E64B /* NSObject-SQLitePersistence.m */; };
+		DDF95F1E10941E070087E64B /* NSString-NumberStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0710941E060087E64B /* NSString-NumberStuff.m */; };
+		DDF95F1F10941E070087E64B /* NSString-SQLiteColumnName.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0910941E060087E64B /* NSString-SQLiteColumnName.m */; };
+		DDF95F2010941E070087E64B /* NSString-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0B10941E060087E64B /* NSString-SQLitePersistence.m */; };
+		DDF95F2110941E070087E64B /* NSString-UppercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0D10941E060087E64B /* NSString-UppercaseFirst.m */; };
+		DDF95F2210941E070087E64B /* SQLiteInstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F0F10941E060087E64B /* SQLiteInstanceManager.m */; };
+		DDF95F2310941E070087E64B /* SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F1110941E060087E64B /* SQLitePersistentObject.m */; };
+		DDF95F2410941E070087E64B /* UIColor-SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F1310941E060087E64B /* UIColor-SQLitePersistentObject.m */; };
+		DDF95F2510941E070087E64B /* UIImage-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F1510941E060087E64B /* UIImage-SQLitePersistence.m */; };
+		DDF95F2E10941EF40087E64B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF95F2D10941EF40087E64B /* libsqlite3.dylib */; };
+		DDF95F4B109425200087E64B /* DayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF95F4A109425200087E64B /* DayInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* _0DayFitnessAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _0DayFitnessAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* _0DayFitnessAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _0DayFitnessAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* 90DayFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 90DayFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideView.h; sourceTree = "<group>"; };
+		289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideView.m; sourceTree = "<group>"; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3211C22910879FD8009F4D17 /* Small RED Button 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small RED Button 1.png"; sourceTree = "<group>"; };
+		3211C2511087A742009F4D17 /* Selected Buttons 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected Buttons 2.png"; sourceTree = "<group>"; };
+		3211C2531087A749009F4D17 /* Select Buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Select Buttons.png"; sourceTree = "<group>"; };
+		3211C2761087AAD6009F4D17 /* Select Buttons Small 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Select Buttons Small 2.png"; sourceTree = "<group>"; };
+		3211C2771087AAD6009F4D17 /* Select Buttons Small 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Select Buttons Small 1.png"; sourceTree = "<group>"; };
+		3211C28C1087B26F009F4D17 /* Selected Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected Background.png"; sourceTree = "<group>"; };
+		321738840FF86A11009BFA0D /* ExerciseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseView.xib; sourceTree = "<group>"; };
+		321739DC0FF88D1A009BFA0D /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		321739DD0FF88D1A009BFA0D /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
+		3221F9B10FFD03C90079A2EB /* CalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDay.h; sourceTree = "<group>"; };
+		3221F9B20FFD03C90079A2EB /* CalendarDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDay.m; sourceTree = "<group>"; };
+		322263A00FF5C02400102BFA /* BodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
+		322263A10FF5C02400102BFA /* BodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
+		322263A30FF5C09D00102BFA /* BodyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyView.xib; sourceTree = "<group>"; };
+		322263A80FF5C42300102BFA /* Black Buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Buttons.png"; sourceTree = "<group>"; };
+		322CB1311012DD2D00862D79 /* Small Black Buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small Black Buttons.png"; sourceTree = "<group>"; };
+		322CB1351012E94C00862D79 /* Small Green Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small Green Button.png"; sourceTree = "<group>"; };
+		32408CD61027DDB2004452D9 /* SelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
+		32408CDA1027DDDA004452D9 /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		32408CDB1027DDDA004452D9 /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		325C382310E9C81C00DC55A1 /* Arrow-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-small.png"; sourceTree = "<group>"; };
+		32651FC510156A0000EE8799 /* Darken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Darken.png; sourceTree = "<group>"; };
+		326861B90FFE8FDE00A0295A /* On Black 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Black 2.png"; sourceTree = "<group>"; };
+		326861BC0FFE907400A0295A /* Off Black 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Off Black 2.png"; sourceTree = "<group>"; };
+		32A2E26B0FEC28BF00EE78FC /* X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X2.png; sourceTree = "<group>"; };
+		32A2E26C0FEC28BF00EE78FC /* X1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X1.png; sourceTree = "<group>"; };
+		32A2E26F0FEC293D00EE78FC /* 90DayFitness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 90DayFitness.png; sourceTree = "<group>"; };
+		32A2E2B60FEC3F5A00EE78FC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		32A2E2E80FEC443D00EE78FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32C379BC0FF5E9E000629F0F /* CardioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardioViewController.h; sourceTree = "<group>"; };
+		32C379BD0FF5E9E000629F0F /* CardioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardioViewController.m; sourceTree = "<group>"; };
+		32C379BF0FF5E9F100629F0F /* CardioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardioView.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* _0DayFitness_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _0DayFitness_Prefix.pch; sourceTree = "<group>"; };
+		32D698C50FFBA4FB00B409DD /* ExerciseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewCell.h; sourceTree = "<group>"; };
+		32D698C60FFBA4FB00B409DD /* ExerciseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewCell.m; sourceTree = "<group>"; };
+		32D698C80FFBA53900B409DD /* ExerciseViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseViewCell.xib; sourceTree = "<group>"; };
+		32D698EB0FFBC01500B409DD /* Exercise Glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exercise Glass.png"; sourceTree = "<group>"; };
+		32D9C4320FF687C300E82822 /* Grey Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grey Button.png"; sourceTree = "<group>"; };
+		32D9C4360FF68A3900E82822 /* Red Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Button.png"; sourceTree = "<group>"; };
+		32D9C4430FF68D2100E82822 /* Green Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Button.png"; sourceTree = "<group>"; };
+		32DCF9230FFA5B1500ED4A50 /* Snake Better.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snake Better.png"; sourceTree = "<group>"; };
+		32E26647108719EC0068FC96 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* _0DayFitness-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "_0DayFitness-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD02677A1032C351009BD5E3 /* DayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayView.h; sourceTree = "<group>"; };
+		DD02677B1032C351009BD5E3 /* DayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayView.m; sourceTree = "<group>"; };
+		DDF50C641089756E001ABC7F /* PresetsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresetsView.xib; sourceTree = "<group>"; };
+		DDF50C66108975AB001ABC7F /* PresetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetsViewController.h; sourceTree = "<group>"; };
+		DDF50C67108975AB001ABC7F /* PresetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresetsViewController.m; sourceTree = "<group>"; };
+		DDF50C8410897D1E001ABC7F /* presets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = presets.plist; sourceTree = "<group>"; };
+		DDF95EF610941E060087E64B /* NSData-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95EF710941E060087E64B /* NSData-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95EF810941E060087E64B /* NSDate-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95EF910941E060087E64B /* NSDate-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95EFA10941E060087E64B /* NSMutableArray-MultipleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray-MultipleSort.h"; sourceTree = "<group>"; };
+		DDF95EFB10941E060087E64B /* NSMutableArray-MultipleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray-MultipleSort.m"; sourceTree = "<group>"; };
+		DDF95EFC10941E060087E64B /* NSMutableData-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95EFD10941E060087E64B /* NSMutableData-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95EFE10941E060087E64B /* NSNumber-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95EFF10941E060087E64B /* NSNumber-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95F0010941E060087E64B /* NSObject-ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-ClassName.h"; sourceTree = "<group>"; };
+		DDF95F0110941E060087E64B /* NSObject-ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-ClassName.m"; sourceTree = "<group>"; };
+		DDF95F0210941E060087E64B /* NSObject-MissingKV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-MissingKV.h"; sourceTree = "<group>"; };
+		DDF95F0310941E060087E64B /* NSObject-MissingKV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-MissingKV.m"; sourceTree = "<group>"; };
+		DDF95F0410941E060087E64B /* NSObject-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95F0510941E060087E64B /* NSObject-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95F0610941E060087E64B /* NSString-NumberStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-NumberStuff.h"; sourceTree = "<group>"; };
+		DDF95F0710941E060087E64B /* NSString-NumberStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-NumberStuff.m"; sourceTree = "<group>"; };
+		DDF95F0810941E060087E64B /* NSString-SQLiteColumnName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-SQLiteColumnName.h"; sourceTree = "<group>"; };
+		DDF95F0910941E060087E64B /* NSString-SQLiteColumnName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-SQLiteColumnName.m"; sourceTree = "<group>"; };
+		DDF95F0A10941E060087E64B /* NSString-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95F0B10941E060087E64B /* NSString-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95F0C10941E060087E64B /* NSString-UppercaseFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-UppercaseFirst.h"; sourceTree = "<group>"; };
+		DDF95F0D10941E060087E64B /* NSString-UppercaseFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-UppercaseFirst.m"; sourceTree = "<group>"; };
+		DDF95F0E10941E060087E64B /* SQLiteInstanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteInstanceManager.h; sourceTree = "<group>"; };
+		DDF95F0F10941E060087E64B /* SQLiteInstanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteInstanceManager.m; sourceTree = "<group>"; };
+		DDF95F1010941E060087E64B /* SQLitePersistentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLitePersistentObject.h; sourceTree = "<group>"; };
+		DDF95F1110941E060087E64B /* SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLitePersistentObject.m; sourceTree = "<group>"; };
+		DDF95F1210941E060087E64B /* UIColor-SQLitePersistentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-SQLitePersistentObject.h"; sourceTree = "<group>"; };
+		DDF95F1310941E060087E64B /* UIColor-SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-SQLitePersistentObject.m"; sourceTree = "<group>"; };
+		DDF95F1410941E060087E64B /* UIImage-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-SQLitePersistence.h"; sourceTree = "<group>"; };
+		DDF95F1510941E060087E64B /* UIImage-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-SQLitePersistence.m"; sourceTree = "<group>"; };
+		DDF95F2D10941EF40087E64B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DDF95F49109425200087E64B /* DayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayInfo.h; sourceTree = "<group>"; };
+		DDF95F4A109425200087E64B /* DayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				DDF95F2E10941EF40087E64B /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* _0DayFitnessAppDelegate.h */,
+				1D3623250D0F684500981E51 /* _0DayFitnessAppDelegate.m */,
+			);
+			name = "Application Delegate";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* 90DayFitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DDF50BE510895971001ABC7F /* Classes */,
+				080E96DDFE201D6D7F000001 /* Application Delegate */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				32E26647108719EC0068FC96 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* _0DayFitness_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDF50BD110895894001ABC7F /* Images */,
+				32408CD61027DDB2004452D9 /* SelectionView.xib */,
+				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* _0DayFitness-Info.plist */,
+				322263A30FF5C09D00102BFA /* BodyView.xib */,
+				32C379BF0FF5E9F100629F0F /* CardioView.xib */,
+				321738840FF86A11009BFA0D /* ExerciseView.xib */,
+				32D698C80FFBA53900B409DD /* ExerciseViewCell.xib */,
+				DDF50C641089756E001ABC7F /* PresetsView.xib */,
+				DDF50C8410897D1E001ABC7F /* presets.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				DDF95F2D10941EF40087E64B /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF50BD110895894001ABC7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				325C382310E9C81C00DC55A1 /* Arrow-small.png */,
+				32DCF9230FFA5B1500ED4A50 /* Snake Better.png */,
+				32D9C4430FF68D2100E82822 /* Green Button.png */,
+				32D9C4360FF68A3900E82822 /* Red Button.png */,
+				32D9C4320FF687C300E82822 /* Grey Button.png */,
+				326861B90FFE8FDE00A0295A /* On Black 2.png */,
+				326861BC0FFE907400A0295A /* Off Black 2.png */,
+				32D698EB0FFBC01500B409DD /* Exercise Glass.png */,
+				322263A80FF5C42300102BFA /* Black Buttons.png */,
+				322CB1311012DD2D00862D79 /* Small Black Buttons.png */,
+				32A2E2B60FEC3F5A00EE78FC /* icon.png */,
+				322CB1351012E94C00862D79 /* Small Green Button.png */,
+				3211C22910879FD8009F4D17 /* Small RED Button 1.png */,
+				32A2E2E80FEC443D00EE78FC /* Default.png */,
+				32651FC510156A0000EE8799 /* Darken.png */,
+				32A2E26B0FEC28BF00EE78FC /* X2.png */,
+				32A2E26F0FEC293D00EE78FC /* 90DayFitness.png */,
+				32A2E26C0FEC28BF00EE78FC /* X1.png */,
+				3211C2761087AAD6009F4D17 /* Select Buttons Small 2.png */,
+				3211C2771087AAD6009F4D17 /* Select Buttons Small 1.png */,
+				3211C2531087A749009F4D17 /* Select Buttons.png */,
+				3211C2511087A742009F4D17 /* Selected Buttons 2.png */,
+				3211C28C1087B26F009F4D17 /* Selected Background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DDF50BE510895971001ABC7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDF95F4810941F820087E64B /* MainView */,
+				DDF95F2810941E470087E64B /* ExerciseView */,
+				DDF95F2710941E300087E64B /* Data */,
+				DDF95F2610941E150087E64B /* FlipsideView */,
+				DDF95EF510941E060087E64B /* sqlitePersistent */,
+				322263A00FF5C02400102BFA /* BodyViewController.h */,
+				322263A10FF5C02400102BFA /* BodyViewController.m */,
+				32C379BC0FF5E9E000629F0F /* CardioViewController.h */,
+				32C379BD0FF5E9E000629F0F /* CardioViewController.m */,
+				32408CDA1027DDDA004452D9 /* SelectionViewController.h */,
+				32408CDB1027DDDA004452D9 /* SelectionViewController.m */,
+				DDF50C66108975AB001ABC7F /* PresetsViewController.h */,
+				DDF50C67108975AB001ABC7F /* PresetsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDF95EF510941E060087E64B /* sqlitePersistent */ = {
+			isa = PBXGroup;
+			children = (
+				DDF95EF610941E060087E64B /* NSData-SQLitePersistence.h */,
+				DDF95EF710941E060087E64B /* NSData-SQLitePersistence.m */,
+				DDF95EF810941E060087E64B /* NSDate-SQLitePersistence.h */,
+				DDF95EF910941E060087E64B /* NSDate-SQLitePersistence.m */,
+				DDF95EFA10941E060087E64B /* NSMutableArray-MultipleSort.h */,
+				DDF95EFB10941E060087E64B /* NSMutableArray-MultipleSort.m */,
+				DDF95EFC10941E060087E64B /* NSMutableData-SQLitePersistence.h */,
+				DDF95EFD10941E060087E64B /* NSMutableData-SQLitePersistence.m */,
+				DDF95EFE10941E060087E64B /* NSNumber-SQLitePersistence.h */,
+				DDF95EFF10941E060087E64B /* NSNumber-SQLitePersistence.m */,
+				DDF95F0010941E060087E64B /* NSObject-ClassName.h */,
+				DDF95F0110941E060087E64B /* NSObject-ClassName.m */,
+				DDF95F0210941E060087E64B /* NSObject-MissingKV.h */,
+				DDF95F0310941E060087E64B /* NSObject-MissingKV.m */,
+				DDF95F0410941E060087E64B /* NSObject-SQLitePersistence.h */,
+				DDF95F0510941E060087E64B /* NSObject-SQLitePersistence.m */,
+				DDF95F0610941E060087E64B /* NSString-NumberStuff.h */,
+				DDF95F0710941E060087E64B /* NSString-NumberStuff.m */,
+				DDF95F0810941E060087E64B /* NSString-SQLiteColumnName.h */,
+				DDF95F0910941E060087E64B /* NSString-SQLiteColumnName.m */,
+				DDF95F0A10941E060087E64B /* NSString-SQLitePersistence.h */,
+				DDF95F0B10941E060087E64B /* NSString-SQLitePersistence.m */,
+				DDF95F0C10941E060087E64B /* NSString-UppercaseFirst.h */,
+				DDF95F0D10941E060087E64B /* NSString-UppercaseFirst.m */,
+				DDF95F0E10941E060087E64B /* SQLiteInstanceManager.h */,
+				DDF95F0F10941E060087E64B /* SQLiteInstanceManager.m */,
+				DDF95F1010941E060087E64B /* SQLitePersistentObject.h */,
+				DDF95F1110941E060087E64B /* SQLitePersistentObject.m */,
+				DDF95F1210941E060087E64B /* UIColor-SQLitePersistentObject.h */,
+				DDF95F1310941E060087E64B /* UIColor-SQLitePersistentObject.m */,
+				DDF95F1410941E060087E64B /* UIImage-SQLitePersistence.h */,
+				DDF95F1510941E060087E64B /* UIImage-SQLitePersistence.m */,
+			);
+			path = sqlitePersistent;
+			sourceTree = "<group>";
+		};
+		DDF95F2610941E150087E64B /* FlipsideView */ = {
+			isa = PBXGroup;
+			children = (
+				289233A20DB2D0840083E9F9 /* FlipsideView.h */,
+				289233A30DB2D0840083E9F9 /* FlipsideView.m */,
+				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
+			);
+			name = FlipsideView;
+			sourceTree = "<group>";
+		};
+		DDF95F2710941E300087E64B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DDF95F49109425200087E64B /* DayInfo.h */,
+				DDF95F4A109425200087E64B /* DayInfo.m */,
+				3221F9B10FFD03C90079A2EB /* CalendarDay.h */,
+				3221F9B20FFD03C90079A2EB /* CalendarDay.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		DDF95F2810941E470087E64B /* ExerciseView */ = {
+			isa = PBXGroup;
+			children = (
+				32D698C50FFBA4FB00B409DD /* ExerciseViewCell.h */,
+				32D698C60FFBA4FB00B409DD /* ExerciseViewCell.m */,
+				321739DC0FF88D1A009BFA0D /* ExerciseViewController.h */,
+				321739DD0FF88D1A009BFA0D /* ExerciseViewController.m */,
+			);
+			name = ExerciseView;
+			sourceTree = "<group>";
+		};
+		DDF95F4810941F820087E64B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				DD02677A1032C351009BD5E3 /* DayView.h */,
+				DD02677B1032C351009BD5E3 /* DayView.m */,
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* 90DayFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "90DayFitness" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 90DayFitness;
+			productName = 90DayFitness;
+			productReference = 1D6058910D05DD3D006BFB54 /* 90DayFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Stylographix;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "90DayFitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* 90DayFitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				32A2E26D0FEC28BF00EE78FC /* X2.png in Resources */,
+				32A2E26E0FEC28BF00EE78FC /* X1.png in Resources */,
+				32A2E2700FEC293D00EE78FC /* 90DayFitness.png in Resources */,
+				32A2E2B70FEC3F5A00EE78FC /* icon.png in Resources */,
+				32A2E2E90FEC443D00EE78FC /* Default.png in Resources */,
+				322263A40FF5C09D00102BFA /* BodyView.xib in Resources */,
+				322263A90FF5C42300102BFA /* Black Buttons.png in Resources */,
+				32C379C00FF5E9F100629F0F /* CardioView.xib in Resources */,
+				32D9C4330FF687C300E82822 /* Grey Button.png in Resources */,
+				32D9C4370FF68A3900E82822 /* Red Button.png in Resources */,
+				32D9C4440FF68D2100E82822 /* Green Button.png in Resources */,
+				321738850FF86A11009BFA0D /* ExerciseView.xib in Resources */,
+				32DCF9240FFA5B1500ED4A50 /* Snake Better.png in Resources */,
+				32D698C90FFBA53900B409DD /* ExerciseViewCell.xib in Resources */,
+				32D698EC0FFBC01500B409DD /* Exercise Glass.png in Resources */,
+				326861BA0FFE8FDE00A0295A /* On Black 2.png in Resources */,
+				326861BD0FFE907400A0295A /* Off Black 2.png in Resources */,
+				322CB1321012DD2D00862D79 /* Small Black Buttons.png in Resources */,
+				322CB1361012E94C00862D79 /* Small Green Button.png in Resources */,
+				32651FC610156A0000EE8799 /* Darken.png in Resources */,
+				32408CD71027DDB2004452D9 /* SelectionView.xib in Resources */,
+				32E26648108719EC0068FC96 /* Entitlements.plist in Resources */,
+				3211C22A10879FD8009F4D17 /* Small RED Button 1.png in Resources */,
+				3211C2521087A742009F4D17 /* Selected Buttons 2.png in Resources */,
+				3211C2541087A749009F4D17 /* Select Buttons.png in Resources */,
+				3211C2781087AAD6009F4D17 /* Select Buttons Small 2.png in Resources */,
+				3211C2791087AAD6009F4D17 /* Select Buttons Small 1.png in Resources */,
+				3211C28D1087B26F009F4D17 /* Selected Background.png in Resources */,
+				DDF50C651089756E001ABC7F /* PresetsView.xib in Resources */,
+				DDF50C8510897D1E001ABC7F /* presets.plist in Resources */,
+				325C382410E9C81C00DC55A1 /* Arrow-small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* _0DayFitnessAppDelegate.m in Sources */,
+				289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				322263A20FF5C02400102BFA /* BodyViewController.m in Sources */,
+				32C379BE0FF5E9E000629F0F /* CardioViewController.m in Sources */,
+				321739DE0FF88D1A009BFA0D /* ExerciseViewController.m in Sources */,
+				32D698C70FFBA4FB00B409DD /* ExerciseViewCell.m in Sources */,
+				3221F9B30FFD03C90079A2EB /* CalendarDay.m in Sources */,
+				32408CDC1027DDDA004452D9 /* SelectionViewController.m in Sources */,
+				DD02677C1032C351009BD5E3 /* DayView.m in Sources */,
+				DDF50C68108975AB001ABC7F /* PresetsViewController.m in Sources */,
+				DDF95F1610941E060087E64B /* NSData-SQLitePersistence.m in Sources */,
+				DDF95F1710941E070087E64B /* NSDate-SQLitePersistence.m in Sources */,
+				DDF95F1810941E070087E64B /* NSMutableArray-MultipleSort.m in Sources */,
+				DDF95F1910941E070087E64B /* NSMutableData-SQLitePersistence.m in Sources */,
+				DDF95F1A10941E070087E64B /* NSNumber-SQLitePersistence.m in Sources */,
+				DDF95F1B10941E070087E64B /* NSObject-ClassName.m in Sources */,
+				DDF95F1C10941E070087E64B /* NSObject-MissingKV.m in Sources */,
+				DDF95F1D10941E070087E64B /* NSObject-SQLitePersistence.m in Sources */,
+				DDF95F1E10941E070087E64B /* NSString-NumberStuff.m in Sources */,
+				DDF95F1F10941E070087E64B /* NSString-SQLiteColumnName.m in Sources */,
+				DDF95F2010941E070087E64B /* NSString-SQLitePersistence.m in Sources */,
+				DDF95F2110941E070087E64B /* NSString-UppercaseFirst.m in Sources */,
+				DDF95F2210941E070087E64B /* SQLiteInstanceManager.m in Sources */,
+				DDF95F2310941E070087E64B /* SQLitePersistentObject.m in Sources */,
+				DDF95F2410941E070087E64B /* UIColor-SQLitePersistentObject.m in Sources */,
+				DDF95F2510941E070087E64B /* UIImage-SQLitePersistence.m in Sources */,
+				DDF95F4B109425200087E64B /* DayInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = _0DayFitness_Prefix.pch;
+				INFOPLIST_FILE = "Resources/_0DayFitness-Info.plist";
+				PRODUCT_NAME = 90DayFitness;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = _0DayFitness_Prefix.pch;
+				INFOPLIST_FILE = "Resources/_0DayFitness-Info.plist";
+				PRODUCT_NAME = 90DayFitness;
+			};
+			name = Release;
+		};
+		32A2E3990FEC87A100EE78FC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bruce Green";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Green (D893SVJEHH)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		32A2E39A0FEC87A100EE78FC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bruce Green";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = _0DayFitness_Prefix.pch;
+				INFOPLIST_FILE = "Resources/_0DayFitness-Info.plist";
+				PRODUCT_NAME = 90DayFitness;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "90DayFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				32A2E39A0FEC87A100EE78FC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "90DayFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				32A2E3990FEC87A100EE78FC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

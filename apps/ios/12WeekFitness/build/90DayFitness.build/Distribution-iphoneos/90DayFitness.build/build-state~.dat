@@ -1,0 +1,1148 @@
+T90DayFitness
+v7
+r0
+t283765107.188244
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/Availability.h
+c000000004ABDC79900000000000019F9
+t1253951385
+s6649
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/objc/message.h
+c000000004ABDB4D20000000000001B5D
+t1253946578
+s7005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/objc/runtime.h
+c000000004ABDB4D200000000000053F9
+t1253946578
+s21497
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sqlite3.h
+c000000004ABDB700000000000003D86F
+t1253947136
+s252015
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/libsqlite3.dylib
+c000000004ABDB70C000000000010BF50
+t1253947148
+s1097552
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.h
+c000000004AE4D84400000000000004A1
+t1256511556
+s1185
+i<UIKit/UIKit.h>
+i"ExerciseViewController.h"
+i"CalendarDay.h"
+i"CardioViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m
+c000000004B0180660000000000000E6F
+t1258389606
+s3695
+i"BodyViewController.h"
+i"_0DayFitnessAppDelegate.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.h
+c000000004AE47EE60000000000000680
+t1256488678
+s1664
+i<Foundation/Foundation.h>
+i"SQLitePersistentObject.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m
+c000000004AF44696000000000000058F
+t1257522838
+s1423
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.h
+c000000004AE4D91C00000000000002EC
+t1256511772
+s748
+i<UIKit/UIKit.h>
+i"ExerciseViewController.h"
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m
+c000000004B0180AA00000000000015DF
+t1258389674
+s5599
+i"CardioViewController.h"
+i"_0DayFitnessAppDelegate.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.h
+c000000004ADA4B6C0000000000000683
+t1255820140
+s1667
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m
+c000000004ADA4CD60000000000000F27
+t1255820502
+s3879
+i"DayInfo.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.h
+c000000004A821722000000000000016F
+t1250039586
+s367
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m
+c000000004A82221A0000000000000672
+t1250042394
+s1650
+i"DayView.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.h
+c000000004AD9E9A400000000000002D4
+t1255795108
+s724
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m
+c000000004B38A7D20000000000000EFA
+t1262004178
+s3834
+i"ExerciseViewCell.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.h
+c000000004AF431B20000000000000440
+t1257517490
+s1088
+i<UIKit/UIKit.h>
+i"ExerciseViewCell.h"
+i"CalendarDay.h"
+i"PresetsViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m
+c000000004B38A88C000000000000406E
+t1262004364
+s16494
+i"ExerciseViewController.h"
+i"BodyViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.h
+c000000004A3AF36400000000000000B8
+t1245377380
+s184
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m
+c000000004A3AF36400000000000001B8
+t1245377380
+s440
+i"FlipsideView.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.h
+c000000004AD9BB920000000000000235
+t1255783314
+s565
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m
+c000000004AD9BD7A0000000000000621
+t1255783802
+s1569
+i"FlipsideViewController.h"
+i"_0DayFitnessAppDelegate.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.h
+c000000004AF441B400000000000002B4
+t1257521588
+s692
+i"_0DayFitnessAppDelegate.h"
+i"FlipsideViewController.h"
+i"SelectionViewController.h"
+i"DayView.h"
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m
+c000000004B38AFCE00000000000021ED
+t1262006222
+s8685
+i"MainViewController.h"
+i"BodyViewController.h"
+i"CardioViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.h
+c000000004AD9ED1A0000000000000305
+t1255795994
+s773
+i<UIKit/UIKit.h>
+i"ExerciseViewCell.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m
+c000000004ADA403200000000000009FF
+t1255817266
+s2559
+i"PresetsViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.h
+c000000004AE4502E00000000000003E8
+t1256476718
+s1000
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m
+c000000004AE44FAE00000000000005A7
+t1256476590
+s1447
+i"SelectionViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.h
+c000000004AE48CCA000000000000024F
+t1256492234
+s591
+i"DayInfo.h"
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m
+c000000004AF449900000000000000CF8
+t1257523600
+s3320
+i"_0DayFitnessAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.h
+c000000004AE4778E0000000000000620
+t1256486798
+s1568
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m
+c000000004AE4778E0000000000000573
+t1256486798
+s1395
+i"NSData-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.h
+c000000004AE4778E000000000000064B
+t1256486798
+s1611
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m
+c000000004AE4778E00000000000008F1
+t1256486798
+s2289
+i"NSDate-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.h
+c000000004AE4778E00000000000007D4
+t1256486798
+s2004
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m
+c000000004AE4778E00000000000008E9
+t1256486798
+s2281
+i"NSMutableArray-MultipleSort.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.h
+c000000004AE4778E00000000000004D2
+t1256486798
+s1234
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+i"NSData-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m
+c000000004AE4778E000000000000046D
+t1256486798
+s1133
+i"NSMutableData-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.h
+c000000004AE4778E0000000000000632
+t1256486798
+s1586
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m
+c000000004AE4778E0000000000000664
+t1256486798
+s1636
+i"NSNumber-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.h
+c000000004AE4778E0000000000000465
+t1256486798
+s1125
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m
+c000000004AE4778E00000000000004C2
+t1256486798
+s1218
+i"NSObject-ClassName.h"
+i<objc/runtime.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.h
+c000000004AE4778E0000000000000177
+t1256486798
+s375
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m
+c000000004AE4778E000000000000022C
+t1256486798
+s556
+i"NSObject-MissingKV.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.h
+c000000004AE4778E00000000000011CA
+t1256486798
+s4554
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m
+c000000004AE4778E0000000000000784
+t1256486798
+s1924
+i"NSObject-SQLitePersistence.h"
+i"NSObject-ClassName.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.h
+c000000004AE4778E0000000000000151
+t1256486798
+s337
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m
+c000000004AE4778E0000000000000A4C
+t1256486798
+s2636
+i"NSString-NumberStuff.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.h
+c000000004AE4778E0000000000000444
+t1256486798
+s1092
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m
+c000000004AE4778E000000000000079D
+t1256486798
+s1949
+i"NSString-SQLiteColumnName.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.h
+c000000004AE4778E0000000000000624
+t1256486798
+s1572
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m
+c000000004AE4778E0000000000000541
+t1256486798
+s1345
+i"NSString-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.h
+c000000004AE4778E00000000000004CD
+t1256486798
+s1229
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m
+c000000004AE4778E000000000000065F
+t1256486798
+s1631
+i"NSString-UppercaseFirst.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.h
+c000000004AE4778E0000000000000814
+t1256486798
+s2068
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+i<objc/objc-runtime.h>
+i<objc/runtime.h>
+i<objc/message.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m
+c000000004AE4778E0000000000001765
+t1256486798
+s5989
+i"SQLiteInstanceManager.h"
+i"SQLitePersistentObject.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.h
+c000000004AE4778E0000000000002526
+t1256486798
+s9510
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+i<objc/objc-runtime.h>
+i<objc/runtime.h>
+i<objc/message.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m
+c000000004AE4778E000000000000F35F
+t1256486798
+s62303
+i"SQLitePersistentObject.h"
+i"SQLiteInstanceManager.h"
+i"NSString-SQLiteColumnName.h"
+i"NSObject-SQLitePersistence.h"
+i"NSString-UppercaseFirst.h"
+i"NSString-NumberStuff.h"
+i"NSObject-ClassName.h"
+i"NSObject-MissingKV.h"
+i<objc/objc-class.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.h
+c000000004AE4778E00000000000001FE
+t1256486798
+s510
+i"NSObject-SQLitePersistence.h"
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m
+c000000004AE4778E0000000000000479
+t1256486798
+s1145
+i"UIColor-SQLitePersistentObject.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m
+c000000004AE4778E0000000000000577
+t1256486798
+s1399
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Entitlements.plist
+c000000004AD6F13000000000000000E1
+t1255600432
+s225
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/90DayFitness.png
+c000000004A8BA14C00000000000013E0
+t1250664780
+s5088
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Arrow-small.png
+c000000004B018EDD0000000000000EFD
+t1258393309
+s3837
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Black Buttons.png
+c000000004A448F5C00000000000020B5
+t1246007132
+s8373
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib
+c000000004A602EB8000000000000E339
+t1247817400
+s58169
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib
+c000000004A64CD0C0000000000009CAC
+t1248120076
+s40108
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Darken.png
+c000000004A64354E0000000000002887
+t1248081230
+s10375
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Default.png
+c000000004A667F34000000000001D714
+t1248231220
+s120596
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Exercise Glass.png
+c000000004A4A8B6A000000000000225E
+t1246399338
+s8798
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib
+c000000004B0195A3000000000000ADCE
+t1258395043
+s44494
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib
+c000000004B0194B20000000000007EA7
+t1258394802
+s32423
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib
+c000000004B019A2800000000000CC997
+t1258396200
+s838039
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Green Button.png
+c000000004A4558460000000000002150
+t1246058566
+s8528
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Grey Button.png
+c000000004A455306000000000000239E
+t1246057222
+s9118
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib
+c000000004B3991A6000000000000B392
+t1262064038
+s45970
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib
+c000000004A3B2B700000000000001CBA
+t1245391728
+s7354
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Off Black 2.png
+c000000004A4D5BC6000000000000142B
+t1246583750
+s5163
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/On Black 2.png
+c000000004A4D5B320000000000001B21
+t1246583602
+s6945
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib
+c000000004AD9D2D00000000000004A02
+t1255789264
+s18946
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Red Button.png
+c000000004A4554E000000000000022DD
+t1246057696
+s8925
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 1.png
+c000000004AD780F4000000000000133B
+t1255637236
+s4923
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 2.png
+c000000004AD7814200000000000016AB
+t1255637314
+s5803
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons.png
+c000000004AD77D540000000000001335
+t1255636308
+s4917
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Background.png
+c000000004A77A86C000000000000FEDC
+t1249355884
+s65244
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Buttons 2.png
+c000000004AD77D8C0000000000001ADC
+t1255636364
+s6876
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib
+c000000004ADE2F62000000000000A186
+t1256075106
+s41350
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Black Buttons.png
+c000000004A61A842000000000000192E
+t1247914050
+s6446
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Green Button.png
+c000000004A61B4960000000000001859
+t1247917206
+s6233
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small RED Button 1.png
+c000000004AD7765C0000000000001B45
+t1255634524
+s6981
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Snake Better.png
+c000000004A4835EC000000000001C045
+t1246246380
+s114757
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/X1.png
+c000000004A3119040000000000001660
+t1244731652
+s5728
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/X2.png
+c000000004A39120400000000000016B4
+t1245254148
+s5812
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/icon.png
+c000000004A6680600000000000001EF4
+t1248231520
+s7924
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/presets.plist
+c000000004AD9DC7E0000000000000807
+t1255791742
+s2055
+
+N/Users/Bruce/iPhone Development/12WeekFitness/_0DayFitness_Prefix.pch
+c000000004A3AF364000000000000014A
+t1245377380
+s330
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/90DayFitness.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/BodyViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/CalendarDay.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/CardioViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/DayInfo.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/DayView.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/ExerciseViewCell.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/ExerciseViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/FlipsideView.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/FlipsideViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/MainViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSData-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSDate-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSMutableArray-MultipleSort.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSMutableData-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSNumber-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSObject-ClassName.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSObject-MissingKV.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSObject-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-NumberStuff.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-SQLiteColumnName.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-UppercaseFirst.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/PresetsViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/SQLiteInstanceManager.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/SQLitePersistentObject.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/SelectionViewController.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/UIColor-SQLitePersistentObject.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/UIImage-SQLitePersistence.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/_0DayFitnessAppDelegate.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app.dSYM
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/90DayFitness
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/90DayFitness.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Arrow-small.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Black Buttons.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/BodyView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/CardioView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Darken.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Default.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Entitlements.plist
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Exercise Glass.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/ExerciseView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/ExerciseViewCell.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/FlipsideView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Green Button.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Grey Button.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Info.plist
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/MainView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/MainWindow.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Off Black 2.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/On Black 2.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/PkgInfo
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/PresetsView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Red Button.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Select Buttons Small 1.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Select Buttons Small 2.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Select Buttons.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Selected Background.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Selected Buttons 2.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/SelectionView.nib
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Small Black Buttons.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Small Green Button.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Small RED Button 1.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Snake Better.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/X1.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/X2.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/icon.png
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/presets.plist
+t2
+s0
+
+N/Users/Bruce/iPhone Development/12WeekFitness/main.m
+c000000004A3AF3640000000000000168
+t1245377380
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-adqfqghiublsfwbirxersdseuwnx/_0DayFitness_Prefix.pch.gch
+t2
+s0
+
+NResources/_0DayFitness-Info.plist
+c000000004B39ABA90000000000000376
+t1262070697
+s886
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies283765108#283765108#0(99"[BEROR]Code Sign error: Provisioning profile 'ADC72C57-7D7D-4255-974D-0FEBB1F58939' can't be found1(4@91"Code Sign error: Provisioning profile 'ADC72C57-7D7D-4255-974D-0FEBB1F58939' can't be found283765108#18446744073709551615#0#0(1@0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/BodyViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/CalendarDay.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/CardioViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/DayInfo.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/DayView.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/ExerciseViewCell.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/ExerciseViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/FlipsideView.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/FlipsideViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/MainViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSData-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSDate-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSMutableArray-MultipleSort.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSMutableData-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSNumber-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSObject-ClassName.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSObject-MissingKV.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSObject-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-NumberStuff.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-SQLiteColumnName.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/NSString-UppercaseFirst.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/PresetsViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/SQLiteInstanceManager.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/SQLitePersistentObject.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/SelectionViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/UIColor-SQLitePersistentObject.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/UIImage-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/_0DayFitnessAppDelegate.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/90DayFitness.build/Distribution-iphoneos/90DayFitness.build/Objects-normal/armv6/main.o "/Users/Bruce/iPhone Development/12WeekFitness/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib"
+r0
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/90DayFitness.png" Resources/90DayFitness.png
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Arrow-small.png" Resources/Arrow-small.png
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Black Buttons.png" "Resources/Black Buttons.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Darken.png" Resources/Darken.png
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Default.png" Resources/Default.png
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Exercise Glass.png" "Resources/Exercise Glass.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Green Button.png" "Resources/Green Button.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Grey Button.png" "Resources/Grey Button.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Off Black 2.png" "Resources/Off Black 2.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/On Black 2.png" "Resources/On Black 2.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Red Button.png" "Resources/Red Button.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Select Buttons Small 1.png" "Resources/Select Buttons Small 1.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Select Buttons Small 2.png" "Resources/Select Buttons Small 2.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Select Buttons.png" "Resources/Select Buttons.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Selected Background.png" "Resources/Selected Background.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Selected Buttons 2.png" "Resources/Selected Buttons 2.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Small Black Buttons.png" "Resources/Small Black Buttons.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Small Green Button.png" "Resources/Small Green Button.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Small RED Button 1.png" "Resources/Small RED Button 1.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Snake Better.png" "Resources/Snake Better.png"
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/X1.png" Resources/X1.png
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/X2.png" Resources/X2.png
+r0
+
+CCopyPNGFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/icon.png" Resources/icon.png
+r0
+
+CCopyPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Entitlements.plist" Entitlements.plist
+r0
+
+CCopyPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/presets.plist" Resources/presets.plist
+r0
+
+CCpResource build/Distribution-iphoneos/90DayFitness.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+r0
+
+CGenerateDSYMFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app.dSYM" "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/90DayFitness"
+r0
+
+CLd "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/90DayFitness" normal armv6
+r0
+
+CProcessInfoPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app/Info.plist" Resources/_0DayFitness-Info.plist
+r0
+
+CProcessPCH /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-adqfqghiublsfwbirxersdseuwnx/_0DayFitness_Prefix.pch.gch _0DayFitness_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/Bruce/iPhone Development/12WeekFitness/build/Distribution-iphoneos/90DayFitness.app"
+r0
+

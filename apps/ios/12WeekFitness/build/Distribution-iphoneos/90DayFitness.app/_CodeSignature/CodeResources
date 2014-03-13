@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>90DayFitness.png</key>
+		<data>
+		xgUtUkzIO1RBSZclUXhYf0kEfUY=
+		</data>
+		<key>Arrow-small.png</key>
+		<data>
+		RzSGcwCgDjOAOiOPdmSrCuYYi1w=
+		</data>
+		<key>Black Buttons.png</key>
+		<data>
+		K0omRsy12GZoD2kZTeX9zSwKvKw=
+		</data>
+		<key>BodyView.nib</key>
+		<data>
+		yb84UwSS2tX3iUCKKsCjpVc0DTA=
+		</data>
+		<key>CardioView.nib</key>
+		<data>
+		N6yI2VGc8lYBrRSfodu0Q+DP0Js=
+		</data>
+		<key>Darken.png</key>
+		<data>
+		7FB8ALF7i0xrrHdkKKcEi8aJEk8=
+		</data>
+		<key>Default.png</key>
+		<data>
+		BEDWuB48Qn8kbg7kxVny298IcnU=
+		</data>
+		<key>Entitlements.plist</key>
+		<data>
+		s45CsB1sm2EFR9Z1NilFQ5hxXrI=
+		</data>
+		<key>Exercise Glass.png</key>
+		<data>
+		4PyLDhnQar0GmAPKzdMVJxNxock=
+		</data>
+		<key>ExerciseView.nib</key>
+		<data>
+		hmNZFXGOh+NJ1RApSJRukQasGS4=
+		</data>
+		<key>ExerciseViewCell.nib</key>
+		<data>
+		lZpN0CbfgBs3I2qZHcNg5u9e/C8=
+		</data>
+		<key>FlipsideView.nib</key>
+		<data>
+		fXy0X6O6djO6YhritZR215nivZo=
+		</data>
+		<key>Green Button.png</key>
+		<data>
+		YNAXk1AXqdtyzaPhLUfQabHjC0U=
+		</data>
+		<key>Grey Button.png</key>
+		<data>
+		GX3VjmOLyZhBT3SQK00FDlsz450=
+		</data>
+		<key>MainView.nib</key>
+		<data>
+		uX5UjxeR3hx74WIoa7JAB/BRqoc=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		u5d/vsQyuWiqFMFYS6mzm7ifwAw=
+		</data>
+		<key>Off Black 2.png</key>
+		<data>
+		/2teOEsdHiAsKt66cx1+Ioa3ByQ=
+		</data>
+		<key>On Black 2.png</key>
+		<data>
+		SGI6ahefE0rspyQUzJcWFKI0R0I=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PresetsView.nib</key>
+		<data>
+		dRvqsb3AR9ThgkzdxKpmdgJ6+do=
+		</data>
+		<key>Red Button.png</key>
+		<data>
+		3mAAKz/9slfde1lxaRGcE3r4puM=
+		</data>
+		<key>Select Buttons Small 1.png</key>
+		<data>
+		eVOUqhSA+gJGUsn+1tod8ikaShg=
+		</data>
+		<key>Select Buttons Small 2.png</key>
+		<data>
+		e678o50tlSxtHn5bmDCxB4nUf1o=
+		</data>
+		<key>Select Buttons.png</key>
+		<data>
+		krLcU1TLibyHurq3+z624vb3O5c=
+		</data>
+		<key>Selected Background.png</key>
+		<data>
+		ehM4yIgG4cfsIVoCkEsjPeawxsw=
+		</data>
+		<key>Selected Buttons 2.png</key>
+		<data>
+		c5DY44hZCdF1UV18QsVqkurAKVE=
+		</data>
+		<key>SelectionView.nib</key>
+		<data>
+		syO/vdHoXfVDi0UdWiKIydmNLnw=
+		</data>
+		<key>Small Black Buttons.png</key>
+		<data>
+		YQJ/ebci/gFP58bm+iqWyH9hkw0=
+		</data>
+		<key>Small Green Button.png</key>
+		<data>
+		2YErN7SKPs/r8+kn6ryxk4d2/7w=
+		</data>
+		<key>Small RED Button 1.png</key>
+		<data>
+		p56SasmQqABsLDlZfpU8va5L4Vw=
+		</data>
+		<key>Snake Better.png</key>
+		<data>
+		Rh9F+1jRSyr1wvxvBSGUPWvH6bA=
+		</data>
+		<key>X1.png</key>
+		<data>
+		EuKMABwEXSwN/+nwMB983l6L+QY=
+		</data>
+		<key>X2.png</key>
+		<data>
+		lRHVeGxgK3FWvbs5RjqQiLApdg8=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		eTCpmSHDf8w3tlRgQ2s7NVVc2rg=
+		</data>
+		<key>icon.png</key>
+		<data>
+		zX3+X6MrGxihd+qDGMfx02TAIIM=
+		</data>
+		<key>presets.plist</key>
+		<data>
+		Rud8EQCSKFihVTRGcyuP2Q0qOLE=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

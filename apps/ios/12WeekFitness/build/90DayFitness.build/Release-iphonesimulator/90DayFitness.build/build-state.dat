@@ -1,0 +1,1748 @@
+T90DayFitness
+v7
+r0
+t283766998.103848
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Info.plist" Resources/_0DayFitness-Info.plist
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib"
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib"
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib"
+cCpResource build/Release-iphonesimulator/90DayFitness.app/X2.png Resources/X2.png
+cCpResource build/Release-iphonesimulator/90DayFitness.app/X1.png Resources/X1.png
+cCpResource build/Release-iphonesimulator/90DayFitness.app/90DayFitness.png Resources/90DayFitness.png
+cCpResource build/Release-iphonesimulator/90DayFitness.app/icon.png Resources/icon.png
+cCpResource build/Release-iphonesimulator/90DayFitness.app/Default.png Resources/Default.png
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Black Buttons.png" "Resources/Black Buttons.png"
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Grey Button.png" "Resources/Grey Button.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Red Button.png" "Resources/Red Button.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Green Button.png" "Resources/Green Button.png"
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Snake Better.png" "Resources/Snake Better.png"
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Exercise Glass.png" "Resources/Exercise Glass.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/On Black 2.png" "Resources/On Black 2.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Off Black 2.png" "Resources/Off Black 2.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Small Black Buttons.png" "Resources/Small Black Buttons.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Small Green Button.png" "Resources/Small Green Button.png"
+cCpResource build/Release-iphonesimulator/90DayFitness.app/Darken.png Resources/Darken.png
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib"
+cCopyPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Entitlements.plist" Entitlements.plist
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Small RED Button 1.png" "Resources/Small RED Button 1.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Selected Buttons 2.png" "Resources/Selected Buttons 2.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Select Buttons.png" "Resources/Select Buttons.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 2.png" "Resources/Select Buttons Small 2.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 1.png" "Resources/Select Buttons Small 1.png"
+cCpResource "build/Release-iphonesimulator/90DayFitness.app/Selected Background.png" "Resources/Selected Background.png"
+cCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib"
+cCopyPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/presets.plist" Resources/presets.plist
+cCpResource build/Release-iphonesimulator/90DayFitness.app/Arrow-small.png Resources/Arrow-small.png
+cProcessPCH /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch.gch _0DayFitness_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/main.o "/Users/Bruce/iPhone Development/12WeekFitness/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/_0DayFitnessAppDelegate.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideView.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/MainViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/BodyViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CardioViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewCell.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CalendarDay.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SelectionViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayView.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/PresetsViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSData-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSDate-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableArray-MultipleSort.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSNumber-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-ClassName.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-MissingKV.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-NumberStuff.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLiteColumnName.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-UppercaseFirst.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLiteInstanceManager.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLitePersistentObject.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIColor-SQLitePersistentObject.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIImage-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayInfo.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness" normal i386
+cGenerateDSYMFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app.dSYM" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness"
+cTouch "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AF8B5D200000000000000EE
+t1257813458
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
+c000000004ABDCA4700000000000019F9
+t1253952071
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/objc/message.h
+c000000004748F47C00000000000017F1
+t1195963516
+s6129
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/objc/objc-class.h
+c000000004748F47C0000000000000032
+t1195963516
+s50
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/objc/objc-runtime.h
+c000000004748F47C0000000000000032
+t1195963516
+s50
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/objc/runtime.h
+c000000004748F47C0000000000004FE4
+t1195963516
+s20452
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sqlite3.h
+c000000004ABDC6A0000000000003D86F
+t1253951136
+s252015
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/lib/libsqlite3.dylib
+c000000004ABDC6BF00000000000C4CF0
+t1253951167
+s806128
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.h
+c000000004AE4D84400000000000004A1
+t1256511556
+s1185
+i<UIKit/UIKit.h>
+i"ExerciseViewController.h"
+i"CalendarDay.h"
+i"CardioViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m
+c000000004B0180660000000000000E6F
+t1258389606
+s3695
+i"BodyViewController.h"
+i"_0DayFitnessAppDelegate.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.h
+c000000004AE47EE60000000000000680
+t1256488678
+s1664
+i<Foundation/Foundation.h>
+i"SQLitePersistentObject.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m
+c000000004AF44696000000000000058F
+t1257522838
+s1423
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.h
+c000000004AE4D91C00000000000002EC
+t1256511772
+s748
+i<UIKit/UIKit.h>
+i"ExerciseViewController.h"
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m
+c000000004B0180AA00000000000015DF
+t1258389674
+s5599
+i"CardioViewController.h"
+i"_0DayFitnessAppDelegate.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.h
+c000000004ADA4B6C0000000000000683
+t1255820140
+s1667
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m
+c000000004ADA4CD60000000000000F27
+t1255820502
+s3879
+i"DayInfo.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.h
+c000000004A821722000000000000016F
+t1250039586
+s367
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m
+c000000004A82221A0000000000000672
+t1250042394
+s1650
+i"DayView.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.h
+c000000004AD9E9A400000000000002D4
+t1255795108
+s724
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m
+c000000004B38A7D20000000000000EFA
+t1262004178
+s3834
+i"ExerciseViewCell.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.h
+c000000004AF431B20000000000000440
+t1257517490
+s1088
+i<UIKit/UIKit.h>
+i"ExerciseViewCell.h"
+i"CalendarDay.h"
+i"PresetsViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m
+c000000004B38A88C000000000000406E
+t1262004364
+s16494
+i"ExerciseViewController.h"
+i"BodyViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.h
+c000000004A3AF36400000000000000B8
+t1245377380
+s184
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m
+c000000004A3AF36400000000000001B8
+t1245377380
+s440
+i"FlipsideView.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.h
+c000000004AD9BB920000000000000235
+t1255783314
+s565
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m
+c000000004AD9BD7A0000000000000621
+t1255783802
+s1569
+i"FlipsideViewController.h"
+i"_0DayFitnessAppDelegate.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.h
+c000000004AF441B400000000000002B4
+t1257521588
+s692
+i"_0DayFitnessAppDelegate.h"
+i"FlipsideViewController.h"
+i"SelectionViewController.h"
+i"DayView.h"
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m
+c000000004B38AFCE00000000000021ED
+t1262006222
+s8685
+i"MainViewController.h"
+i"BodyViewController.h"
+i"CardioViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.h
+c000000004AD9ED1A0000000000000305
+t1255795994
+s773
+i<UIKit/UIKit.h>
+i"ExerciseViewCell.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m
+c000000004ADA403200000000000009FF
+t1255817266
+s2559
+i"PresetsViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.h
+c000000004AE4502E00000000000003E8
+t1256476718
+s1000
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m
+c000000004AE44FAE00000000000005A7
+t1256476590
+s1447
+i"SelectionViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.h
+c000000004AE48CCA000000000000024F
+t1256492234
+s591
+i"DayInfo.h"
+i"CalendarDay.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m
+c000000004AF449900000000000000CF8
+t1257523600
+s3320
+i"_0DayFitnessAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.h
+c000000004AE4778E0000000000000620
+t1256486798
+s1568
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m
+c000000004AE4778E0000000000000573
+t1256486798
+s1395
+i"NSData-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.h
+c000000004AE4778E000000000000064B
+t1256486798
+s1611
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m
+c000000004AE4778E00000000000008F1
+t1256486798
+s2289
+i"NSDate-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.h
+c000000004AE4778E00000000000007D4
+t1256486798
+s2004
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m
+c000000004AE4778E00000000000008E9
+t1256486798
+s2281
+i"NSMutableArray-MultipleSort.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.h
+c000000004AE4778E00000000000004D2
+t1256486798
+s1234
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+i"NSData-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m
+c000000004AE4778E000000000000046D
+t1256486798
+s1133
+i"NSMutableData-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.h
+c000000004AE4778E0000000000000632
+t1256486798
+s1586
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m
+c000000004AE4778E0000000000000664
+t1256486798
+s1636
+i"NSNumber-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.h
+c000000004AE4778E0000000000000465
+t1256486798
+s1125
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m
+c000000004AE4778E00000000000004C2
+t1256486798
+s1218
+i"NSObject-ClassName.h"
+i<objc/runtime.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.h
+c000000004AE4778E0000000000000177
+t1256486798
+s375
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m
+c000000004AE4778E000000000000022C
+t1256486798
+s556
+i"NSObject-MissingKV.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.h
+c000000004AE4778E00000000000011CA
+t1256486798
+s4554
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m
+c000000004AE4778E0000000000000784
+t1256486798
+s1924
+i"NSObject-SQLitePersistence.h"
+i"NSObject-ClassName.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.h
+c000000004AE4778E0000000000000151
+t1256486798
+s337
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m
+c000000004AE4778E0000000000000A4C
+t1256486798
+s2636
+i"NSString-NumberStuff.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.h
+c000000004AE4778E0000000000000444
+t1256486798
+s1092
+i<Foundation/Foundation.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m
+c000000004AE4778E000000000000079D
+t1256486798
+s1949
+i"NSString-SQLiteColumnName.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.h
+c000000004AE4778E0000000000000624
+t1256486798
+s1572
+i<Foundation/Foundation.h>
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m
+c000000004AE4778E0000000000000541
+t1256486798
+s1345
+i"NSString-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.h
+c000000004AE4778E00000000000004CD
+t1256486798
+s1229
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m
+c000000004AE4778E000000000000065F
+t1256486798
+s1631
+i"NSString-UppercaseFirst.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.h
+c000000004AE4778E0000000000000814
+t1256486798
+s2068
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+i<objc/objc-runtime.h>
+i<objc/runtime.h>
+i<objc/message.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m
+c000000004AE4778E0000000000001765
+t1256486798
+s5989
+i"SQLiteInstanceManager.h"
+i"SQLitePersistentObject.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.h
+c000000004AE4778E0000000000002526
+t1256486798
+s9510
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+i<objc/objc-runtime.h>
+i<objc/runtime.h>
+i<objc/message.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m
+c000000004AE4778E000000000000F35F
+t1256486798
+s62303
+i"SQLitePersistentObject.h"
+i"SQLiteInstanceManager.h"
+i"NSString-SQLiteColumnName.h"
+i"NSObject-SQLitePersistence.h"
+i"NSString-UppercaseFirst.h"
+i"NSString-NumberStuff.h"
+i"NSObject-ClassName.h"
+i"NSObject-MissingKV.h"
+i<objc/objc-class.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.h
+c000000004AE4778E00000000000001FE
+t1256486798
+s510
+i"NSObject-SQLitePersistence.h"
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m
+c000000004AE4778E0000000000000479
+t1256486798
+s1145
+i"UIColor-SQLitePersistentObject.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m
+c000000004AE4778E0000000000000577
+t1256486798
+s1399
+i"NSObject-SQLitePersistence.h"
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Entitlements.plist
+c000000004AD6F13000000000000000E1
+t1255600432
+s225
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/90DayFitness.png
+c000000004A8BA14C00000000000013E0
+t1250664780
+s5088
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Arrow-small.png
+c000000004B018EDD0000000000000EFD
+t1258393309
+s3837
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Black Buttons.png
+c000000004A448F5C00000000000020B5
+t1246007132
+s8373
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib
+c000000004A602EB8000000000000E339
+t1247817400
+s58169
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib
+c000000004A64CD0C0000000000009CAC
+t1248120076
+s40108
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Darken.png
+c000000004A64354E0000000000002887
+t1248081230
+s10375
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Default.png
+c000000004A667F34000000000001D714
+t1248231220
+s120596
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Exercise Glass.png
+c000000004A4A8B6A000000000000225E
+t1246399338
+s8798
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib
+c000000004B0195A3000000000000ADCE
+t1258395043
+s44494
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib
+c000000004B0194B20000000000007EA7
+t1258394802
+s32423
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib
+c000000004B019A2800000000000CC997
+t1258396200
+s838039
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Green Button.png
+c000000004A4558460000000000002150
+t1246058566
+s8528
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Grey Button.png
+c000000004A455306000000000000239E
+t1246057222
+s9118
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib
+c000000004B3991A6000000000000B392
+t1262064038
+s45970
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib
+c000000004A3B2B700000000000001CBA
+t1245391728
+s7354
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Off Black 2.png
+c000000004A4D5BC6000000000000142B
+t1246583750
+s5163
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/On Black 2.png
+c000000004A4D5B320000000000001B21
+t1246583602
+s6945
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib
+c000000004AD9D2D00000000000004A02
+t1255789264
+s18946
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Red Button.png
+c000000004A4554E000000000000022DD
+t1246057696
+s8925
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 1.png
+c000000004AD780F4000000000000133B
+t1255637236
+s4923
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 2.png
+c000000004AD7814200000000000016AB
+t1255637314
+s5803
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons.png
+c000000004AD77D540000000000001335
+t1255636308
+s4917
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Background.png
+c000000004A77A86C000000000000FEDC
+t1249355884
+s65244
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Buttons 2.png
+c000000004AD77D8C0000000000001ADC
+t1255636364
+s6876
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib
+c000000004ADE2F62000000000000A186
+t1256075106
+s41350
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Black Buttons.png
+c000000004A61A842000000000000192E
+t1247914050
+s6446
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Green Button.png
+c000000004A61B4960000000000001859
+t1247917206
+s6233
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small RED Button 1.png
+c000000004AD7765C0000000000001B45
+t1255634524
+s6981
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/Snake Better.png
+c000000004A4835EC000000000001C045
+t1246246380
+s114757
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/X1.png
+c000000004A3119040000000000001660
+t1244731652
+s5728
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/X2.png
+c000000004A39120400000000000016B4
+t1245254148
+s5812
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/icon.png
+c000000004A6680600000000000001EF4
+t1248231520
+s7924
+
+N/Users/Bruce/iPhone Development/12WeekFitness/Resources/presets.plist
+c000000004AD9DC7E0000000000000807
+t1255791742
+s2055
+
+N/Users/Bruce/iPhone Development/12WeekFitness/_0DayFitness_Prefix.pch
+c000000004A3AF364000000000000014A
+t1245377380
+s330
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/90DayFitness.LinkFileList
+c000000004B39905C0000000000001270
+t1262063708
+s4720
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/BodyViewController.o
+t1262063712
+s44544
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CalendarDay.o
+t1262063712
+s21036
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CardioViewController.o
+t1262063712
+s48772
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayInfo.o
+t1262063713
+s25120
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayView.o
+t1262063712
+s16764
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewCell.o
+t1262063712
+s36744
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewController.o
+t1262063712
+s67128
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideView.o
+t1262063711
+s9748
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideViewController.o
+t1262063712
+s44020
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/MainViewController.o
+t1262063712
+s60840
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSData-SQLitePersistence.o
+t1262063712
+s8080
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSDate-SQLitePersistence.o
+t1262063713
+s9608
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableArray-MultipleSort.o
+t1262063713
+s10140
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o
+t1262063713
+s6208
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSNumber-SQLitePersistence.o
+t1262063713
+s9180
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-ClassName.o
+t1262063713
+s7604
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-MissingKV.o
+t1262063713
+s7316
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-SQLitePersistence.o
+t1262063713
+s10712
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-NumberStuff.o
+t1262063713
+s12056
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLiteColumnName.o
+t1262063713
+s8416
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLitePersistence.o
+t1262063713
+s8064
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-UppercaseFirst.o
+t1262063713
+s7424
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/PresetsViewController.o
+t1262063713
+s42612
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLiteInstanceManager.o
+t1262063713
+s23348
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLitePersistentObject.o
+t1262063715
+s103320
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SelectionViewController.o
+t1262063712
+s35972
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIColor-SQLitePersistentObject.o
+t1262063713
+s10996
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIImage-SQLitePersistence.o
+t1262063713
+s8436
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/_0DayFitnessAppDelegate.o
+t1262063712
+s48948
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/main.o
+t1262063711
+s5952
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app
+t1262072801
+s1326
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app.dSYM
+t1262063715
+s102
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness
+t1262063715
+s173588
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness.png
+t1262063709
+s5088
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Arrow-small.png
+t1262063875
+s3837
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Black Buttons.png
+t1262063709
+s8373
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/BodyView.nib
+t1262063709
+s10581
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/CardioView.nib
+t1262063709
+s8152
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Darken.png
+t1262063710
+s10375
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Default.png
+t1262063709
+s120596
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Entitlements.plist
+t1262063710
+s62
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Exercise Glass.png
+t1262063710
+s8798
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/ExerciseView.nib
+t1262063710
+s6224
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/ExerciseViewCell.nib
+t1262063710
+s3852
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/FlipsideView.nib
+t1262063709
+s6953
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Green Button.png
+t1262063709
+s8528
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Grey Button.png
+t1262063709
+s9118
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Info.plist
+t1262072800
+s585
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/MainView.nib
+t1262072801
+s6544
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/MainWindow.nib
+t1262063709
+s1384
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Off Black 2.png
+t1262063710
+s5163
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/On Black 2.png
+t1262063710
+s6945
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/PkgInfo
+t1262072800
+s8
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/PresetsView.nib
+t1262063710
+s1574
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Red Button.png
+t1262063709
+s8925
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 1.png
+t1262063710
+s4923
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 2.png
+t1262063710
+s5803
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Select Buttons.png
+t1262063710
+s4917
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Selected Background.png
+t1262063710
+s65244
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Selected Buttons 2.png
+t1262063710
+s6876
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/SelectionView.nib
+t1262063710
+s6665
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Small Black Buttons.png
+t1262063710
+s6446
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Small Green Button.png
+t1262063710
+s6233
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Small RED Button 1.png
+t1262063710
+s6981
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Snake Better.png
+t1262063710
+s114757
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/X1.png
+t1262063709
+s5728
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/X2.png
+t1262063709
+s5812
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/icon.png
+t1262063709
+s7924
+
+N/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/presets.plist
+t1262063710
+s1077
+
+N/Users/Bruce/iPhone Development/12WeekFitness/main.m
+c000000004A3AF3640000000000000168
+t1245377380
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch.gch
+t1262063711
+s12740048
+
+NResources/_0DayFitness-Info.plist
+c000000004B39ABA90000000000000376
+t1262070697
+s886
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies283766998#283766998#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/BodyViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.125370
+e283756512.320262
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/BodyViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m283756512#283756512#0(0"0(0#0#74"/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m4300885448#2129"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/BodyViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/BodyViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CalendarDay.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.604574
+e283756512.763283
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CalendarDay.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m283756512#283756512#0(0"0(0#0#67"/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m4300885448#2115"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CalendarDay.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CalendarDay.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CardioViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.266119
+e283756512.451410
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CardioViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m283756512#283756512#0(0"0(0#0#76"/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m4300885448#2133"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/CardioViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/CardioViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayInfo.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.705094
+e283756513.960943
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayInfo.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m283756513#283756513#0(0"0(0#0#63"/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m4300885448#2107"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayInfo.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayInfo.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayView.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.776574
+e283756512.892624
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayView.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m283756512#283756512#0(0"0(0#0#63"/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m4300885448#2107"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/DayView.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/DayView.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewCell.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.451523
+e283756512.604465
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewCell.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m283756512#283756512#0(0"0(0#0#72"/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m4300885448#2125"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewCell.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewCell.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.320383
+e283756512.776460
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m283756512#283756512#0(0"0(0#0#78"/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m4300885448#2137"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/ExerciseViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/ExerciseViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideView.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756511.839426
+e283756511.906123
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideView.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m283756511#283756511#0(0"0(0#0#68"/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m4300885448#2117"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideView.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideView.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.011336
+e283756512.125253
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m283756512#283756512#0(0"0(0#0#78"/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m4300885448#2137"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/FlipsideViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/FlipsideViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/MainViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756511.906228
+e283756512.266009
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/MainViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m283756511#283756512#0(0"0(0#0#74"/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m4300885448#2129"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/MainViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/MainViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSData-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.892728
+e283756512.954387
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSData-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m283756512#283756512#0(0"0(0#0#97"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m4300885448#2158"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSData-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSData-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSDate-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.954498
+e283756513.015058
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSDate-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m283756512#283756513#0(0"0(0#0#97"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m4300885448#2158"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSDate-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSDate-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableArray-MultipleSort.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.015175
+e283756513.100057
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableArray-MultipleSort.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m283756513#283756513#0(0"0(0#0#100"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m4300885448#2164"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableArray-MultipleSort.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableArray-MultipleSort.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.079765
+e283756513.134102
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m283756513#283756513#0(0"0(0#0#104"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m4300885448#2172"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSMutableData-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSMutableData-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSNumber-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.100171
+e283756513.167661
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSNumber-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m283756513#283756513#0(0"0(0#0#99"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m4300885448#2162"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSNumber-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSNumber-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-ClassName.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.134215
+e283756513.192198
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-ClassName.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m283756513#283756513#0(0"0(0#0#91"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m4300885448#2146"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-ClassName.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-ClassName.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-MissingKV.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.167781
+e283756513.252187
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-MissingKV.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m283756513#283756513#0(0"0(0#0#91"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m4300885448#2146"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-MissingKV.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-MissingKV.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.192311
+e283756513.273104
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m283756513#283756513#0(0"0(0#0#99"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m4300885448#2162"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSObject-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSObject-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-NumberStuff.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.252294
+e283756513.346699
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-NumberStuff.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m283756513#283756513#0(0"0(0#0#93"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m4300885448#2150"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-NumberStuff.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-NumberStuff.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLiteColumnName.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.273218
+e283756513.340145
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLiteColumnName.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m283756513#283756513#0(0"0(0#0#98"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m4300885448#2160"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLiteColumnName.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLiteColumnName.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.340256
+e283756513.427334
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m283756513#283756513#0(0"0(0#0#99"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m4300885448#2162"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-UppercaseFirst.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.346807
+e283756513.418419
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-UppercaseFirst.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m283756513#283756513#0(0"0(0#0#96"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m4300885448#2156"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/NSString-UppercaseFirst.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/NSString-UppercaseFirst.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/PresetsViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.874851
+e283756513.079657
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/PresetsViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m283756512#283756513#0(0"0(0#0#77"/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m4300885448#2135"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/PresetsViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/PresetsViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLiteInstanceManager.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.418529
+e283756513.587806
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLiteInstanceManager.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m283756513#283756513#0(0"0(0#0#94"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m4300885448#2152"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLiteInstanceManager.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLiteInstanceManager.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLitePersistentObject.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.427444
+e283756515.064081
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLitePersistentObject.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m283756513#283756515#0(0"0(0#0#95"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m4300885448#2154"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/SQLitePersistentObject.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SQLitePersistentObject.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SelectionViewController.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756512.763394
+e283756512.874741
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SelectionViewController.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m283756512#283756512#0(0"0(0#0#79"/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m4300885448#2139"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/SelectionViewController.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/SelectionViewController.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIColor-SQLitePersistentObject.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.587955
+e283756513.653697
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIColor-SQLitePersistentObject.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m283756513#283756513#0(0"0(0#0#103"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m4300885448#2170"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIColor-SQLitePersistentObject.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIColor-SQLitePersistentObject.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIImage-SQLitePersistence.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756513.653814
+e283756513.704987
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIImage-SQLitePersistence.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m283756513#283756513#0(0"0(0#0#98"/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m4300885448#2160"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/sqlitePersistent/UIImage-SQLitePersistence.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/UIImage-SQLitePersistence.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/_0DayFitnessAppDelegate.o "/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756511.589854
+e283756512.011151
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/_0DayFitnessAppDelegate.o
+x/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m283756511#283756512#0(0"0(0#0#79"/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m4300885448#2139"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/Classes/_0DayFitnessAppDelegate.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/_0DayFitnessAppDelegate.o"0#
+
+CCompileC build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/main.o "/Users/Bruce/iPhone Development/12WeekFitness/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756511.588659
+e283756511.839317
+r1
+xCompileC
+xbuild/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/main.o
+x/Users/Bruce/iPhone Development/12WeekFitness/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Bruce/iPhone Development/12WeekFitness/main.m283756511#283756511#0(0"0(0#0#52"/Users/Bruce/iPhone Development/12WeekFitness/main.m4300885448#2093"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -include /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch -c "/Users/Bruce/iPhone Development/12WeekFitness/main.m" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib"
+s283756509.326877
+e283756509.912203
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib
+lSLF07#2@33"CompileXIB Resources/BodyView.xib283756509#283756509#0(0"0(0#0#68"/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib4300885448#522"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/BodyView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/BodyView.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib"
+s283756509.503864
+e283756510.045436
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB Resources/CardioView.xib283756509#283756510#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#70"/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib4300885448#526"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/CardioView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/CardioView.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib"
+s283756509.918655
+e283756510.553034
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB Resources/ExerciseView.xib283756509#283756510#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib4300885448#530"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/ExerciseView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseView.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib"
+s283756510.046492
+e283756510.410007
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib
+lSLF07#2@41"CompileXIB Resources/ExerciseViewCell.xib283756510#283756510#0(0"0(0#0#76"/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib4300885448#538"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/ExerciseViewCell.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/ExerciseViewCell.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib"
+s283756508.668058
+e283756509.323798
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB Resources/FlipsideView.xib283756508#283756509#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#72"/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib4300885448#530"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/FlipsideView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/FlipsideView.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib"
+s283765600.714431
+e283765601.218606
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib
+lSLF07#2@33"CompileXIB Resources/MainView.xib283765600#283765601#0(0"0(0#0#68"/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib4300885448#522"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/MainView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainView.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib"
+s283756509.199708
+e283756509.502866
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB Resources/MainWindow.xib283756509#283756509#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#70"/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib4300885448#526"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/MainWindow.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/MainWindow.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib"
+s283756510.586486
+e283756510.905730
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib
+lSLF07#2@36"CompileXIB Resources/PresetsView.xib283756510#283756510#0(0"0(0#0#71"/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib4300885448#528"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/PresetsView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/PresetsView.xib"0#
+
+CCompileXIB "/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib"
+s283756510.421015
+e283756510.921910
+r1
+xCompileXIB
+x/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib
+lSLF07#2@38"CompileXIB Resources/SelectionView.xib283756510#283756510#0(0"0(0#0#73"/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib4300885448#532"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/SelectionView.nib" "/Users/Bruce/iPhone Development/12WeekFitness/Resources/SelectionView.xib"0#
+
+CCopyPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Entitlements.plist" Entitlements.plist
+s283756510.553130
+e283756510.575760
+r1
+xCopyPlistFile
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist283756510#283756510#0(0"0(0#0#64"/Users/Bruce/iPhone Development/12WeekFitness/Entitlements.plist4300885448#418"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCopyPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/presets.plist" Resources/presets.plist
+s283756510.905827
+e283756510.928533
+r1
+xCopyPlistFile
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/presets.plist
+xResources/presets.plist
+lSLF07#2@28"Copy Resources/presets.plist283756510#283756510#0(0"0(0#0#69"/Users/Bruce/iPhone Development/12WeekFitness/Resources/presets.plist4300885448#423"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/presets.plist --outdir "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Black Buttons.png" "Resources/Black Buttons.png"
+s283756509.502966
+e283756509.515966
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Black Buttons.png
+xResources/Black Buttons.png
+lSLF07#2@32"Copy Resources/Black Buttons.png283756509#283756509#0(0"0(0#0#73"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Black Buttons.png4300885448#526"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Black Buttons.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Exercise Glass.png" "Resources/Exercise Glass.png"
+s283756510.410152
+e283756510.423296
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Exercise Glass.png
+xResources/Exercise Glass.png
+lSLF07#2@33"Copy Resources/Exercise Glass.png283756510#283756510#0(0"0(0#0#74"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Exercise Glass.png4300885448#527"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Exercise Glass.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Green Button.png" "Resources/Green Button.png"
+s283756509.915557
+e283756509.944562
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Green Button.png
+xResources/Green Button.png
+lSLF07#2@31"Copy Resources/Green Button.png283756509#283756509#0(0"0(0#0#72"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Green Button.png4300885448#525"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Green Button.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Grey Button.png" "Resources/Grey Button.png"
+s283756509.912305
+e283756509.926498
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Grey Button.png
+xResources/Grey Button.png
+lSLF07#2@30"Copy Resources/Grey Button.png283756509#283756509#0(0"0(0#0#71"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Grey Button.png4300885448#524"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Grey Button.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Off Black 2.png" "Resources/Off Black 2.png"
+s283756510.413804
+e283756510.425381
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Off Black 2.png
+xResources/Off Black 2.png
+lSLF07#2@30"Copy Resources/Off Black 2.png283756510#283756510#0(0"0(0#0#71"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Off Black 2.png4300885448#524"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Off Black 2.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/On Black 2.png" "Resources/On Black 2.png"
+s283756510.412077
+e283756510.440372
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/On Black 2.png
+xResources/On Black 2.png
+lSLF07#2@29"Copy Resources/On Black 2.png283756510#283756510#0(0"0(0#0#70"/Users/Bruce/iPhone Development/12WeekFitness/Resources/On Black 2.png4300885448#523"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/On Black 2.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Red Button.png" "Resources/Red Button.png"
+s283756509.913711
+e283756509.926338
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Red Button.png
+xResources/Red Button.png
+lSLF07#2@29"Copy Resources/Red Button.png283756509#283756509#0(0"0(0#0#70"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Red Button.png4300885448#523"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Red Button.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 1.png" "Resources/Select Buttons Small 1.png"
+s283756510.581001
+e283756510.614286
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 1.png
+xResources/Select Buttons Small 1.png
+lSLF07#2@41"Copy Resources/Select Buttons Small 1.png283756510#283756510#0(0"0(0#0#82"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 1.png4300885448#535"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 1.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 2.png" "Resources/Select Buttons Small 2.png"
+s283756510.579230
+e283756510.598760
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Select Buttons Small 2.png
+xResources/Select Buttons Small 2.png
+lSLF07#2@41"Copy Resources/Select Buttons Small 2.png283756510#283756510#0(0"0(0#0#82"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 2.png4300885448#535"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons Small 2.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Select Buttons.png" "Resources/Select Buttons.png"
+s283756510.577558
+e283756510.592783
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Select Buttons.png
+xResources/Select Buttons.png
+lSLF07#2@33"Copy Resources/Select Buttons.png283756510#283756510#0(0"0(0#0#74"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons.png4300885448#527"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Select Buttons.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Selected Background.png" "Resources/Selected Background.png"
+s283756510.582788
+e283756510.621103
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Selected Background.png
+xResources/Selected Background.png
+lSLF07#2@38"Copy Resources/Selected Background.png283756510#283756510#0(0"0(0#0#79"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Background.png4300885448#532"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Background.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Selected Buttons 2.png" "Resources/Selected Buttons 2.png"
+s283756510.576835
+e283756510.588629
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Selected Buttons 2.png
+xResources/Selected Buttons 2.png
+lSLF07#2@37"Copy Resources/Selected Buttons 2.png283756510#283756510#0(0"0(0#0#78"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Buttons 2.png4300885448#531"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Selected Buttons 2.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Small Black Buttons.png" "Resources/Small Black Buttons.png"
+s283756510.415583
+e283756510.429464
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Small Black Buttons.png
+xResources/Small Black Buttons.png
+lSLF07#2@38"Copy Resources/Small Black Buttons.png283756510#283756510#0(0"0(0#0#79"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Black Buttons.png4300885448#532"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Black Buttons.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Small Green Button.png" "Resources/Small Green Button.png"
+s283756510.417427
+e283756510.440968
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Small Green Button.png
+xResources/Small Green Button.png
+lSLF07#2@37"Copy Resources/Small Green Button.png283756510#283756510#0(0"0(0#0#78"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Green Button.png4300885448#531"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small Green Button.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Small RED Button 1.png" "Resources/Small RED Button 1.png"
+s283756510.575872
+e283756510.603992
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Small RED Button 1.png
+xResources/Small RED Button 1.png
+lSLF07#2@37"Copy Resources/Small RED Button 1.png283756510#283756510#0(0"0(0#0#78"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small RED Button 1.png4300885448#531"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Small RED Button 1.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource "build/Release-iphonesimulator/90DayFitness.app/Snake Better.png" "Resources/Snake Better.png"
+s283756510.045554
+e283756510.051546
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Snake Better.png
+xResources/Snake Better.png
+lSLF07#2@31"Copy Resources/Snake Better.png283756510#283756510#0(0"0(0#0#72"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Snake Better.png4300885448#525"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Snake Better.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/90DayFitness.png Resources/90DayFitness.png
+s283756509.325154
+e283756509.334596
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/90DayFitness.png
+xResources/90DayFitness.png
+lSLF07#2@31"Copy Resources/90DayFitness.png283756509#283756509#0(0"0(0#0#72"/Users/Bruce/iPhone Development/12WeekFitness/Resources/90DayFitness.png4300885448#525"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/90DayFitness.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/Arrow-small.png Resources/Arrow-small.png
+s283756675.777282
+e283756675.782199
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Arrow-small.png
+xResources/Arrow-small.png
+lSLF07#2@30"Copy Resources/Arrow-small.png283756675#283756675#0(0"0(0#0#71"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Arrow-small.png4300885448#524"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Arrow-small.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/Darken.png Resources/Darken.png
+s283756510.419224
+e283756510.444392
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Darken.png
+xResources/Darken.png
+lSLF07#2@25"Copy Resources/Darken.png283756510#283756510#0(0"0(0#0#66"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Darken.png4300885448#519"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Darken.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/Default.png Resources/Default.png
+s283756509.326316
+e283756509.336511
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png283756509#283756509#0(0"0(0#0#67"/Users/Bruce/iPhone Development/12WeekFitness/Resources/Default.png4300885448#520"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/Default.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/X1.png Resources/X1.png
+s283756509.324593
+e283756509.338873
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/X1.png
+xResources/X1.png
+lSLF07#2@21"Copy Resources/X1.png283756509#283756509#0(0"0(0#0#62"/Users/Bruce/iPhone Development/12WeekFitness/Resources/X1.png4300885448#515"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/X1.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/X2.png Resources/X2.png
+s283756509.323885
+e283756509.329961
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/X2.png
+xResources/X2.png
+lSLF07#2@21"Copy Resources/X2.png283756509#283756509#0(0"0(0#0#62"/Users/Bruce/iPhone Development/12WeekFitness/Resources/X2.png4300885448#515"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/X2.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CCpResource build/Release-iphonesimulator/90DayFitness.app/icon.png Resources/icon.png
+s283756509.325739
+e283756509.339003
+r1
+xCpResource
+xbuild/Release-iphonesimulator/90DayFitness.app/icon.png
+xResources/icon.png
+lSLF07#2@23"Copy Resources/icon.png283756509#283756509#0(0"0(0#0#64"/Users/Bruce/iPhone Development/12WeekFitness/Resources/icon.png4300885448#517"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Bruce/iPhone Development/12WeekFitness/Resources/icon.png" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
+CGenerateDSYMFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app.dSYM" "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness"
+s283756515.508748
+e283756515.552207
+r1
+xGenerateDSYMFile
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app.dSYM
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness
+lSLF07#2@128"GenerateDSYMFile build/Release-iphonesimulator/90DayFitness.app.dSYM build/Release-iphonesimulator/90DayFitness.app/90DayFitness283756515#283756515#0(0"0(0#0#105"/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness4300885448#429"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness" -o "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app.dSYM"0#
+
+CLd "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness" normal i386
+s283756515.064184
+e283756515.508560
+r1
+xLd
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness
+xnormal
+xi386
+lSLF07#2@110"Link /Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness283756515#283756515#0(0"0(0#0#0"4300885448#952"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" -filelist "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/Objects-normal/i386/90DayFitness.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/90DayFitness"0#
+
+CProcessInfoPlistFile "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Info.plist" Resources/_0DayFitness-Info.plist
+s283765600.710630
+e283765600.714062
+r1
+xProcessInfoPlistFile
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Info.plist
+xResources/_0DayFitness-Info.plist
+lSLF07#2@41"Process Resources/_0DayFitness-Info.plist283765600#283765600#0(0"0(0#0#79"/Users/Bruce/iPhone Development/12WeekFitness/Resources/_0DayFitness-Info.plist4300885448#535"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/_0DayFitness-Info.plist -genpkginfo "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app/Info.plist"0#
+
+CProcessPCH /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch.gch _0DayFitness_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s283756510.928664
+e283756511.588501
+r1
+xProcessPCH
+x/var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch.gch
+x_0DayFitness_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile _0DayFitness_Prefix.pch283756510#283756511#0(0"0(0#0#69"/Users/Bruce/iPhone Development/12WeekFitness/_0DayFitness_Prefix.pch4300885448#1969"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-generated-files.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-own-target-headers.hmap" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-all-target-headers.hmap" -iquote "/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/90DayFitness-project-headers.hmap" "-F/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/include" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources/i386" "-I/Users/Bruce/iPhone Development/12WeekFitness/build/90DayFitness.build/Release-iphonesimulator/90DayFitness.build/DerivedSources" -c "/Users/Bruce/iPhone Development/12WeekFitness/_0DayFitness_Prefix.pch" -o /var/folders/yg/ygzYIVwiHwmqiAHLkTwWNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/_0DayFitness_Prefix-agbypcztrnqhatenkiwiwvrxgbtu/_0DayFitness_Prefix.pch.gch0#
+
+CTouch "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"
+s283765601.221728
+e283765601.224853
+r1
+xTouch
+x/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app
+lSLF07#2@98"Touch /Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app283765601#283765601#0(0"0(0#0#0"4300885448#303"    cd "/Users/Bruce/iPhone Development/12WeekFitness"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Bruce/iPhone Development/12WeekFitness/build/Release-iphonesimulator/90DayFitness.app"0#
+
