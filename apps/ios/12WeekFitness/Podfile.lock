@@ -1,0 +1,13 @@
+PODS:
+  - FXBlurView (1.6)
+  - Masonry (0.4.0)
+
+DEPENDENCIES:
+  - FXBlurView (~> 1.6)
+  - Masonry
+
+SPEC CHECKSUMS:
+  FXBlurView: 06f9f602d529c8e2d87648293d73a618621d3d81
+  Masonry: d673617c9cbc24aaea90fba20b10e47fd9970a39
+
+COCOAPODS: 0.32.1

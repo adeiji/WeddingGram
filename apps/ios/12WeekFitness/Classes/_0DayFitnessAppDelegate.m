@@ -14,6 +14,7 @@
 @synthesize window;
 @synthesize mainViewController;
 @synthesize dayCopy;
+@synthesize mainMenuViewController;
 
 -(void)applicationDidFinishLaunching:(UIApplication *)application {
     // Load archived array from saved settings
@@ -68,11 +69,14 @@
 		}
     }
     // Now load the main view
-    MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
-    self.mainViewController = aController;
-    [aController release];
-    mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;
-    [window addSubview:[mainViewController view]];
+//    MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+//    self.mainViewController = aController;
+    
+    MainMenuViewController *aController = [[MainMenuViewController alloc] initWithNibName:@"MainMenuView" bundle:nil];
+    self.mainMenuViewController = aController;
+    
+    mainMenuViewController.view.frame = [UIScreen mainScreen].applicationFrame;
+    [window addSubview:[mainMenuViewController view]];
     [window makeKeyAndVisible];
 }
 

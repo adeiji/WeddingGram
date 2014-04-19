@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F422712419031BD1008FBA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712319031BD1008FBA04 /* Foundation.framework */; };
+		F422712619031BD1008FBA04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712519031BD1008FBA04 /* CoreGraphics.framework */; };
+		F422712819031BD1008FBA04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712719031BD1008FBA04 /* UIKit.framework */; };
+		F422712A19031BD1008FBA04 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712919031BD1008FBA04 /* CoreData.framework */; };
+		F422713019031BD1008FBA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F422712E19031BD1008FBA04 /* InfoPlist.strings */; };
+		F422713219031BD1008FBA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F422713119031BD1008FBA04 /* main.m */; };
+		F422713619031BD1008FBA04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F422713519031BD1008FBA04 /* AppDelegate.m */; };
+		F422713919031BD1008FBA04 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F422713719031BD1008FBA04 /* Main_iPhone.storyboard */; };
+		F422713C19031BD1008FBA04 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F422713A19031BD1008FBA04 /* Main_iPad.storyboard */; };
+		F422713F19031BD1008FBA04 /* EasyBudget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F422713D19031BD1008FBA04 /* EasyBudget.xcdatamodeld */; };
+		F422714219031BD1008FBA04 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F422714119031BD1008FBA04 /* MasterViewController.m */; };
+		F422714519031BD1008FBA04 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F422714419031BD1008FBA04 /* DetailViewController.m */; };
+		F422714719031BD1008FBA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F422714619031BD1008FBA04 /* Images.xcassets */; };
+		F422714E19031BD1008FBA04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422714D19031BD1008FBA04 /* XCTest.framework */; };
+		F422714F19031BD1008FBA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712319031BD1008FBA04 /* Foundation.framework */; };
+		F422715019031BD1008FBA04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712719031BD1008FBA04 /* UIKit.framework */; };
+		F422715119031BD1008FBA04 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422712919031BD1008FBA04 /* CoreData.framework */; };
+		F422715919031BD1008FBA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F422715719031BD1008FBA04 /* InfoPlist.strings */; };
+		F422715B19031BD1008FBA04 /* EasyBudgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F422715A19031BD1008FBA04 /* EasyBudgetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F422715219031BD1008FBA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F422711819031BD1008FBA04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F422711F19031BD1008FBA04;
+			remoteInfo = EasyBudget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F422712019031BD1008FBA04 /* EasyBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F422712319031BD1008FBA04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F422712519031BD1008FBA04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F422712719031BD1008FBA04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F422712919031BD1008FBA04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F422712D19031BD1008FBA04 /* EasyBudget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyBudget-Info.plist"; sourceTree = "<group>"; };
+		F422712F19031BD1008FBA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F422713119031BD1008FBA04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F422713319031BD1008FBA04 /* EasyBudget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyBudget-Prefix.pch"; sourceTree = "<group>"; };
+		F422713419031BD1008FBA04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F422713519031BD1008FBA04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F422713819031BD1008FBA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F422713B19031BD1008FBA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F422713E19031BD1008FBA04 /* EasyBudget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyBudget.xcdatamodel; sourceTree = "<group>"; };
+		F422714019031BD1008FBA04 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F422714119031BD1008FBA04 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F422714319031BD1008FBA04 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F422714419031BD1008FBA04 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F422714619031BD1008FBA04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F422714C19031BD1008FBA04 /* EasyBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F422714D19031BD1008FBA04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F422715619031BD1008FBA04 /* EasyBudgetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyBudgetTests-Info.plist"; sourceTree = "<group>"; };
+		F422715819031BD1008FBA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F422715A19031BD1008FBA04 /* EasyBudgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyBudgetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F422711D19031BD1008FBA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422712619031BD1008FBA04 /* CoreGraphics.framework in Frameworks */,
+				F422712A19031BD1008FBA04 /* CoreData.framework in Frameworks */,
+				F422712819031BD1008FBA04 /* UIKit.framework in Frameworks */,
+				F422712419031BD1008FBA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F422714919031BD1008FBA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422714E19031BD1008FBA04 /* XCTest.framework in Frameworks */,
+				F422715119031BD1008FBA04 /* CoreData.framework in Frameworks */,
+				F422715019031BD1008FBA04 /* UIKit.framework in Frameworks */,
+				F422714F19031BD1008FBA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F422711719031BD1008FBA04 = {
+			isa = PBXGroup;
+			children = (
+				F422712B19031BD1008FBA04 /* EasyBudget */,
+				F422715419031BD1008FBA04 /* EasyBudgetTests */,
+				F422712219031BD1008FBA04 /* Frameworks */,
+				F422712119031BD1008FBA04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F422712119031BD1008FBA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F422712019031BD1008FBA04 /* EasyBudget.app */,
+				F422714C19031BD1008FBA04 /* EasyBudgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F422712219031BD1008FBA04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F422712319031BD1008FBA04 /* Foundation.framework */,
+				F422712519031BD1008FBA04 /* CoreGraphics.framework */,
+				F422712719031BD1008FBA04 /* UIKit.framework */,
+				F422712919031BD1008FBA04 /* CoreData.framework */,
+				F422714D19031BD1008FBA04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F422712B19031BD1008FBA04 /* EasyBudget */ = {
+			isa = PBXGroup;
+			children = (
+				F422713419031BD1008FBA04 /* AppDelegate.h */,
+				F422713519031BD1008FBA04 /* AppDelegate.m */,
+				F422713719031BD1008FBA04 /* Main_iPhone.storyboard */,
+				F422713A19031BD1008FBA04 /* Main_iPad.storyboard */,
+				F422714019031BD1008FBA04 /* MasterViewController.h */,
+				F422714119031BD1008FBA04 /* MasterViewController.m */,
+				F422714319031BD1008FBA04 /* DetailViewController.h */,
+				F422714419031BD1008FBA04 /* DetailViewController.m */,
+				F422714619031BD1008FBA04 /* Images.xcassets */,
+				F422713D19031BD1008FBA04 /* EasyBudget.xcdatamodeld */,
+				F422712C19031BD1008FBA04 /* Supporting Files */,
+			);
+			path = EasyBudget;
+			sourceTree = "<group>";
+		};
+		F422712C19031BD1008FBA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F422712D19031BD1008FBA04 /* EasyBudget-Info.plist */,
+				F422712E19031BD1008FBA04 /* InfoPlist.strings */,
+				F422713119031BD1008FBA04 /* main.m */,
+				F422713319031BD1008FBA04 /* EasyBudget-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F422715419031BD1008FBA04 /* EasyBudgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				F422715A19031BD1008FBA04 /* EasyBudgetTests.m */,
+				F422715519031BD1008FBA04 /* Supporting Files */,
+			);
+			path = EasyBudgetTests;
+			sourceTree = "<group>";
+		};
+		F422715519031BD1008FBA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F422715619031BD1008FBA04 /* EasyBudgetTests-Info.plist */,
+				F422715719031BD1008FBA04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F422711F19031BD1008FBA04 /* EasyBudget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F422715E19031BD1008FBA04 /* Build configuration list for PBXNativeTarget "EasyBudget" */;
+			buildPhases = (
+				F422711C19031BD1008FBA04 /* Sources */,
+				F422711D19031BD1008FBA04 /* Frameworks */,
+				F422711E19031BD1008FBA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyBudget;
+			productName = EasyBudget;
+			productReference = F422712019031BD1008FBA04 /* EasyBudget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F422714B19031BD1008FBA04 /* EasyBudgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F422716119031BD1008FBA04 /* Build configuration list for PBXNativeTarget "EasyBudgetTests" */;
+			buildPhases = (
+				F422714819031BD1008FBA04 /* Sources */,
+				F422714919031BD1008FBA04 /* Frameworks */,
+				F422714A19031BD1008FBA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F422715319031BD1008FBA04 /* PBXTargetDependency */,
+			);
+			name = EasyBudgetTests;
+			productName = EasyBudgetTests;
+			productReference = F422714C19031BD1008FBA04 /* EasyBudgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F422711819031BD1008FBA04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = adeiji;
+				TargetAttributes = {
+					F422714B19031BD1008FBA04 = {
+						TestTargetID = F422711F19031BD1008FBA04;
+					};
+				};
+			};
+			buildConfigurationList = F422711B19031BD1008FBA04 /* Build configuration list for PBXProject "EasyBudget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F422711719031BD1008FBA04;
+			productRefGroup = F422712119031BD1008FBA04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F422711F19031BD1008FBA04 /* EasyBudget */,
+				F422714B19031BD1008FBA04 /* EasyBudgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F422711E19031BD1008FBA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422713C19031BD1008FBA04 /* Main_iPad.storyboard in Resources */,
+				F422714719031BD1008FBA04 /* Images.xcassets in Resources */,
+				F422713919031BD1008FBA04 /* Main_iPhone.storyboard in Resources */,
+				F422713019031BD1008FBA04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F422714A19031BD1008FBA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422715919031BD1008FBA04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F422711C19031BD1008FBA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422714519031BD1008FBA04 /* DetailViewController.m in Sources */,
+				F422714219031BD1008FBA04 /* MasterViewController.m in Sources */,
+				F422713F19031BD1008FBA04 /* EasyBudget.xcdatamodeld in Sources */,
+				F422713619031BD1008FBA04 /* AppDelegate.m in Sources */,
+				F422713219031BD1008FBA04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F422714819031BD1008FBA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422715B19031BD1008FBA04 /* EasyBudgetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F422715319031BD1008FBA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F422711F19031BD1008FBA04 /* EasyBudget */;
+			targetProxy = F422715219031BD1008FBA04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F422712E19031BD1008FBA04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422712F19031BD1008FBA04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F422713719031BD1008FBA04 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422713819031BD1008FBA04 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F422713A19031BD1008FBA04 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422713B19031BD1008FBA04 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F422715719031BD1008FBA04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422715819031BD1008FBA04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F422715C19031BD1008FBA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F422715D19031BD1008FBA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F422715F19031BD1008FBA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBudget/EasyBudget-Prefix.pch";
+				INFOPLIST_FILE = "EasyBudget/EasyBudget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F422716019031BD1008FBA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBudget/EasyBudget-Prefix.pch";
+				INFOPLIST_FILE = "EasyBudget/EasyBudget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F422716219031BD1008FBA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyBudget.app/EasyBudget";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBudget/EasyBudget-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasyBudgetTests/EasyBudgetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F422716319031BD1008FBA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyBudget.app/EasyBudget";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyBudget/EasyBudget-Prefix.pch";
+				INFOPLIST_FILE = "EasyBudgetTests/EasyBudgetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F422711B19031BD1008FBA04 /* Build configuration list for PBXProject "EasyBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F422715C19031BD1008FBA04 /* Debug */,
+				F422715D19031BD1008FBA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F422715E19031BD1008FBA04 /* Build configuration list for PBXNativeTarget "EasyBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F422715F19031BD1008FBA04 /* Debug */,
+				F422716019031BD1008FBA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F422716119031BD1008FBA04 /* Build configuration list for PBXNativeTarget "EasyBudgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F422716219031BD1008FBA04 /* Debug */,
+				F422716319031BD1008FBA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F422713D19031BD1008FBA04 /* EasyBudget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F422713E19031BD1008FBA04 /* EasyBudget.xcdatamodel */,
+			);
+			currentVersion = F422713E19031BD1008FBA04 /* EasyBudget.xcdatamodel */;
+			path = EasyBudget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F422711819031BD1008FBA04 /* Project object */;
+}

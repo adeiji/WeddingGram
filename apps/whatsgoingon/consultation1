@@ -1,0 +1,52 @@
+Screen 1 - Splash Screen
+
+Screen 2 - Menu
+
+1. Button - What's Going On Now - Takes you to featured page 
+2. What's Going On Later - Takes you to featured page 
+3. Post
+ 
+Screen 2 - Menu (Future)
+
+1. Select City - Future
+
+Screen 3 - View Post Page
+
+1. A collection of POST images
+
+	Subscreen - Post Images
+
+	1. Image
+	2. Time Remaining - (overlay)
+	3. Title
+	4. Small Description
+	5. View Comments - Button
+	6. Thumbs Up or Thumbs Down
+
+	Notes
+
+	- When you let go of your thumb then the time comes up with a black transparent overlay 
+	- When you press the screen then the time disappears and fades back to the normal image
+
+Notes:
+
+- Based off of popularity - (Number of clicks for I'm going)
+- Based off of the rating - (Up or Down) - Priority
+
+Select Category Page
+
+1. Wheel of orbs - Each orb will be a category
+2. The orb will contain the identifier image
+3. Center selection magnifier
+4. Pull up orb the background gets dark
+5. Category name will change as your scrolling - front and center
+
+Screen Up Or Down
+
+1. Show thumb up or down 
+2. Leave Custom Comment
+3. Premade Comment - (Determine that later) 
+
+Event Page
+
+- Add Get Directions Button

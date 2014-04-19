@@ -1,0 +1,274 @@
+/* Table of Contents
+   ==================================================
+
+	# -- Main
+	# -- Screens
+	# -- Header (LOGO & DESCR)
+	# -- Navigation
+	# -- Countdown
+	# -- Team
+	# -- About Us
+	# -- Follow
+	# -- Feedback
+	# -- Footer
+
+   ==================================================
+*/
+
+
+/* # -- MAIN STYLES OF THEME
+================================================== */
+html, 
+body {
+	font: 400 1em 'Arial Rounded MT', Arial, Helvetica, sans-serif;
+	margin-top: 1%;	
+	min-width: 933px;
+	height: 810px;
+}
+
+body {
+	
+}
+.btn {
+	font-size: .7em;
+	text-align: left;
+	height: 34px;
+}
+
+.main {
+
+	max-width: 750px;
+	min-width: 750px;	
+
+}
+
+span.input-group-addon {
+	font-size: 1.5em;
+	padding: 4px 4px 4px 4px;
+}
+
+#reservationBar
+{
+	background-color: #7ed1ff;
+	height: 760px;
+	font-family: 'Arial Rounded MT', Arial;
+	font-weight: 500;
+	font-size: 1em;
+	padding: 10px;
+	color: #FFF;
+	min-width: 190px;
+	width: 190px;
+	margin-top: -24%;
+	margin-bottom: 20%;
+	margin-left: 2%;
+}
+
+#reservationBar h3
+{
+	font-size: 1em;
+}
+
+#reservationBar h5 {
+
+	font-size: 10px;
+	font-weight: 300;
+}
+
+#reservationBar h4 {
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+select {
+	-webkit-appearance: select;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	width: 100%;
+}
+
+.form-control {
+	font-size: .7em;
+
+}
+
+.top-section {
+	border-left:1px solid #f5f6f7;
+	border-right:1px solid #f5f6f7;
+}
+
+.divider{
+    height: 15px;    
+    width: 1px;
+    display: inline;
+    
+}
+
+.info .instructions {
+	font-size: .75em;
+	margin-top: 10px;
+}
+
+.info.flight {
+	font-size: .85em;
+}
+
+.info.cruise {
+	font-size: .85em;
+}
+.placer-image {
+	margin-left: 78.2%;
+	display: inline;
+}
+
+.navigation-bar {
+	margin-left: 29%;
+}
+
+.navigation-bar a {
+	margin-left: 1%;
+	margin-right: 1%;
+	color: #cacaca;
+	font-size: 14px;
+	font: 'Arial' Arial;
+}
+
+.navigation-bar #social-network {
+	margin-left: 20%;
+	display: inline;
+}
+
+.header-section {
+	height: 60px;
+}
+
+.header-section #logo {
+	margin-left: 49%;
+}
+
+.header-section #logo img {
+	margin-top: 2%;
+	width: 64%;
+}
+
+.header-section #tagline {
+	color: #0052b0;
+	margin-left: 35%;
+	margin-top: 25%;
+}
+
+.header-section #tagline span {
+	font-size: 1.5em;
+
+}
+
+.full-body {
+	background-color: #f0f6ff;
+	min-height : 600px;
+	height: 720px;
+}
+
+.info
+{
+	margin-top: 10px;
+}
+
+.info input {
+	color: black;
+}
+
+.info div {
+	margin-top: 5px;
+}
+
+.cruise {
+	margin-top:10px;
+}
+
+#reservationTypes
+{
+	margin-top: 10px;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.header { 
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid #f5f6f7;
+	border-right: 1px solid #f5f6f7;
+}
+
+#headerBar
+{
+	background-color: #c8c8c8;
+	margin-bottom: 2%;
+}
+
+#headerBar span
+{
+	font-size: 1em;
+}
+
+#headerBar #enjoy
+{
+	color: #7ca8de;
+}
+
+#headerBar #relax
+{
+	color: #ffd300;
+}
+
+#headerBar #ride
+{
+	color: #de5249;
+}
+
+hr.top {
+	margin-top: 10px;	
+	margin-bottom: 0px;
+	border-color: gray;
+}
+
+hr.bottom {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.i2 {
+	margin-left: 78%;
+	font-family: 'Arial', Arial;
+	color: white;
+}
+
+#price-tagline {
+	margin-top: 20px;
+	color: white;
+	font-size: 1em;
+}
+
+#price {
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+
+#price p {
+	margin-top: 5px;
+	font-size: .6em;
+}
+
+#reservation-type {
+	margin-top: 5%;
+}
+
+#book-it-button {
+
+	margin-left: 55%;
+	background-color: #506a88;
+	border-color: white;
+	font-size: .8em;
+	padding: 2% 5% 2% 5%;
+	border-width: 1px;
+}

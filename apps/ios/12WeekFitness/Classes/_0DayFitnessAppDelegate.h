@@ -7,6 +7,8 @@
 //
 #import "DayInfo.h"
 #import "CalendarDay.h"
+#import "MainMenuViewController.h"
+
 
 @class MainViewController;
 
@@ -14,11 +16,13 @@
     UIWindow *window;
     MainViewController *mainViewController;
 	CalendarDay *dayCopy;
+    MainMenuViewController *mainMenuViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) MainViewController *mainViewController;
 @property (nonatomic, retain) CalendarDay *dayCopy;
+@property (nonatomic, retain) MainMenuViewController *mainMenuViewController;
 
 -(void)resetData;
 

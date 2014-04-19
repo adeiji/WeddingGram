@@ -1,0 +1,442 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Klif. Responsive Coming Soon Template</title>
+	
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#DE6325;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+		<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushCss.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start - Files</a></li>
+			<li><a href="#structure">Structure</a></li>
+			<li><a href="#countdown">Countdown - Progress</a></li>
+			<li><a href="#images">Images</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#contact_form">Contact Form</a></li>
+			<li><a href="#subscribe_form">Subscribe Form</a></li>
+			<li><a href="#video">Video background</a></li>
+			<li><a href="#sources_credits">Sources & Credits</a></li>
+			<li><a href="#thanks">Thanks</a></li>
+
+		</ol>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Klif</h1><h2> Responsive Coming Soon Template</h2><hr><ul><li>Created: 24/01/2014</li><li>latest Update: 24/01/2014</li><li>By: KWST</li><li><a href=""></a></li><li>Email: <a href="mailto:support@kwst.net">support@kwst.net</a></li></ul>
+	<p>Thanks for purchasing tempalte and for supporting my work. Klif - Responsive Coming Soon Template . This documentation will not teach you HTML & CSS, it's just showcase of custom elements used in template.  This site template has has three versions: static background, slide show and video background . All types of site are divided into folders . Also included in the archive selection page version. It is located in the folder "intro"</p>
+<br><br><h3>Files</h3><hr class="notop"><br>
+<p>All site files are divided into folders:<br><br>
+<strong>css folder</strong> - css files that are responsible for the style themes.<br>
+<strong>js folder</strong> - javascript files.<br>
+<strong>php folder</strong> - php files.<br>
+<strong>img folder</strong> - folder that contains all images.<br>
+<strong>fonts folder</strong> - folder that contains  fonts plugin "Font-Awesome".<br>
+</p>
+	
+	</section>
+
+	
+
+<section id="structure">
+<h3>Structure</h3><hr class="notop">
+
+
+
+<h3>Body</h3>
+
+<pre class="brush: html">
+
+
+		<div id="wrapper">
+		
+		<!-- your content goes here -->
+		
+		</div>
+	
+	
+
+</body>
+</pre>
+
+
+
+<p>The site consists of three sections - with the countdown , about us and contacts . All sections are between the tags div classes 'swiper-slide' and 'container'. For example : </p>
+
+
+<pre class="brush: html">
+
+<div class="swiper-slide">
+	 <!--================= About start ================-->
+			 
+		<div class="container">
+										
+
+		</div>
+					
+	</div>
+
+
+
+
+</pre>
+</section>	
+<section id="countdown">
+<h3>Countdown</h3><hr class="notop">
+
+<p>To configure the countdown to find the file <span style="color:red">'init.js'</span>, it is located in the folder 'js'. In it, find the line date: <span style="color:red">'09/12/2014 12:00:00', // your date</span></p>
+<pre class="brush: js">
+
+//------------------------------init countdown-----------------------
+
+	$('.countdown').downCount({
+		date: '09/12/2014 12:00:00', // your date
+		offset: +10
+	});
+
+
+
+
+</pre>
+
+<h3>Progress</h3><hr class="notop">
+
+<p>To change the progress indicator in you only find in your html file line :</p>
+<pre class="brush: html">
+
+<input data-bgcolor="#ccc"  data-readonly=true type="text" data-width="250" data-skin="tron" data-fgcolor="#fff" data-thickness=".07" data-angleoffset="180" class="num num2" name="65" value="0">
+
+
+
+
+
+</pre>
+<p>...and in attribute  <span style="color:red">name</span> change the value to your. Also in this line, you can adjust the color of the indicator</p>
+
+</section>
+
+</section>	
+
+
+<section id="images">	
+<h3>Images</h3><hr class="notop">
+<p>All images are in the folder "img".<br>       
+</p>
+<br>
+<h3>How to add and change the background image</h3>
+
+<p>Background image version with a background slider  added directly to the html code. In div tag with the class "slides-big-img" </p>
+<pre class="brush: html">
+
+		<ul class="slides-container">
+				
+				<!-- Slide 1 -->
+				
+					<li>
+			
+						<div style="background-image: url('images/bg/bg.jpg');" class="slides-big-img"></div>
+					</li>
+		
+					<!-- Slide 2 -->
+					
+					<li>
+	
+						<div style="background-image: url('images/bg/bg.jpg');" class="slides-big-img"></div>
+					</li>
+	
+					<!-- Slide 3 -->
+					
+					<li>
+	
+						<div style="background-image: url('images/bg/bg.jpg');" class="slides-big-img"></div>
+					</li>
+		</ul>
+		
+</pre>
+<p>Background images in version with a static background added to the css file "style.css" . For example :  </p>
+<pre class="brush: css">
+.bg{
+	background-image:url(../images/bg/2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+</pre>
+
+</section>
+
+<section id="icons">
+	<h3>Icons</h3><hr class="notop">
+<p>	All  icons are generated by the plugin <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">"Font-Awesome"</a>. List of all the icons can be found <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>. 
+<br>
+To change the icon, you have to copy and paste the code icon at the right place for you. Icons size-five . Read the documentation plugin - it is described in detail how to change the icons size.
+
+</p>
+<p>For example: </p>
+<pre class="brush: html">
+
+<div class="social-links">
+	<ul>
+		<li><a href="#" target="_blank"  class="transition"><i class="fa fa-facebook-square fa-2x"></i><span>Facebook</span></a></li> - increased twice
+		<li><a href="#" target="_blank" class="transition"><i class="fa fa-dribbble fa-3x"></i><span>Dribbble</span></a></li> - tripled
+		<li><a href="#" target="_blank" class="transition"><i class="fa fa-twitter fa-4x"></i><span>Twitter</span></a></li> - quadrupled
+	</ul>
+</div>
+
+</pre>
+
+<p>&nbsp;
+	</p>
+</section>
+
+
+
+
+<section id="contact_form">
+	<h3>Contact Form</h3><hr class="notop">
+<p>
+Find the file "contact_me" in the folder <strong>php</strong> . In this file, find the line <strong>$to_Email = "myemail@gmail.com";</strong> and add you e-mail.</p> 
+<p>How to forward mail to your mailbox ask your Hosting Service Provider. Because providers use different control panel site and I find it hard to predict what you use. Server side script for sending emails is in "contact_me.php" . Ajax submit is initialized in "scripts.js" file.</p>
+<p>&nbsp;
+	</p>
+	
+<pre class="brush: js">
+
+	$("#submit_btn").click(function(){
+		
+		var user_name=$('input[name=name]').val();
+		var user_email=$('input[name=email]').val();
+		var user_message=$('textarea[name=message]').val();
+		var proceed=true;
+			if(user_name==""){
+				$('input[name=name]').css('border','1px solid #F54F36');
+				proceed=false
+			}
+			if(user_email==""){
+				$('input[name=email]').css('border','1px solid #F54F36');
+				proceed=false
+			}
+			if(user_message==""){
+				$('textarea[name=message]').css('border','1px solid #F54F36');
+				proceed=false
+			}
+			if(proceed){
+				post_data={'userName':user_name,'userEmail':user_email,'userMessage':user_message};
+				$.post('php/contact_me.php',
+				post_data,
+				function(data){
+					$("#result").hide().html('<div class="success">'+data+'</div>').slideDown(500);
+					$('#contact_form input').val('');
+					$('#contact_form textarea').val('')}).fail(
+						function(err){
+							$("#result").hide().html('<div class="error">'+err.statusText+'</div>').fadeIn(1500)
+					});
+			}
+	});
+	
+	$("#contact_form input, #contact_form textarea").keyup(function(){		
+		$("#contact_form input, #contact_form textarea").css('border','1px solid #101011');
+		$("#result").fadeOut(1500)			
+	});	
+
+</pre>
+</section>
+
+
+
+
+
+
+<section id="subscribe_form">
+	<h3>Subscribe Form</h3><hr class="notop">
+<p>
+	In this case, you do not need to change anything</p>
+<p>To see people who have signed up, simply open the file <strong>users-mail.txt</strong> . It is located in the folder <strong>php</strong> . There you will find all the signatories of people email</p>
+<p> Server side script for sending emails is in "subscription.php" . Ajax submit is initialized in "scripts.js" file.
+	</p>
+	
+<pre class="brush: js">
+
+// Subscribe   ----------------------------------------
+
+	$('.subscriptionForm').submit(function(){
+		
+		var email = $('#subscriptionForm').val();
+		$.ajax({
+			url:'php/subscription.php',
+			type :'POST',
+			dataType:'json',
+			data: {'email': email},success: function(data){
+				if(data.error){
+					$('#error').fadeIn()
+				}
+				else{
+					$('#success').fadeIn();
+					$("#error").hide();}
+				}
+			});
+		return false
+	});
+	
+	$('#subscriptionForm').focus(function(){
+		
+		$('#error').fadeOut();
+		$('#success').fadeOut();
+		
+	});
+	
+	$('#subscriptionForm').keydown(function(){
+		
+		$('#error').fadeOut();
+		$('#success').fadeOut();
+		
+	}); 
+
+
+</pre>
+</section>
+<section id="video">
+
+	<h3>Video background</h3><hr class="notop">
+	<p>A video is played using YouTube.</p>
+<p>To add background video, follow these steps:</p>
+<p>
+1.locate the file "initplayer.js" in the folder "js" and open it with your text editor;<br>
+<pre class="brush: js">
+
+/* only play video on desktop devices */
+	trueMobile = isMobile.any();
+		if( trueMobile == null ) {
+			
+        $.okvideo({ source: 'ZouARplh7iY', 
+                    volume: 0.1, 
+                    loop: true,
+                    hd:true, 
+                    adproof: true,
+                    annotations: false,
+                    onFinished: function() { console.log('finished') },
+                    unstarted: function() { console.log('unstarted') },
+                    onReady: function() { console.log('onready') },
+                    onPlay: function() { console.log('onplay') },
+                    onPause: function() { console.log('pause') },
+                    buffering: function() { console.log('buffering') },
+                    cued: function() { console.log('cued') },
+                 });
+			}			
+		if (trueMobile){
+			$('#topSlide').addClass('mob-video');
+			$('.sections').removeClass('nobg');
+
+			$('.player').remove();
+}
+
+</pre>
+2. Find the line "source: 'ZouARplh7iY' " , and then <strong>source: </strong> in single quotes add youtube code<br>
+</p>
+
+<h3>How to find video code?</h3>
+<p><br>
+1. Go to <a href="http://www.youtube.com/" target="_blank">Youtube</a>.<br>
+2.Under video click to share.<br>
+3. In the screen that appears after <span style="color:red">http://youtu.be/</span>  copy and replace the code.<br>
+</p>
+
+<p>And yet the video does not play on smartphones :( - so if a user comes to your site from a mobile browser - the background is replaced by a picture :)
+	</p>
+<p>&nbsp;
+	</p>
+</section>
+
+
+<section id="sources_credits">
+	<h3>Sources & Credits</h3><hr class="notop">
+<p>
+	<strong>Fonts</strong><br>
+	http://www.google.com/fonts<br>
+	<br><br>
+	<strong>Photo</strong><br>
+	Pixabay<br>
+	http://pixabay.com/
+	<br><br>
+
+	</p>
+<p>
+<p>
+	<strong>Icons</strong><br>
+		Font-Awesome<br>
+	http://fortawesome.github.io/Font-Awesome/</p>
+<p>
+<p>
+	<strong>JQuery</strong><br>
+	http://jquery.com</p>
+<p>
+	<strong>JQuery Easing</strong><br>
+	http://gsgd.co.uk/sandbox/jquery/easing/</p>
+<p>
+
+	<strong>JQuery Superslides</strong><br>
+	https://github.com/nicinabox/superslides</p>
+<p>
+	<strong>JQuery Knob</strong><br>
+	http://anthonyterrien.com/knob/</p>
+<p>
+	<strong>DownCount</strong><br>
+	http://asonnyt.com</p>
+<p>
+	<strong>Swiper</strong><br>
+	http://www.idangero.us/sliders/swiper/</p>
+</section>
+<section id="thanks">
+	<h3>Thanks</h3><hr class="notop">
+<p>
+	Thanks for purchasing template and for supporting my work. If we fail here in this documentation, please e-mail me  <a href="mailto:support@kwst.net">support@kwst.net</a>. If you have a spare time, please go and rate my template. I will apreciate that.</p>
+<p>
+	Thanks</p>
+</section>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,811 @@
+<!DOCTYPE html>																																			
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="author" content="Fragrance">
+	<meta name="keywords" content="responsive html template, portfolio, creative, flat, green, light, modern, gallery">
+	<meta name="description" content="Responsive HTML Template - Home Page">
+	<title>MNTN - Responsive HTML Template</title>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/headerWithSlider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen" />
+    <link href="css/least.min.css" rel="stylesheet">
+    <link href="css/jquery.easy-pie-chart.css" rel="stylesheet">   
+	
+	<link href='http://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+	 <style>
+		  html, body{ margin: 0; padding: 0; height: 100%; }
+	</style>
+	
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jQuery.appear.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/easypiechart.js"></script>
+	<script type="text/javascript" src="js/canvas.js"></script>
+	<script type="text/javascript" src="js/niceScroll.js"></script>
+	
+	<script src="js/jquery.lazyload.js"></script>
+    <script src="js/least.min.js"></script>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+	<script type="text/javascript" src="js/map.js"></script>
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+</head>
+<body class="home">
+	<div id="container">
+		<div id="wrapper">
+			<header id="main_header">
+				<!--MENU-->
+				<div id="menu" class="clearfix">
+					<a href="#" id="mobile_nav" class="closed">Navigation Menu</a>
+					<nav id="main-menu">
+						<a href="#main_header"><img src="images/logo2.png" id="logo" alt="logo" /></a> <!-- Small logo in menu -->
+						<ul id="menu-main_menu" class="nav">
+							<li><a href="#main_header">Home</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#team">Team</a></li>
+							<li><a href="#fr_showcase">Our app products</a></li>
+							<li><a href="#recent-work">Recent Work</a></li>
+							<li><a href="#">News</a>
+								<ul class="sub-menu">
+									<li><a href="blog-page.html">Blog with Right Sidebar</a></li>
+									<li><a href="blog-page-fullwidth.html">Blog Full Width</a></li>
+									<li><a href="blog-masonry.html">Blog Masonry</a></li>
+								</ul>
+							</li>
+							<li><a href="#fr_contact">Contact</a></li>
+						</ul>	
+					</nav>
+				</div> <!-- end #menu -->
+				<!--MENU-->
+				
+				<!--SLIDER-->
+				<div id="header_featured" class="flexslider clearfix">
+					<ul class="slides">
+					
+					<!--IMAGE SLIDE-->
+						<li class="slide fr_slide_image">
+							<div class="slide_wrap">
+								<div class="featured_box">
+									<a href="#">							
+										<!-- <img src="images/slider/slider.jpeg" alt='img' /> -->
+									</a>
+									<div class="fr_image_description" style = "background: #111; opacity: .8;">		
+										<div class="fr_inner_description">
+											<h2 class="title"><a href="#">DEPHYNED</a></h2>
+											<p>MOBILE APP DEVELOPMENT</p>
+										</div> <!-- end .fr_inner_description -->
+									</div>
+								</div> <!-- end .featured_box -->
+							</div> <!-- end .slide_wrap -->
+						</li>
+						
+						<li class="slide fr_slide_image">
+							<div class="slide_wrap">
+								<div class="featured_box">
+									<a href="#">							
+										<img src="images/slider/skyline.jpg" alt='img' />
+									</a>	
+									<div class="fr_image_description">
+										<div class="fr_inner_description">
+											<h2 class="title"><a href="#">Responsive Flat HTML5 CSS3 Theme</a></h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus, eget viverra nulla sem vitae neque.</p>
+										</div> <!-- end .fr_inner_description -->
+									</div>
+								</div> <!-- end .featured_box -->
+							</div> <!-- end .slide_wrap -->
+						</li>
+						
+						<li class="slide fr_slide_image">
+							<div class="slide_wrap">
+								<div class="featured_box">
+									<a href="#">							
+										<img src="images/slider/slider3.jpg" alt='img' />
+									</a>
+									<div class="fr_image_description">
+										<div class="fr_inner_description">
+											<h2 class="title"><a href="#">Responsive Flat HTML5 CSS3 Theme</a></h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus, eget viverra nulla sem vitae neque.</p>
+										</div> <!-- end .fr_inner_description -->
+									</div>
+								</div> <!-- end .featured_box -->
+							</div> <!-- end .slide_wrap -->
+						</li>						
+						
+					</ul>
+
+					<a id="left-arrow" class="flex-prev" href="#">Previous</a>
+					<a id="right-arrow" href="#">Next</a>
+				</div>	<!-- end #header_featured -->
+				<!--SLIDER-->
+			
+			</header> <!-- end #main-header -->
+		<div id="content">
+		
+		<!--SERVICES SECTION-->
+		<div id="services" class="clearfix">
+			<div class="sizers clearfix">
+				<div class="servise_items clearfix">
+					<h3 class="section_name">What we do </h3>
+					<div class="service first">
+						<img class="icon aligncenter" src="images/service_img/2.png" alt="page icon">
+						<h3>Sketch & Design</h3>
+						<p>After we have the general idea of what you want, we sketch out and design the product from start to finish.</p>						
+					</div> <!-- end .service -->
+					<div class="service">
+					<img class="icon aligncenter" src="images/service_img/1.png" alt="page icon">
+						<h3>Prototyping</h3>
+						<p>Prototyping  is the getting the overall layout and functionality of the application drawn out.  This is the first step.</p>
+					</div> <!-- end .service -->
+					<div class="service last">
+						<img class="icon aligncenter" src="images/service_img/3.png" alt="page icon">
+						<h3>Development</h3>
+						<p>This is the final step before you get your finished product.  This step involves actually coding and implement the graphics and UI for your DEPHYNED application.</p>
+					</div> <!-- end .service -->
+					<div class="service first">
+						<img class="icon aligncenter" src="images/service_img/4.png" alt="page icon">
+						<h3>iPhone</h3>
+						<p>iOS leads the mobile world in sleekness, and design.  iPhone applications provide the user with a small, easy to handle device that allows great functionality.</p>
+					</div> <!-- end .service -->
+					<div class="service">
+						<img class="icon aligncenter" src="images/service_img/5.png" alt="page icon">
+						<h3>iPad</h3>
+						<p>Often times you want your iOS app to offer more functionality that looks nicer on a larger screen.  That's when you want us for your iPad development.</p>
+					</div> <!-- end .service -->
+					<div class="service last">
+						<img class="icon aligncenter" src="images/service_img/6.png" alt="page icon">
+						<h3>Web</h3>
+						<p>Web sites are essential to your business advertisement, and web apps are becoming more and more popular largely because of their cross-platform ability.  Let us know if this is what you desure!</p>
+					</div> <!-- end .service -->
+				</div> <!-- end .servise_items -->
+			</div> <!-- end of .sizers -->
+		</div> <!-- end #services -->
+		<!--SERVICES SECTION-->
+		
+		<!-- CALL TO ACTION -->
+		<section id="fr_converse" class="fr_converse_gray">
+			<div class="sizers clearfix">
+				<div class="two_third">
+					<p>Want more features? We always like hearing from our customers</p>
+				</div>
+				<div class="one_third last">
+					<a class="fr_simple_btn" href="#fr_contact_form">Contact Us</a>
+				</div>
+			</div>
+		</section>
+		<!-- CALL TO ACTION -->
+				
+		<!-- ABOUT US -->
+		<div id="about" >
+			<div class="sizers clearfix">
+				<div class="one_half clearfix">
+					<section class="social">
+						<h4>Follow us</h4>
+						<div id="social-icons">
+							<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-xing fa-2x"></i></a>
+							<a href="#" target="_blank"><i class="fa fa-skype fa-2x"></i></a>
+						</div> <!-- end #social-icons -->
+					</section>
+					
+					<section class="fr_skills">
+						<h4>We are good at</h4>
+						<div class="fr_skill_bars">
+							<div class="one_third">
+								<div class="chart" data-percent="80">80%</div>
+								<h5>Web design</h5>
+							</div>
+							<div class="one_third">
+								<div class="chart" data-percent="75">75%</div>
+								<h5>Web development</h5>
+							</div>
+							<div class="one_third">
+								<div class="chart" data-percent="95">95%</div>
+								<h5>Coffe makers</h5>
+							</div>
+						</div>
+					</section>
+				</div> <!-- end of .one_half -->
+				
+				<section class="bio one_half last">
+					<h4>About Us</h4>
+					<p>We are a group of elite developers and designers who specialize in developing applications that make their customers say WOW!</p>
+					<p>We are based out of Las Vegas, a leading location of desiogn innovation.  We look at everything from nice cars, to beautiful animals in order to receive inspiration for our designs.  DEPHYNED knows that the most important aspect to an app or a website is the look and feel.  </p>
+
+					<p>Beautiful design is a necessity, not a luxury.  If it's not beautiful, then it shouldn't exist.  That's the way we feel at DEPHYNED.</p>
+				</section>
+				
+			</div> <!-- end of .sizers -->
+		</div> <!-- end of #about -->
+		<!-- ABOUT US -->
+		
+		<!-- TEAM -->
+		<div id="team">
+			<div class="sizers clearfix">
+				<div class="section_description">
+					<h3 class="section_name">Our team</h3>
+					<p>Take a look out our main players at DEPYNED. </p>
+				</div>
+					<div class="team_person">
+						<img src="images/team/1.jpg" alt="img" />
+						<h6 class="team_name">Jack Doe</h6>
+						<p>Manager</p>
+					</div>
+					<div class="team_person">
+						<img src="images/team/1.jpg" alt="img" />
+						<h6 class="team_name">Jennifer Doe</h6>
+						<p>Photographer</p>
+					</div>
+					<div class="team_person">
+						<img src="images/team/1.jpg" alt="img" />
+						<h6 class="team_name">John Doe</h6>
+						<p>Programmer</p>
+					</div>
+					<div class="team_person">
+						<img src="images/team/1.jpg" alt="img" />
+						<h6 class="team_name">Sarah Doe</h6>
+						<p>Designer</p>
+					</div>
+			</div> <!-- end of .sizers -->
+		</div>
+		<!-- TEAM -->
+		
+		<!-- FUN FUCTS -->
+		<div class="fixed_block fun_fucts">
+			<div class="sizers clearfix">
+				<div class="sixteen columns">
+					<h3 class="section_name">How about Some Fun Facts about our agency?</h3>
+				</div>
+				<div class="four columns">
+					<div class="fucts_counter" data-perc="1028">
+						<i class="fa fa-clock-o fa-4x"></i>
+						<span class="fucts_count highlight">1028</span>
+						<h6 class="fucts_name">Work hours</h6>
+					</div>
+				</div>
+				<div class="four columns">
+					<div class="fucts_counter" data-perc="100">
+						<i class="fa fa-users fa-4x"></i>
+						<span class="fucts_count highlight">500</span>
+						<h6 class="fucts_name">Hours Spent Dressing</h6>
+					</div>
+				</div>
+				<div class="four columns">
+					<div class="fucts_counter" data-perc="590">
+						<i class="fa fa-coffee fa-4x"></i>
+						<span class="fucts_count highlight">590</span>
+						<h6 class="fucts_name">Cups of coffee</h6>
+					</div>
+				</div>
+				<div class="four columns">
+					<div class="fucts_counter" data-perc="450">
+						<i class="fa fa-sun-o fa-4x"></i>
+						<span class="fucts_count highlight">450</span>
+						<h6 class="fucts_name">Hours Spent Reading up on Apple</h6>
+					</div>
+				</div>
+			</div> <!-- end .sizers -->
+		</div>
+		<!-- FUN FUCTS -->
+		
+		<!--SHOWCASE-->
+		<div id="fr_showcase">
+			<div class="sizers clearfix">
+				<div id="fr_showcase_slider" class="flexslider">
+					<ul class="slides">
+						<li class="slide fr_slide_iphone">
+							<div class="app_screen">
+							</div>
+							<div class="section_description">
+								<h3 class="section_name">Need showcase App?</h3>
+								<p>My Daily Todo List</p>
+								<p>Ever wanted to just have a simple todo list app on your phone but everything you found was too complicated.  Well that's where this app comes to the rescue, providing you with extremely way to handle your tasks. </p>
+								<a class="fr_get_app" href="">
+									<i class="iphone_icon"></i>
+									<span>Get this App</span>
+								</a>
+							</div>
+						</li>
+						<li class="slide fr_slide_ipad">
+							<div class="app_screen">
+							</div>
+							<div class="section_description">
+								<h3 class="section_name">Need showcase App?</h3>
+								<p>Sales Management Calculator</p>
+								<p>Often times you want a calculator to handle a simple tasks, and maybe one thing extra.  Say for example...sales calculations.  Well here's the solution my friends, download this calculator and perform easy sales calculations, and store them for view later.</p>
+								<a class="fr_get_app" href="">
+									<i class="iphone_icon"></i>
+									<span>Get this App</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a id="fr_case_left" class="flex-prev" href="#"><i class="fa fa-angle-left fa-4x"></i></a>
+					<a id="fr_case_right" class="next" href="#"><i class="fa fa-angle-right fa-4x"></i></a>
+				</div> <!-- end of #fr_showcase_slider -->
+				
+			</div> <!-- end of .sizers -->
+		</div> <!-- end of #fr_showcase -->
+		<!--SHOWCASE-->
+		
+		<!-- QUOTE -->
+		<div class="fixed_block quote">
+			<blockquote>Design is not just what it looks like and feels like. Design is how it works.</blockquote>
+			<p class="author">Steve Jobs</p>
+		</div>
+		<!-- QUOTE -->
+
+		<!--RECENT WORK SECTION-->
+		<section id="recent-work">
+			<h3 class="section_name">Portfolio</h3>
+            <ul id="gallery">
+			
+				<li id="fullPreview" class="clearfix" style="display: none;">
+					<img src="img/full/10.jpg" alt="portfolio_img" >
+					<div class="fullCaption">
+                     <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </div><figure class="close"></figure>
+				</li><!-- end of #fullPreview -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+				
+				<li>
+                    <a href="images/portfolio_large/1.jpg"></a>
+                    <img data-original="images/portfolio/1.jpg" src="images/portfolio/1.jpg" alt="aticle-image" width="240" height="150" style="display: inline">
+                    <div class="overLayer"></div>
+                    <div class="infoLayer">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Project Title     
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    View Picture
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="projectInfo">
+                        <strong>Day, Month, Year:</strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                </li><!-- end li -->
+			</ul>
+		</section>
+		<!--RECENT WORK SECTION-->
+		
+		<section id="fr_converse">
+			<div class="sizers clearfix">
+				<div class="two_third">
+					<p>Want to say hello?</p>
+				</div>
+				<div class="one_third last">
+					<a class="fr_simple_btn" href="#fr_contact_form">Contact Us</a>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- CONTACT US -->
+		<div id="fr_contact" class="clearfix">
+			<div class="sizers clearfix">
+				<div class="fr_phone">
+					<i class="fa fa-phone-square fa-3x"></i>
+					<p>+702 748 9233 </p>
+				</div>
+				<div class="fr_mail">
+					<i class="fa fa-envelope-o fa-2x"></i>
+					<p>info@dephyned.com</p>
+				</div>
+				<div class="fr_addres">
+					<i class="fa fa-map-marker fa-2x"></i>
+					<p>7401 Hawk Shadow Ave, Las Vegas NV </p>
+				</div>
+			</div> <!-- end of .sizers -->
+		</div> <!-- end #fr_contact -->
+			
+		<div id="fr_contact_form">
+			<div class="sizers clearfix">
+				<div class="section_description">
+					<h3 class="section_name">Contact Us</h3><!--NAME OF SECTION-->
+					<p>Want to say hello? Want to know more about us? I check my mail all the time, so I should be in touch soon</p>
+				</div> <!-- end of .section_description -->
+				<form id="ajax_contact_form" action="javascript:alert('Was send!');">
+					<div class="one_half">
+						<p class="contact_page name"><input type="text" name="name" class="required" value="Name" /></p>
+						<p class="contact_page email"><input type="text" name="email" class="last-item required" value="Email" /></p>
+						<p class="subject"><input id="subject" type="text" name="subject" class="last-item required" value="Subject" /> </p>  
+					</div>
+					<div class="one_half last">
+						<textarea class="input" id="contact_message" name="message">Message</textarea>
+					</div>
+					<p class="clearfix"><input type="reset" id="contact_reset" value="Reset" />
+					<input id="contact_submit" class="contact_submit submit" type="submit" value="Send"/></p>
+				</form>
+			</div> <!-- end of .sizers -->
+		</div>
+			
+		<div id="contact" class="responsive clearfix">
+			<div class="sizers clearfix">
+			</div>
+			<div id="map-canvas"></div> <!-- MAP -->
+		</div>
+		<!-- CONTACT US -->
+		
+		<!--FOOTER-->
+		<div id="footer">
+			<div id="footer-widgets" class="clearfix">
+				<div id="action_area" class="clearfix">
+					<div class="one_half">
+						<h4>Call to action area</h4>
+						<p>Like it?</p>
+					</div>
+					<a href="#" class="fr_simple_btn">Purchase now</a>
+				</div><!--end of #action_area -->
+			</div>
+			<p id="copyright">Designed by <span>Fragrance Design &#169; 2013</span></p>
+		</div> <!-- end #footer -->
+		<!--FOOTER-->
+	
+		</div> <!-- end #content -->
+	</div> <!-- end #wrapper -->
+</div> <!-- end #container -->
+
+<!--CUSTOM JS-->
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/headerWithSlider.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#gallery').least({
+			random: 0,
+		});
+	});
+	
+	$(function() {
+    $('.chart').easyPieChart({
+		barColor: 'rgba(255,255,255,0.8)',
+		trackColor: 'rgba(0,0,0,0.5)',
+        scaleColor: false,
+		lineWidth: 5,
+		size: 80
+    });
+});
+    </script>
+</body>
+</html>

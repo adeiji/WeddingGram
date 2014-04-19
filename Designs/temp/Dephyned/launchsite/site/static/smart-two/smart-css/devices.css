@@ -1,0 +1,32 @@
+/* Table of Contents
+   ==================================================
+   
+    # -- Different Width
+	# -- Different Height of .mid-content
+
+   ==================================================
+*/
+
+/* # -- Different Width
+================================================== */
+
+
+@media all and (max-width: 415px),
+	all and (max-device-width: 415px) {
+
+		#reservationBar {
+			min-width: 275px;			
+		}
+}
+
+media all and (max-width: 1000px),
+	all and (max-device-width: 1000px) {
+
+		#reservationBar {
+			html, body {
+				margin-left: 5%;
+				margin-right: 5%;
+			}			
+		}
+
+}

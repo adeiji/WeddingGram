@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content = "IE-edge">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<title>Smart-Two</title>
+
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/main.css" rel = "stylesheet">
+		<link href = "css/datepicker.css" rel="stylesheet">
+		<link href = "css/devices.css" rel="stylesheet">
+
+
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
+
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+      		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+
+       	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->    	
+  		
+    </head>
+    <body>    	
+    	<div class = "container-fluid main" >
+    		<div class = "row">
+    			<div class = "col-md-12 header">
+    				<div id = "headerBar">
+    					<span id = "enjoy">Enjoy</span><span id ="relax"> Relax</span><span id = "ride"> Ride!</span>
+    					<a href = "#"><span class = "i2">i2</span></a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class = "row top-section">    			
+    			<div class = "navigation-bar">
+    				
+    				<a href = "index.html">Home</a>
+    				<div class = "divider"></div>
+    				<a href = "questions.html">Questions</a>
+    				<div class = "divider"><img src = "images/divider.png" width = "1" height = "15"></div>
+    				<a href = "aboutus.html">About Us</a>
+    				<div class = "divider"></div>
+    				<a href = "contact.html">Contact</a>
+
+    				<div id = "social-network">
+    					<img src = "/images/youtube.png" />
+    					<img src = "/images/facebook.png" />
+    					<img src = "/images/twitter.png" />
+    					<img src = "/images/instagram.png" />
+    				</div>
+
+    			</div>
+    			<div class = "header-section">
+    				<div id = "logo">
+    					<img src = "/images/smart-two.png" />    					
+    				</div>
+    				<div id = "tagline">
+    					<span>	<p>"The smartest and coolest</p></span>
+    					<p><span style = "margin-left: 5%">way two travel </span> between the airport </p>
+    					<p style = "margin-left: 10%; margin-top:1%"> and the cruise ship."</p>
+    					<p style = "margin-left: 45%; margin-top: 2%">- two cruisers</p>
+    				</div>
+    			</div>    			
+    		</div>
+	    	<div class = "row full-body">
+
+	    		<div class = "placer-image">
+	    			<img src = "/images/placer1.png" />	    							
+	    		</div>
+	    		
+	    		<div id = "reservationBar">
+	    			<h3>Book a Shuttle</h3>		    	
+	    			<h5>For travel between <span style = "font-size: 8px;">PORT CANAVERAL</span> cruises and <span style = "font-size: 8px">ORLANDO INT'L AIRPORT</span></h5>
+	    			<hr class = "top">
+	    			<hr class = "bottom">
+	    			<div id = "reservationTypes">
+	    				<div class = "select">
+			    			Select your travel need
+			    			<div id = "reservation-type">
+				    			<div class="dropdown">
+								  <button class="btn btn-default" style = "width: 95%;" type="button" id="dropdown-button-type" data-toggle="dropdown">
+								   Cruise ship to airport
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" id = "travel-type" role="menu" aria-labelledby="dropdownMenu1">	
+								    <li role="presentation"><a role="menuitem" tabindex="-1">Cruise ship to airport (one way)</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1">Airport to cruise ship (one way)</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1">To and from cruise ship (round trip)</a></li>
+								  </ul>
+								</div>
+							</div>
+			    		</div>				    				
+			    		<hr class = "top">
+	    				<hr class = "bottom">
+	    				<div class = "info cruise">				    		
+			    			Please Enter Cruise Info
+			    			<div class = "instructions">Select Date You Return From Cruise</div>
+			    			<div class="input-group" data-provide = "datepicker" id="dp4" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+						        <input class="form-control" type="text" placeholder="Date return form cruise" >
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						    </div>      			
+							
+							<div class = "instructions">Select Time To Go To Your Flight</div>
+							<div class="dropdown">
+							  <button class="btn btn-default" style = "width: 100%;" type="button" id="dropdown-button-flight" data-toggle="dropdown">
+							    12:30 AM
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" id = "flight-time" role="menu" aria-labelledby="dropdownMenu1">
+							    <li role="presentation"><a role="menuitem" tabindex="-1">12:30 AM</a></li>   
+							  </ul>
+							</div>
+
+							<div class = "instructions">Select Your Cruise Ship</div>
+							<div class="dropdown">
+							  <button class="btn btn-default" style = "width: 100%;" type="button" id="dropdown-button-cruiseline" data-toggle="dropdown">
+							    Carnival Sensation
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" id = "cruiseline-dropdown" role="menu" aria-labelledby="dropdownMenu1">
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Carnival Sensation</a></li>   
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Carnival Slendor</a></li>   
+							    <li role="presentation"><a role="menuitem" tabindex="-1">RCCL Freedom</a></li>   
+							   	<li role="presentation"><a role="menuitem" tabindex="-1">RCCL Enhancement</a></li>   							   
+							  </ul>
+							</div>
+
+	    				<hr class = "top">
+	    				<hr class = "bottom">		    						    						    		
+		    		</div>			    	
+		    		
+	    			<div id = "reservationTypes">
+	    				<div class = "info flight">				    		
+			    			Please Enter Flight Info			
+
+			    			<div class = "instructions">Select Date Your Flight Arrives</div>
+			    			<div class="input-group" data-provide = "datepicker" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">			    				
+						        <input class="form-control" type="text" id = "airport-date" placeholder = "Date flight arrives">
+						        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						    </div>   	
+
+						    <div class = "instructions">Select Time To Go To Cruise Ship</div>
+							<div class="dropdown">
+							  <button class="btn btn-default" style = "width: 100%;" type="button" id="dropdown-button-cruise" data-toggle="dropdown">
+							    8:00 AM
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" id = "cruise-time" role="menu" aria-labelledby="dropdownMenu1">
+							    <li role="presentation"><a role="menuitem" tabindex="-1">8:00  AM</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">9:45  AM</a></li>								    
+							    <li role="presentation"><a role="menuitem" tabindex="-1">11:30 AM</a></li>								    
+							  </ul>
+							</div>
+
+							<div class = "instructions">Choose Your Airline</div>
+							<div class="dropdown">
+							  <button class="btn btn-default" style = "width: 100%;" type="button" id="dropdown-button-airline" data-toggle="dropdown">
+							    Choose Your Airline
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" id = "airline-dropdown" role="menu" aria-labelledby="dropdownMenu1">
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Aer Lingus</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">AeroMexico</a></li>   
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Air Canada</a></li>	
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Air Jamaica</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Air Tran</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Air Transat</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Alaska</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">American</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Avianca</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Bahamasair</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">British Airways</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">CanJet</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Caribbean</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Continental</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Copa</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Delta</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Frontier</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Gol</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Jet Blue</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">LAN</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Lufthansa</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Southwest</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Spirit</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Sun Country</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Sun Wang</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">TAM</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">United</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">US Airways</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Virgin America</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Virgin Atlantic</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">Volaris</a></li>
+							    <li role="presentation"><a role="menuitem" tabindex="-1">West Jet</a></li>							    
+							  </ul>
+							</div>
+			    		</div>				    		
+		    		</div>
+		    		
+		    		<div id = "smart-price">
+		    			<div id = "price-tagline">
+		    				
+		    			</div>
+		    			<div id = "price">
+		    				
+		    			</div>
+		    		</div>
+		    		<div id = "book-it">
+		    				<form action="https://checkout.globalgatewaye4.firstdata.com/payment" method="post"> 
+							  <input name="x_login" type="hidden"> 
+							  <input name="x_amount" type="hidden"> 
+							  <input name="x_fp_sequence"  type="hidden"> 
+							  <input name="x_fp_timestamp" type="hidden"> 
+							  <input name="x_fp_hash" type="hidden"> 
+							  <input name="x_currency_code" type="hidden"> 
+							  <input name="x_show_form" value="PAYMENT_FORM" type="hidden"> 								  
+							  <input value="Book Now" type="submit" id = "book-it-button"> 
+							</form>
+		    			
+		    		</div>
+
+	    		</div>	
+
+	    	</div>	    	
+	   	</div>
+
+	   	<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		
+  		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-datepicker.js"></script>
+		<script src="js/jquery-dateFormat.min.js"></script>
+  		<script src="js/main.js"></script>
+  		<script src="js/md5.min.js"></script>
+  </body>
+
+</html>
+
+	
+
+</html>

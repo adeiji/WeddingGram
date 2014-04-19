@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C049A8E-BA5B-4BE3-B91D-54B67C5A3BAB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>90DayFitness</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>184493A3-7B0C-4ACF-8FE9-38353315C479</key>
+		<string>https://github.com/adeiji/dephyned.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>apps/ios/12WeekFitness/90DayFitness.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>184493A3-7B0C-4ACF-8FE9-38353315C479</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adeiji/dephyned.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>184493A3-7B0C-4ACF-8FE9-38353315C479</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>184493A3-7B0C-4ACF-8FE9-38353315C479</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dephyned</string>
+		</dict>
+	</array>
+</dict>
+</plist>
