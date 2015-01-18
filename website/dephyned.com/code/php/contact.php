@@ -10,7 +10,7 @@
 	// variables end
 	
 	// email address starts
-	$emailAddress = 'adebayoijia@gmail.com';
+	$emailAddress = 'adebayoiji@gmail.com';
 	// email address ends
 	
 	$subject = "Message From: $name";	
