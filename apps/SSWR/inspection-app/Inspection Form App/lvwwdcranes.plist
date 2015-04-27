@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>CAPACITY</key>
+		<string>35 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACE</string>
+		<key>MDL:HOIST</key>
+		<string>A40</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACE 157037</string>
+		<key>SRL: HOIST</key>
+		<string>15037</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-001A</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>STAHL</string>
+		<key>MDL:HOIST</key>
+		<string>SH4016-16-2/16</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>2107958</string>
+		<key>TYPE</key>
+		<string>AUXILIARY</string>
+		<key>UNIT ID</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>15 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DETROIT</string>
+		<key>MDL:HOIST</key>
+		<string>15 TON</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACE 1786</string>
+		<key>SRL: HOIST</key>
+		<string>152460</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-001B</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>WEL3</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 2693</string>
+		<key>SRL: HOIST</key>
+		<string>L32208</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-002</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>SUGHD-2000</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>EQUP FABRICATORS PP00647</string>
+		<key>SRL: HOIST</key>
+		<string>BEW-700409</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-003</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>WEL3</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 56920</string>
+		<key>SRL: HOIST</key>
+		<string>L32209</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-005</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>50GHD-2000</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>EQUIP FABRICATORS PP00650</string>
+		<key>SRL: HOIST</key>
+		<string>BEW-700408</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-006A</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>F2A</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 3708</string>
+		<key>SRL: HOIST</key>
+		<string>14043WX1</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-008</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>F3A</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 66914</string>
+		<key>SRL: HOIST</key>
+		<string>15080UZA</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-009</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>F3A</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 66914</string>
+		<key>SRL: HOIST</key>
+		<string>15080VZ</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-010</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>F3A</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 3708</string>
+		<key>SRL: HOIST</key>
+		<string>48022-WX1</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-011</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>J3BG</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 66914</string>
+		<key>SRL: HOIST</key>
+		<string>46808VX1</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-012</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>3-110101-25B</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>PP00657</string>
+		<key>SRL: HOIST</key>
+		<string>60-56120</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-013</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACE</string>
+		<key>MDL:HOIST</key>
+		<string>A40HP3</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>EQUIP FABRIC PPO658</string>
+		<key>SRL: HOIST</key>
+		<string>15628</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-014</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>3-1139B1-263</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SHAWBOX </string>
+		<key>SRL: HOIST</key>
+		<string>LO-56119</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-016</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>P &amp; H</string>
+		<key>MDL:HOIST</key>
+		<string>S3J312D</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANMASTER 92043-A2</string>
+		<key>SRL: HOIST</key>
+		<string>8780</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-018</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>DD529</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>R&amp;M 66841CT1</string>
+		<key>SRL: HOIST</key>
+		<string>166842CT1</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-019</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>EEW20-38TX8306</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA HOISTS 319469A</string>
+		<key>SRL: HOIST</key>
+		<string>W319469A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-020</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>EEW20-26TXB/306</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA 9705017</string>
+		<key>SRL: HOIST</key>
+		<string>W319468A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-021</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>KONE</string>
+		<key>MDL:HOIST</key>
+		<string>R9266</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE 2433</string>
+		<key>SRL: HOIST</key>
+		<string>XL404N30BDA</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-022</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>WAZEE</string>
+		<key>SRL: HOIST</key>
+		<string>535240</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-023</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>NTH4-234</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>HARRINGTON 26517</string>
+		<key>SRL: HOIST</key>
+		<string>335240</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-024</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>EEW20-36TXB/406</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA</string>
+		<key>SRL: HOIST</key>
+		<string>1462405A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-025</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DEMAG</string>
+		<key>MDL:HOIST</key>
+		<string>EZZ0H10504</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>DEMAG 97750</string>
+		<key>SRL: HOIST</key>
+		<string>906843</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-026</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DEMAG</string>
+		<key>MDL:HOIST</key>
+		<string>EZZ0H10504</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>906844</string>
+		<key>TYPE</key>
+		<string>AUXILIARY</string>
+		<key>UNIT ID</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM MH5050-233</string>
+		<key>SRL: HOIST</key>
+		<string>404117</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-027</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string></string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>40417A</string>
+		<key>TYPE</key>
+		<string>AUXILIARY</string>
+		<key>UNIT ID</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>M.73M06095025</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>99H02711</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-028</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>M-BEH3132</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>326348</string>
+		<key>TYPE</key>
+		<string>AUXILIARY</string>
+		<key>UNIT ID</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>CHAINFALL</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM MH5269</string>
+		<key>SRL: HOIST</key>
+		<string>50493401-7-99</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-029</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>73D20034S09 </string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM MH-5268-280</string>
+		<key>SRL: HOIST</key>
+		<string>00B07760</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-030</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DAYTON</string>
+		<key>MDL:HOIST</key>
+		<string>32372B</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>PT TROLLEY PTP 3796</string>
+		<key>SRL: HOIST</key>
+		<string>GJL304DC</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-031</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1/2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>50507001</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>792</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-032</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1/4 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>50507001</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>06-96</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-033</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1/4 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>50507001</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT</string>
+		<key>SRL: HOIST</key>
+		<string>06-96</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-034</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>646</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>5A786614</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-035</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>USA-01</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CHESTER PTG-1945</string>
+		<key>SRL: HOIST</key>
+		<string>98GU009</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-036</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>USA-01</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CHESTER PTG-1945</string>
+		<key>SRL: HOIST</key>
+		<string>98GV010</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-037</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>USA-01</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CHESTER PTG-1945</string>
+		<key>SRL: HOIST</key>
+		<string>99GU008</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-038</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-100</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 509156-1 </string>
+		<key>SRL: HOIST</key>
+		<string>BCB640250</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-039</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>LIFT TECH</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 509156-1 </string>
+		<key>SRL: HOIST</key>
+		<string>99CUD61</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-040</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-100</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 509156-1 </string>
+		<key>SRL: HOIST</key>
+		<string>BCB640234</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-041</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>CAPACITY</string>
+		<key>MANUFACTURER</key>
+		<string>MANUFACTURER</string>
+		<key>MDL:HOIST</key>
+		<string>MDL:HOIST</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SRL: CRANE/MFG</string>
+		<key>SRL: HOIST</key>
+		<string>SRL: HOIST</string>
+		<key>TYPE</key>
+		<string>TYPE</string>
+		<key>UNIT ID</key>
+		<string>UNIT ID</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-100</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 509156-1 </string>
+		<key>SRL: HOIST</key>
+		<string>BCB640224</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-042</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB1000</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 182983-2</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-7030-34</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-043</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-500</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 1113034-1|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-640777</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-044</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-500</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 182983-1A|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-640770</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-045</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-500</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 182983-1C|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-640778</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-046</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-500</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 182983-16|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-640759</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-047</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT </string>
+		<key>SRL: HOIST</key>
+		<string>15-025309</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-048</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-500</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 87190701|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-640773</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-049</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>75  TON</string>
+		<key>MANUFACTURER</key>
+		<string>OCI/ACE</string>
+		<key>MDL:HOIST</key>
+		<string>BUILT-UP</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>NC0486</string>
+		<key>SRL: HOIST</key>
+		<string>21136</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-050</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO-WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>C4W07</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO-LIFT EQUIP 1172471-2</string>
+		<key>SRL: HOIST</key>
+		<string>534-20-7012</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-051</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>25 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>BUILT-UP</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM MH15267-279</string>
+		<key>SRL: HOIST</key>
+		<string>40614</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-052</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>CEW05X25RT8</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA</string>
+		<key>SRL: HOIST</key>
+		<string>533-20-8890</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-053</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>CCEW10X16TBS</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA 1822507B</string>
+		<key>SRL: HOIST</key>
+		<string>1822507A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-054</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>COFFING</string>
+		<key>MDL:HOIST</key>
+		<string>MT400353</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>COFFING 98K60AX</string>
+		<key>SRL: HOIST</key>
+		<string>TA21137M</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>TTH-055</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>C3W05</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 4400Z40 TAGGED OUT</string>
+		<key>SRL: HOIST</key>
+		<string>533-20-8890</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-056</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>CEW7.5X25RT8/304</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>1822532A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-057</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>80202025D14</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT TECH 050B02808</string>
+		<key>SRL: HOIST</key>
+		<string>050B02808</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-058</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>12.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO-WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>C4W15</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CLEVELAND TRAMRAIL</string>
+		<key>SRL: HOIST</key>
+		<string>534-20-6948</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-059</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>DEW1035RT10/3D4</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>1822547A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-060</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>CEW7.5X19LG6/2.604</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>1822562A</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-061</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CHESTER</string>
+		<key>MDL:HOIST</key>
+		<string>ZEPHYR</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>ZLG-3754</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-062</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>20 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>M-GHF</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT 00460802</string>
+		<key>SRL: HOIST</key>
+		<string>72662</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-063</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>M-GHD</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIP 00460802</string>
+		<key>SRL: HOIST</key>
+		<string>72662-A</string>
+		<key>TYPE</key>
+		<string>AUXILIARY</string>
+		<key>UNIT ID</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>LKRH64 567</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-064</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>USA03</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 507784-3</string>
+		<key>SRL: HOIST</key>
+		<string>05IU007</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-065</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>PUTO06</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT</string>
+		<key>SRL: HOIST</key>
+		<string>05106T872</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-066</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>USA03</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 507784-3</string>
+		<key>SRL: HOIST</key>
+		<string>05IU007</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-067</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>TRACTEL</string>
+		<key>MDL:HOIST</key>
+		<string>TRAILIFT</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO  0403714</string>
+		<key>SRL: HOIST</key>
+		<string>A416855-2004</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>TTH-068</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>NTH4420</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO 050021-001A</string>
+		<key>SRL: HOIST</key>
+		<string>223987</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>TTH-069</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>15 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>DEW15X38TB164</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>YALE 05615K44</string>
+		<key>SRL: HOIST</key>
+		<string>03015K421</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-070</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>NTH-4476</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>354658</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-071</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>NTH-4476</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>354680</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-072</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>CE050-0212195</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT 2078</string>
+		<key>SRL: HOIST</key>
+		<string>04K23K866</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-073</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DETROIT</string>
+		<key>MDL:HOIST</key>
+		<string>10 TON</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT L1001</string>
+		<key>SRL: HOIST</key>
+		<string>151072</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-074</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>80L2025D14</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT TECH 05B02807M</string>
+		<key>SRL: HOIST</key>
+		<string>05B02807</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-075</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO-WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>SPEEDWAY</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>531-23-02688</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-076</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO-WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>225948</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT 1243</string>
+		<key>SRL: HOIST</key>
+		<string>531-230432</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-077</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>80L02025D14</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFTECH 05B02808M</string>
+		<key>SRL: HOIST</key>
+		<string>05B02808</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-078</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>M-06AV0674</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>USA-01</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-079</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>25 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>EEW25X33TR1304</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT L-1045-1</string>
+		<key>SRL: HOIST</key>
+		<string>07E31K71</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-082</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>CAPACITY</string>
+		<key>MANUFACTURER</key>
+		<string>MANUFACTURER</string>
+		<key>MDL:HOIST</key>
+		<string>MDL:HOIST</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SRL: CRANE/MFG</string>
+		<key>SRL: HOIST</key>
+		<string>SRL: HOIST</string>
+		<key>TYPE</key>
+		<string>TYPE</string>
+		<key>UNIT ID</key>
+		<string>UNIT ID</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>15 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>DEW15X29TB1604</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AM EQUIPMENT L1045.2</string>
+		<key>SRL: HOIST</key>
+		<string>07E31K72</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-083</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-2002T</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM 509150-1</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-720689</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-084</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-2002T</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM 509150-1</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-720699</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-086</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-2002T</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM 509150-1</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-720696</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-087</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-2002T</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM 509150-1</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-20698</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-088</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>LIFT TECH</string>
+		<key>MDL:HOIST</key>
+		<string>L2Y</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ICM 509150-1</string>
+		<key>SRL: HOIST</key>
+		<string>PH-8</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-089</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>X1W03</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 128833B.3.1</string>
+		<key>SRL: HOIST</key>
+		<string>5312303746</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>TTH-090</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>KEW2-16RT7554</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>W313155</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-091</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>THERN</string>
+		<key>MDL:HOIST</key>
+		<string>1771-K</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>THERN 5003-19369</string>
+		<key>SRL: HOIST</key>
+		<string>4003-19385</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>TTH-092</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>COFFING</string>
+		<key>MDL:HOIST</key>
+		<string>ECM76016</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>GORBEL 99026</string>
+		<key>SRL: HOIST</key>
+		<string>EC360976VY</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>TTH-093</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>COFFING</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>WALLACE PROD SGT15-20S</string>
+		<key>SRL: HOIST</key>
+		<string>083134HYH</string>
+		<key>TYPE</key>
+		<string>GANTRY</string>
+		<key>UNIT ID</key>
+		<string>TTH-094</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-100010T</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO 721011</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-1017923</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-095</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>LKRH-6400567</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 66914</string>
+		<key>SRL: HOIST</key>
+		<string>LKRH-6400567</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-096</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>LKRH-6400567</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 3708</string>
+		<key>SRL: HOIST</key>
+		<string>INOPERABLE</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>TTH-097</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>CAPACITY</string>
+		<key>MANUFACTURER</key>
+		<string>MANUFACTURER</string>
+		<key>MDL:HOIST</key>
+		<string>MDL:HOIST</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SRL: CRANE/MFG</string>
+		<key>SRL: HOIST</key>
+		<string>SRL: HOIST</string>
+		<key>TYPE</key>
+		<string>TYPE</string>
+		<key>UNIT ID</key>
+		<string>UNIT ID</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>15 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO-WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>3571141</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 185-7034-01</string>
+		<key>SRL: HOIST</key>
+		<string>535073098</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-01</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO-WRIGHT</string>
+		<key>MDL:HOIST</key>
+		<string>34470130</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 1-85-7034-03</string>
+		<key>SRL: HOIST</key>
+		<string>534-08-4344</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-02</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>3340330</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 185-7034-5</string>
+		<key>SRL: HOIST</key>
+		<string>533-07-0830</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-03</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DRESSER</string>
+		<key>MDL:HOIST</key>
+		<string>110101-14</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>DRESSER</string>
+		<key>SRL: HOIST</key>
+		<string>38-87689</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-05</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>13346300</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 47412</string>
+		<key>SRL: HOIST</key>
+		<string>533-01-0072</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-06</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>WORK RATED</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>FRONTIER 47412</string>
+		<key>SRL: HOIST</key>
+		<string>533-01-0065</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-07</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>COFFING</string>
+		<key>MDL:HOIST</key>
+		<string>ELC2016-3</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>ULC612PR</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>VH-08</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>EEW10-205T195</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CRANEVEYOR 205TM59</string>
+		<key>SRL: HOIST</key>
+		<string>AZ228537</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-09</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>529</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA 27760796</string>
+		<key>SRL: HOIST</key>
+		<string>1756369601</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-11</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>DEW10-355X15</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>NATIONAL CRANE 9605018</string>
+		<key>SRL: HOIST</key>
+		<string>W31803A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-12</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>SD1035</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>R&amp;M 27760796</string>
+		<key>SRL: HOIST</key>
+		<string>1754049501</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-13</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>15 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>DEW15X22RT11</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AAA CRANE 9702009</string>
+		<key>SRL: HOIST</key>
+		<string>W319054A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-14</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>15 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>DEW15X22RT11</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>NATIONAL CRANE 9702005</string>
+		<key>SRL: HOIST</key>
+		<string>W319055A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-15</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7.5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>72607038514</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>97J0732P</string>
+		<key>SRL: HOIST</key>
+		<string>97J0732</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-16</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>SHAWBOX</string>
+		<key>MDL:HOIST</key>
+		<string>8DL05040524</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SHAWBOX 97205818M</string>
+		<key>SRL: HOIST</key>
+		<string>97605818</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-17</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>LIFT TECH</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>1097</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-18</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>LIFT TECH</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>1097</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-19</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>LIFT TECH</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>1097</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-20</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BUDGIT</string>
+		<key>MDL:HOIST</key>
+		<string>LIFT TECH 8263</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 509150-1</string>
+		<key>SRL: HOIST</key>
+		<string>1097</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-21</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>KELZ-10LG71</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CRANEVEYOR 48403</string>
+		<key>SRL: HOIST</key>
+		<string>K-134215</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-22</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>COFFING</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO AT2001</string>
+		<key>SRL: HOIST</key>
+		<string>AT2109 NM</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>VH-23</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>DC-3-31</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE 2332</string>
+		<key>SRL: HOIST</key>
+		<string>1711369401</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-24</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>KONE</string>
+		<key>MDL:HOIST</key>
+		<string>XL404F3DLX445</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE 9212</string>
+		<key>SRL: HOIST</key>
+		<string>293929</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-25</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>KONE</string>
+		<key>MDL:HOIST</key>
+		<string>XL408N30</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE 2814</string>
+		<key>SRL: HOIST</key>
+		<string>290636</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-26</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>KONE</string>
+		<key>MDL:HOIST</key>
+		<string>Y234N20ALA</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE 2911</string>
+		<key>SRL: HOIST</key>
+		<string>R11424</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-27</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>622</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>CM WMA</string>
+		<key>SRL: HOIST</key>
+		<string>NNB </string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-28</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>GH</string>
+		<key>MDL:HOIST</key>
+		<string>GHB</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>OMI1220</string>
+		<key>SRL: HOIST</key>
+		<string>61611</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-29</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>7 TON</string>
+		<key>MANUFACTURER</key>
+		<string>KONE</string>
+		<key>MDL:HOIST</key>
+		<string>XL40BN30EDC</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE 2882</string>
+		<key>SRL: HOIST</key>
+		<string>294186</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-30</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>KONE</string>
+		<key>MDL:HOIST</key>
+		<string>XL304NZ0ALA</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>KONE </string>
+		<key>SRL: HOIST</key>
+		<string>296030</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-31</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>C1W030021</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT 116-4804.1</string>
+		<key>SRL: HOIST</key>
+		<string>531-21-01760</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-32</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>ER1A-505</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT 28338</string>
+		<key>SRL: HOIST</key>
+		<string>134691</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-33</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>TBZ-231</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO 53-0001|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>256312</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>VH-34</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>ER010LD</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO 53-0001|LIFT EQUIP</string>
+		<key>SRL: HOIST</key>
+		<string>267382</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>VH-35</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>CFA</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>284758</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-36</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>464</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>284754</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-37</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>HARRINGTON</string>
+		<key>MDL:HOIST</key>
+		<string>464</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>284750</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-38</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>C3W05</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>ACCO 1186028-2</string>
+		<key>SRL: HOIST</key>
+		<string>533-20-9299</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-39</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>X10W03</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT 21587</string>
+		<key>SRL: HOIST</key>
+		<string>531-23-02411</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-40</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>10 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>GHE</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT 0952</string>
+		<key>SRL: HOIST</key>
+		<string>77036</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-41</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>SODHD-500</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT 22224</string>
+		<key>SRL: HOIST</key>
+		<string>BEW400383</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-42</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DETROIT</string>
+		<key>MDL:HOIST</key>
+		<string>5 TON</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT L-1035</string>
+		<key>SRL: HOIST</key>
+		<string>151215</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-43</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>ACCO</string>
+		<key>MDL:HOIST</key>
+		<string>C2W03</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>LIFT EQUIPMENT  </string>
+		<key>SRL: HOIST</key>
+		<string>532-20-12703</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-44</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>CAPACITY</string>
+		<key>MANUFACTURER</key>
+		<string>MANUFACTURER</string>
+		<key>MDL:HOIST</key>
+		<string>MDL:HOIST</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SRL: CRANE/MFG</string>
+		<key>SRL: HOIST</key>
+		<string>SRL: HOIST</string>
+		<key>TYPE</key>
+		<string>TYPE</string>
+		<key>UNIT ID</key>
+		<string>UNIT ID</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DETROIT</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT L1037</string>
+		<key>SRL: HOIST</key>
+		<string>151783</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-45</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>5 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DETROIT</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT L1071</string>
+		<key>SRL: HOIST</key>
+		<string>152255</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-46</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>DETROIT</string>
+		<key>MDL:HOIST</key>
+		<string></string>
+		<key>SRL: CRANE/MFG</key>
+		<string>AMERICAN EQUIPMENT L 1060</string>
+		<key>SRL: HOIST</key>
+		<string>15250A</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-47</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>622</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>RM-B</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-48</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>TF2 232</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>248556</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-49</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>TF2 232</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>248558</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-50</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>TF2 232</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>248557</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-51</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>TF2 232</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>217631</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-52</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1 TON</string>
+		<key>MANUFACTURER</key>
+		<string>CM</string>
+		<key>MDL:HOIST</key>
+		<string>TF2 232</string>
+		<key>SRL: CRANE/MFG</key>
+		<string></string>
+		<key>SRL: HOIST</key>
+		<string>227732</string>
+		<key>TYPE</key>
+		<string>MONORAIL</string>
+		<key>UNIT ID</key>
+		<string>VH-53</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>R &amp; M</string>
+		<key>MDL:HOIST</key>
+		<string>LM10200015T16T2B</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO 073113-001A</string>
+		<key>SRL: HOIST</key>
+		<string>G0719079</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-54</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>1/2 TON</string>
+		<key>MANUFACTURER</key>
+		<string>BLACK BEAR</string>
+		<key>MDL:HOIST</key>
+		<string>YB-050</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>SPANCO 530042</string>
+		<key>SRL: HOIST</key>
+		<string>BCB-720400</string>
+		<key>TYPE</key>
+		<string>JIB</string>
+		<key>UNIT ID</key>
+		<string>VH-56</string>
+	</dict>
+	<dict>
+		<key>CAPACITY</key>
+		<string>3 TON</string>
+		<key>MANUFACTURER</key>
+		<string>YALE</string>
+		<key>MDL:HOIST</key>
+		<string>WA3M-40</string>
+		<key>SRL: CRANE/MFG</key>
+		<string>BUDGIT 904536</string>
+		<key>SRL: HOIST</key>
+		<string>08J08F93</string>
+		<key>TYPE</key>
+		<string>BRIDGE</string>
+		<key>UNIT ID</key>
+		<string>VH-57</string>
+	</dict>
+</array>
+</plist>
