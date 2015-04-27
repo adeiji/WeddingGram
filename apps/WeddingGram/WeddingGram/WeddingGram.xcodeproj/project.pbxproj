@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F39DFC199EA828810752DFD4 /* libPods-WeddingGram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FA4520E1C25A37A6BB9FC8 /* libPods-WeddingGram.a */; };
 		F40E928D1AEEA48E00439F43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E928C1AEEA48E00439F43 /* main.m */; };
 		F40E92901AEEA48E00439F43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E928F1AEEA48E00439F43 /* AppDelegate.m */; };
 		F40E92931AEEA48E00439F43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92921AEEA48E00439F43 /* ViewController.m */; };
@@ -24,6 +25,8 @@
 		F40E92D01AEEAE7E00439F43 /* StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92CF1AEEAE7E00439F43 /* StyleKit.m */; };
 		F40E92D31AEEAF1E00439F43 /* ViewEye.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D21AEEAF1E00439F43 /* ViewEye.m */; };
 		F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D71AEEC16900439F43 /* InputTextViewController.m */; };
+		F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFB61AEECC40001F34C3 /* ParseSync.m */; };
+		F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFBD1AEEEABF001F34C3 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C82BB1F74F0BFAA242E0BB /* Pods-WeddingGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingGram.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingGram/Pods-WeddingGram.release.xcconfig"; sourceTree = "<group>"; };
+		A2192F9DF38AB9D7C60F25F0 /* Pods-WeddingGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingGram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingGram/Pods-WeddingGram.debug.xcconfig"; sourceTree = "<group>"; };
 		F40E92871AEEA48E00439F43 /* WeddingGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40E928B1AEEA48E00439F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40E928C1AEEA48E00439F43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +74,11 @@
 		F40E92D21AEEAF1E00439F43 /* ViewEye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEye.m; sourceTree = "<group>"; };
 		F40E92D61AEEC16900439F43 /* InputTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextViewController.h; sourceTree = "<group>"; };
 		F40E92D71AEEC16900439F43 /* InputTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextViewController.m; sourceTree = "<group>"; };
+		F4C6DFB51AEECC40001F34C3 /* ParseSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseSync.h; sourceTree = "<group>"; };
+		F4C6DFB61AEECC40001F34C3 /* ParseSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseSync.m; sourceTree = "<group>"; };
+		F4C6DFBC1AEEEABF001F34C3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F4C6DFBD1AEEEABF001F34C3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		F7FA4520E1C25A37A6BB9FC8 /* libPods-WeddingGram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeddingGram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39DFC199EA828810752DFD4 /* libPods-WeddingGram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +100,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A06EA65601FD0402E96CDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2192F9DF38AB9D7C60F25F0 /* Pods-WeddingGram.debug.xcconfig */,
+				05C82BB1F74F0BFAA242E0BB /* Pods-WeddingGram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6AA0AE1FE7976BAB030407D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7FA4520E1C25A37A6BB9FC8 /* libPods-WeddingGram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F40E927E1AEEA48E00439F43 = {
 			isa = PBXGroup;
 			children = (
 				F40E92891AEEA48E00439F43 /* WeddingGram */,
 				F40E92A31AEEA48E00439F43 /* WeddingGramTests */,
 				F40E92881AEEA48E00439F43 /* Products */,
+				50A06EA65601FD0402E96CDD /* Pods */,
+				C6AA0AE1FE7976BAB030407D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,8 @@
 		F40E92891AEEA48E00439F43 /* WeddingGram */ = {
 			isa = PBXGroup;
 			children = (
+				F4C6DFBC1AEEEABF001F34C3 /* Constants.h */,
+				F4C6DFBD1AEEEABF001F34C3 /* Constants.m */,
 				F40E92DC1AEEC88D00439F43 /* Parse Sync */,
 				F40E92D51AEEC15600439F43 /* Text Page */,
 				F40E92BB1AEEA92100439F43 /* Main Page */,
@@ -211,6 +243,8 @@
 		F40E92DC1AEEC88D00439F43 /* Parse Sync */ = {
 			isa = PBXGroup;
 			children = (
+				F4C6DFB51AEECC40001F34C3 /* ParseSync.h */,
+				F4C6DFB61AEECC40001F34C3 /* ParseSync.m */,
 			);
 			name = "Parse Sync";
 			sourceTree = "<group>";
@@ -222,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40E92AA1AEEA48E00439F43 /* Build configuration list for PBXNativeTarget "WeddingGram" */;
 			buildPhases = (
+				71880C82B8BF3786B22854CE /* Check Pods Manifest.lock */,
 				F40E92831AEEA48E00439F43 /* Sources */,
 				F40E92841AEEA48E00439F43 /* Frameworks */,
 				F40E92851AEEA48E00439F43 /* Resources */,
+				178E47F6EB9D3F4F534CD228 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +347,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		178E47F6EB9D3F4F534CD228 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingGram/Pods-WeddingGram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71880C82B8BF3786B22854CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F40E92831AEEA48E00439F43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -320,6 +389,8 @@
 				F40E92D31AEEAF1E00439F43 /* ViewEye.m in Sources */,
 				F40E92931AEEA48E00439F43 /* ViewController.m in Sources */,
 				F40E92B71AEEA52C00439F43 /* ViewFlower.m in Sources */,
+				F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */,
+				F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */,
 				F40E92C71AEEAB2C00439F43 /* ViewCamera.m in Sources */,
 				F40E92901AEEA48E00439F43 /* AppDelegate.m in Sources */,
 				F40E92BE1AEEA93A00439F43 /* EntryView.m in Sources */,
@@ -451,6 +522,7 @@
 		};
 		F40E92AB1AEEA48E00439F43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2192F9DF38AB9D7C60F25F0 /* Pods-WeddingGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeddingGram/Info.plist;
@@ -461,6 +533,7 @@
 		};
 		F40E92AC1AEEA48E00439F43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C82BB1F74F0BFAA242E0BB /* Pods-WeddingGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeddingGram/Info.plist;
@@ -522,6 +595,7 @@
 				F40E92AC1AEEA48E00439F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F40E92AD1AEEA48E00439F43 /* Build configuration list for PBXNativeTarget "WeddingGramTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +604,7 @@
 				F40E92AF1AEEA48E00439F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import "ParseSync.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self setUpParseWithLaunchOptions:launchOptions];
+    [ParseSync createEvent] ;
     return YES;
+    
+}
+
+- (void) setUpParseWithLaunchOptions : (NSDictionary *) launchOptions {
+    // Connect our app to Parse
+    // Allow the parse local data store
+    // Parse Keys - Live
+    [Parse setApplicationId:@"KtYZf3aE3USFb3OWYUPQP1s9yMgKN4zNmtwkiFix"
+                  clientKey:@"RuXcQT44l97PxpbyV64JpQ9LSWdzShm94IIDbB07"];
+    [PFTwitterUtils initializeWithConsumerKey:@"TFcHVbGMjgBiXuSUpE16untPd" consumerSecret:@"alxo7PP08tyyG2mR3QFm8n8XHdJBcTzGw1u7BKW7A13AaeCWe8"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
