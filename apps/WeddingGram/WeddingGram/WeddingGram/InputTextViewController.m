@@ -38,6 +38,8 @@
 - (IBAction)doneButtonPressed:(id)sender {
     [_txtMessage resignFirstResponder];
     [self dismissViewControllerAnimated:YES completion:NULL];
+    
+    [[ParseSync sharedManager] storeToParseData:_txtMessage.text VideoUrl:nil];
 }
 
 - (IBAction)cancelButtonPressed:(id)sender {

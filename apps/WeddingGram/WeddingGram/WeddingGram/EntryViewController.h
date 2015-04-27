@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "InputTextViewController.h"
-
+#import "ParseSync.h"
 
 @interface EntryViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 {

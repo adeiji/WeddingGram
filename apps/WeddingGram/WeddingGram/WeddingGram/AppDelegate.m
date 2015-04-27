@@ -20,7 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [self setUpParseWithLaunchOptions:launchOptions];
-    [ParseSync createEvent] ;
+    [ParseSync createEvent];
+    
     return YES;
     
 }

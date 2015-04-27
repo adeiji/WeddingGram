@@ -79,6 +79,23 @@ static NSString *TEXT_VIEW_CONTROLLER = @"InputTextViewController";
     [overlayView removeFromSuperview];
 }
 
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    
+    //Get the original image
+    NSString *mediaType = [info objectForKey: UIImagePickerControllerMediaType];
+    
+    if (CFStringCompare ((__bridge CFStringRef) mediaType, kUTTypeMovie, 0) == kCFCompareEqualTo) {
+        NSURL *videoUrl=(NSURL*)[info objectForKey:UIImagePickerControllerMediaURL];
+        NSString *moviePath = [videoUrl path];
+        [[ParseSync sharedManager] storeToParseData:nil VideoUrl:moviePath];
+    }
+    else {
+        UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+        [[ParseSync sharedManager] storeToParseData:image VideoUrl:nil];
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
 /*
 #pragma mark - Navigation
 

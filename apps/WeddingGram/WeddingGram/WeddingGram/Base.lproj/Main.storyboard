@@ -70,7 +70,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="xHS-nP-1IB" kind="show" id="55V-aA-w3Q"/>
+                                            <action selector="joinEventPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xJi-aT-PJh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -98,14 +98,19 @@
                             <outlet property="btnJoinEvent" destination="7hG-yE-DnH" id="kju-09-mCP"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="btnJoin" destination="KEP-ZY-RNx" id="lDi-UK-PrZ"/>
+                        <outlet property="txtEventId" destination="QpL-Ci-TU3" id="xVt-ra-DGb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="369" y="529"/>
         </scene>
         <!--Entry View Controller-->
         <scene sceneID="p71-Tt-Y1P">
             <objects>
-                <viewController id="xHS-nP-1IB" customClass="EntryViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EntryViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xHS-nP-1IB" customClass="EntryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Ma-YE-oFb"/>
                         <viewControllerLayoutGuide type="bottom" id="Vl8-2V-e6D"/>
@@ -184,6 +189,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cdh-hA-cCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1086" y="657"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uyz-5k-uqo">
+            <objects>
+                <viewController id="wKB-7u-Wzk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FfD-Um-Ttx"/>
+                        <viewControllerLayoutGuide type="bottom" id="5I6-n3-CKF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z0z-9A-iJh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uvb-yp-fxE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Uvb-yp-fxE" secondAttribute="trailing" id="L9H-vZ-9kc"/>
+                            <constraint firstItem="Uvb-yp-fxE" firstAttribute="bottom" secondItem="5I6-n3-CKF" secondAttribute="top" id="NK8-Mm-061"/>
+                            <constraint firstItem="Uvb-yp-fxE" firstAttribute="top" secondItem="z0z-9A-iJh" secondAttribute="top" id="UoW-4j-RUi"/>
+                            <constraint firstItem="Uvb-yp-fxE" firstAttribute="leading" secondItem="z0z-9A-iJh" secondAttribute="leading" id="ifh-gI-fnN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYw-s6-AT4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="657"/>
         </scene>
         <!--Input Text View Controller-->
         <scene sceneID="rvg-dr-skV">

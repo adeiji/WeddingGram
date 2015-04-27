@@ -23,14 +23,25 @@
 - (id)init {
     if (self = [super init]) {
         [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(getAllMessagesForEvent) userInfo:nil repeats:YES];
+        _loadedObjects = [NSMutableArray new];
     }
     
     return self;
+}
++ (NSString *) createUDID {
+    CFUUIDRef uuidObj = CFUUIDCreate(nil);
+    //Use CFBridgingRelease call to transfer ownership of a a + 1 CFStringRef into ARC
+    NSString *uuid = (NSString *) CFBridgingRelease(CFUUIDCreateString(nil, uuidObj));
+    CFRelease(uuidObj);
+    
+    return [uuid substringToIndex:7];
 }
 
 + (void) createEvent {
     PFObject *event = [PFObject objectWithClassName:PARSE_CLASS_EVENT];
     event[EVENT_NAME] = @"Ade's Wedding";
+    event.objectId = [event.objectId lowercaseString];
+    event[EVENT_ID] = [[self createUDID] lowercaseString];
     
     [event saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error)
@@ -63,7 +74,7 @@
 - (void) joinEventWithId : (NSString *) objectId {
     
     PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_EVENT];
-    [query whereKey:OBJECT_ID equalTo:objectId];
+    [query whereKey:EVENT_ID equalTo:[objectId lowercaseString]];
     dispatch_semaphore_t sema_done = dispatch_semaphore_create(0);
     __block PFObject *object;
     
@@ -73,10 +84,10 @@
     });
     
     dispatch_semaphore_wait(sema_done, DISPATCH_TIME_FOREVER);
-    
     // Now we have our result we free the resources and return
     _event = object;
     [self getAllMessagesForEvent];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"com.weddinggram.event.joined" object:nil] ;
 }
 
 - (void) storeToParseData : (id) object

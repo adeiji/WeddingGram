@@ -17,3 +17,5 @@ NSString *const EVENT_USERS = @"users";
 
 NSString *const MESSAGE_DATA = @"data";
 NSString *const MESSAGE_EVENT = @"relatedEvent";
+
+NSString *const EVENT_ID = @"eventId";

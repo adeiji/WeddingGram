@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParseSync.h"
 
 @interface InputTextViewController : UIViewController <UITextViewDelegate>
 
