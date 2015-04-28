@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _messages = [[[ParseSync sharedManager] messages] copy];
+    [self.navigationController setNavigationBarHidden:NO];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,7 +37,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"CountryCell";
     CGRect screenSize = [[UIScreen mainScreen] bounds];
     CGFloat width = screenSize.size.width;
     CGFloat height = width;
@@ -46,7 +46,7 @@
     CGRect frame = [cell frame];
     frame.size.height = height;
     frame.size.width = width;
-    id message = [_messages objectAtIndex:indexPath.row];
+    PFObject *message = [_messages objectAtIndex:indexPath.row];
     
     if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_TEXT]) {
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
@@ -63,13 +63,29 @@
         }];
     }
     else if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_VIDEO]) {
+        VideoTableViewCell *videoCell = [VideoTableViewCell new];
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
             if (!error) {
-//                UIImage *image = [UIImage imageWithData:data];
-                UIView *imageView = [[UIView alloc] initWithFrame:frame];
-                [cell addSubview:imageView];
+                NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+                NSString *documentsDirectory = [paths objectAtIndex:0];
+                NSString *path = [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.mp4", message.objectId]];
+                [[NSFileManager defaultManager] createFileAtPath:path contents:data attributes:nil];
+                NSURL *movieUrl = [NSURL fileURLWithPath:path];
+                AVURLAsset *asset = [AVURLAsset URLAssetWithURL:movieUrl options:nil];
+                AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:asset];
+                videoCell.player = [AVPlayer playerWithPlayerItem:playerItem];
+                // Create an AVPlayerLayer using the player
+                AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:videoCell.player];
+                [playerLayer setFrame:frame];
+                // Add it to your view's sublayers
+                [videoCell.layer addSublayer:playerLayer];
+                // You can play/pause using the AVPlayer object
+                [videoCell.player play];
+                [videoCell.player pause];
             }
         }];
+        
+        return videoCell;
     }
     else if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_IMAGE]) {
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
@@ -85,6 +101,22 @@
     }
     
     return cell;
+}
+
+- (void) tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    if ([cell isKindOfClass:[VideoTableViewCell class]]) {
+        [((VideoTableViewCell *) cell).player seekToTime:kCMTimeZero];
+        [((VideoTableViewCell *) cell).player pause];
+    }
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    if ([cell isKindOfClass:[VideoTableViewCell class]]) {
+        [((VideoTableViewCell *) cell).player seekToTime:kCMTimeZero];
+        [((VideoTableViewCell *) cell).player play];
+    }
 }
 
 

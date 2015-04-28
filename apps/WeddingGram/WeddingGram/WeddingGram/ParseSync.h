@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
 #import "Constants.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ParseSync : NSObject
 

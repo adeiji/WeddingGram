@@ -28,6 +28,7 @@
 		F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFB61AEECC40001F34C3 /* ParseSync.m */; };
 		F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFBD1AEEEABF001F34C3 /* Constants.m */; };
 		F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */; };
+		F4C6DFC51AF0206A001F34C3 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		F4C6DFBD1AEEEABF001F34C3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		F4C6DFC01AEEF88E001F34C3 /* ViewMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMessagesViewController.h; sourceTree = "<group>"; };
 		F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMessagesViewController.m; sourceTree = "<group>"; };
+		F4C6DFC31AF0206A001F34C3 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
 		F7FA4520E1C25A37A6BB9FC8 /* libPods-WeddingGram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeddingGram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -258,6 +261,8 @@
 			children = (
 				F4C6DFC01AEEF88E001F34C3 /* ViewMessagesViewController.h */,
 				F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */,
+				F4C6DFC31AF0206A001F34C3 /* VideoTableViewCell.h */,
+				F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */,
 			);
 			name = "View Messages";
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */,
 				F40E92C71AEEAB2C00439F43 /* ViewCamera.m in Sources */,
 				F40E92901AEEA48E00439F43 /* AppDelegate.m in Sources */,
+				F4C6DFC51AF0206A001F34C3 /* VideoTableViewCell.m in Sources */,
 				F40E92BE1AEEA93A00439F43 /* EntryView.m in Sources */,
 				F40E92D01AEEAE7E00439F43 /* StyleKit.m in Sources */,
 				F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */,
