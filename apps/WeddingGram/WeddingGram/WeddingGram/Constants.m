@@ -19,3 +19,8 @@ NSString *const MESSAGE_DATA = @"data";
 NSString *const MESSAGE_EVENT = @"relatedEvent";
 
 NSString *const EVENT_ID = @"eventId";
+NSString *const MESSAGE_TYPE = @"type";
+
+NSString *const MESSAGE_TYPE_VIDEO = @"video";
+NSString *const MESSAGE_TYPE_TEXT = @"text";
+NSString *const MESSAGE_TYPE_IMAGE = @"image";

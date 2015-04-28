@@ -27,6 +27,7 @@
 		F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D71AEEC16900439F43 /* InputTextViewController.m */; };
 		F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFB61AEECC40001F34C3 /* ParseSync.m */; };
 		F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFBD1AEEEABF001F34C3 /* Constants.m */; };
+		F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		F4C6DFB61AEECC40001F34C3 /* ParseSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseSync.m; sourceTree = "<group>"; };
 		F4C6DFBC1AEEEABF001F34C3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F4C6DFBD1AEEEABF001F34C3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		F4C6DFC01AEEF88E001F34C3 /* ViewMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMessagesViewController.h; sourceTree = "<group>"; };
+		F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMessagesViewController.m; sourceTree = "<group>"; };
 		F7FA4520E1C25A37A6BB9FC8 /* libPods-WeddingGram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeddingGram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +143,7 @@
 		F40E92891AEEA48E00439F43 /* WeddingGram */ = {
 			isa = PBXGroup;
 			children = (
+				F4C6DFBF1AEEF880001F34C3 /* View Messages */,
 				F4C6DFBC1AEEEABF001F34C3 /* Constants.h */,
 				F4C6DFBD1AEEEABF001F34C3 /* Constants.m */,
 				F40E92DC1AEEC88D00439F43 /* Parse Sync */,
@@ -247,6 +251,15 @@
 				F4C6DFB61AEECC40001F34C3 /* ParseSync.m */,
 			);
 			name = "Parse Sync";
+			sourceTree = "<group>";
+		};
+		F4C6DFBF1AEEF880001F34C3 /* View Messages */ = {
+			isa = PBXGroup;
+			children = (
+				F4C6DFC01AEEF88E001F34C3 /* ViewMessagesViewController.h */,
+				F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */,
+			);
+			name = "View Messages";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +402,7 @@
 				F40E92D31AEEAF1E00439F43 /* ViewEye.m in Sources */,
 				F40E92931AEEA48E00439F43 /* ViewController.m in Sources */,
 				F40E92B71AEEA52C00439F43 /* ViewFlower.m in Sources */,
+				F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */,
 				F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */,
 				F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */,
 				F40E92C71AEEAB2C00439F43 /* ViewCamera.m in Sources */,

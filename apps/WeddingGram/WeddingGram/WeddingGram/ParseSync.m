@@ -11,6 +11,7 @@
 
 @implementation ParseSync
 
+
 + (id)sharedManager {
     static ParseSync *sharedMyManager = nil;
     static dispatch_once_t onceToken;
@@ -24,6 +25,7 @@
     if (self = [super init]) {
         [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(getAllMessagesForEvent) userInfo:nil repeats:YES];
         _loadedObjects = [NSMutableArray new];
+        _messages = [NSMutableArray new];
     }
     
     return self;
@@ -52,23 +54,22 @@
 }
 
 - (void) getAllMessagesForEvent {
-    if (_event) {
-        PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_MESSAGE];
-        [query whereKey:MESSAGE_EVENT equalTo:_event];
-        [query whereKey:OBJECT_ID notContainedIn:_loadedObjects];
+
+    PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_MESSAGE];
+    [query whereKey:MESSAGE_EVENT equalTo:_event];
+    [query whereKey:OBJECT_ID notContainedIn:_loadedObjects];
+    
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        for (PFObject *object in objects) {
+            if (![_loadedObjects containsObject:object.objectId]) {
+                [_loadedObjects addObject:object.objectId];
+                [_messages addObject:object];
+            }
+        }
         
-        [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-            if (objects) {
-                _messages = objects;
-            }
-            
-            for (PFObject *object in objects) {
-                if (![_loadedObjects containsObject:object.objectId]) {
-                    [_loadedObjects addObject:object.objectId];
-                }
-            }
-        }];
-    }
+        NSLog(@"Messages retrieved from server - com.WeddingGram.retrieved.messages");
+    }];
+
 }
 
 - (void) joinEventWithId : (NSString *) objectId {
@@ -100,14 +101,17 @@
     {
         NSData *data = [object dataUsingEncoding:NSUTF8StringEncoding];
         file = [PFFile fileWithData:data];
+        message[MESSAGE_TYPE] = MESSAGE_TYPE_TEXT;
     }
     else if (filePath) {
         NSData *data = [NSData dataWithContentsOfFile:filePath];
         file = [PFFile fileWithData:data];
+        message[MESSAGE_TYPE] = MESSAGE_TYPE_VIDEO;
     }
     else if ([object isKindOfClass:[UIImage class]]) {
         NSData *data = UIImageJPEGRepresentation((UIImage *) object, .01f);
         file = [PFFile fileWithData:data];
+        message[MESSAGE_TYPE] = MESSAGE_TYPE_IMAGE;
     }
     
     message[MESSAGE_DATA] = file;

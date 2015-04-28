@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
-
+#import "Constants.h"
 
 @interface ParseSync : NSObject
 
 @property (strong, nonatomic) PFObject *event;
-@property (strong, nonatomic) NSArray *messages;
+@property (strong, nonatomic) NSMutableArray *messages;
 @property (strong, nonatomic) NSMutableArray *loadedObjects;
 
 + (id)sharedManager;
