@@ -23,7 +23,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(getAllMessagesForEvent) userInfo:nil repeats:YES];
+        [NSTimer scheduledTimerWithTimeInterval:20 target:self selector:@selector(getAllMessagesForEvent) userInfo:nil repeats:YES];
         _loadedObjects = [NSMutableArray new];
         _messages = [NSMutableArray new];
     }
@@ -68,6 +68,7 @@
         }
         
         NSLog(@"Messages retrieved from server - com.WeddingGram.retrieved.messages");
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"com.weddinggram.reload.events" object:nil];
     }];
 
 }

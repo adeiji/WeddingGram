@@ -22,13 +22,16 @@
 		F40E92C71AEEAB2C00439F43 /* ViewCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92C61AEEAB2C00439F43 /* ViewCamera.m */; };
 		F40E92CA1AEEAB5700439F43 /* ViewVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92C91AEEAB5700439F43 /* ViewVideo.m */; };
 		F40E92CD1AEEAB7E00439F43 /* ViewText.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92CC1AEEAB7E00439F43 /* ViewText.m */; };
-		F40E92D01AEEAE7E00439F43 /* StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92CF1AEEAE7E00439F43 /* StyleKit.m */; };
 		F40E92D31AEEAF1E00439F43 /* ViewEye.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D21AEEAF1E00439F43 /* ViewEye.m */; };
 		F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D71AEEC16900439F43 /* InputTextViewController.m */; };
 		F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFB61AEECC40001F34C3 /* ParseSync.m */; };
 		F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFBD1AEEEABF001F34C3 /* Constants.m */; };
 		F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */; };
 		F4C6DFC51AF0206A001F34C3 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */; };
+		F4C6DFCB1AF05E80001F34C3 /* ViewHome.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFCA1AF05E80001F34C3 /* ViewHome.m */; };
+		F4C6DFD11AF06490001F34C3 /* StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFD01AF06490001F34C3 /* StyleKit.m */; };
+		F4C6DFD41AF064B5001F34C3 /* ViewLittleVideoIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFD31AF064B5001F34C3 /* ViewLittleVideoIcon.m */; };
+		F4C6DFD71AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFD61AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +73,6 @@
 		F40E92C91AEEAB5700439F43 /* ViewVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewVideo.m; sourceTree = "<group>"; };
 		F40E92CB1AEEAB7E00439F43 /* ViewText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewText.h; sourceTree = "<group>"; };
 		F40E92CC1AEEAB7E00439F43 /* ViewText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewText.m; sourceTree = "<group>"; };
-		F40E92CE1AEEAE7E00439F43 /* StyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKit.h; sourceTree = "<group>"; };
-		F40E92CF1AEEAE7E00439F43 /* StyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKit.m; sourceTree = "<group>"; };
 		F40E92D11AEEAF1E00439F43 /* ViewEye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEye.h; sourceTree = "<group>"; };
 		F40E92D21AEEAF1E00439F43 /* ViewEye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEye.m; sourceTree = "<group>"; };
 		F40E92D61AEEC16900439F43 /* InputTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextViewController.h; sourceTree = "<group>"; };
@@ -84,6 +85,14 @@
 		F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMessagesViewController.m; sourceTree = "<group>"; };
 		F4C6DFC31AF0206A001F34C3 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
 		F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		F4C6DFC91AF05E80001F34C3 /* ViewHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHome.h; sourceTree = "<group>"; };
+		F4C6DFCA1AF05E80001F34C3 /* ViewHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHome.m; sourceTree = "<group>"; };
+		F4C6DFCF1AF06490001F34C3 /* StyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKit.h; sourceTree = "<group>"; };
+		F4C6DFD01AF06490001F34C3 /* StyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKit.m; sourceTree = "<group>"; };
+		F4C6DFD21AF064B5001F34C3 /* ViewLittleVideoIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLittleVideoIcon.h; sourceTree = "<group>"; };
+		F4C6DFD31AF064B5001F34C3 /* ViewLittleVideoIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLittleVideoIcon.m; sourceTree = "<group>"; };
+		F4C6DFD51AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DEScrollOnShowKeyboard.h"; sourceTree = "<group>"; };
+		F4C6DFD61AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DEScrollOnShowKeyboard.m"; sourceTree = "<group>"; };
 		F7FA4520E1C25A37A6BB9FC8 /* libPods-WeddingGram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeddingGram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,6 +155,8 @@
 		F40E92891AEEA48E00439F43 /* WeddingGram */ = {
 			isa = PBXGroup;
 			children = (
+				F4C6DFD51AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.h */,
+				F4C6DFD61AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m */,
 				F4C6DFBF1AEEF880001F34C3 /* View Messages */,
 				F4C6DFBC1AEEEABF001F34C3 /* Constants.h */,
 				F4C6DFBD1AEEEABF001F34C3 /* Constants.m */,
@@ -196,8 +207,8 @@
 		F40E92B01AEEA4CE00439F43 /* StyleKit */ = {
 			isa = PBXGroup;
 			children = (
-				F40E92CE1AEEAE7E00439F43 /* StyleKit.h */,
-				F40E92CF1AEEAE7E00439F43 /* StyleKit.m */,
+				F4C6DFCF1AF06490001F34C3 /* StyleKit.h */,
+				F4C6DFD01AF06490001F34C3 /* StyleKit.m */,
 			);
 			name = StyleKit;
 			sourceTree = "<group>";
@@ -215,6 +226,10 @@
 				F40E92CC1AEEAB7E00439F43 /* ViewText.m */,
 				F40E92D11AEEAF1E00439F43 /* ViewEye.h */,
 				F40E92D21AEEAF1E00439F43 /* ViewEye.m */,
+				F4C6DFC91AF05E80001F34C3 /* ViewHome.h */,
+				F4C6DFCA1AF05E80001F34C3 /* ViewHome.m */,
+				F4C6DFD21AF064B5001F34C3 /* ViewLittleVideoIcon.h */,
+				F4C6DFD31AF064B5001F34C3 /* ViewLittleVideoIcon.m */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -414,10 +429,13 @@
 				F40E92901AEEA48E00439F43 /* AppDelegate.m in Sources */,
 				F4C6DFC51AF0206A001F34C3 /* VideoTableViewCell.m in Sources */,
 				F40E92BE1AEEA93A00439F43 /* EntryView.m in Sources */,
-				F40E92D01AEEAE7E00439F43 /* StyleKit.m in Sources */,
+				F4C6DFD41AF064B5001F34C3 /* ViewLittleVideoIcon.m in Sources */,
+				F4C6DFD71AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m in Sources */,
 				F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */,
 				F40E92CA1AEEAB5700439F43 /* ViewVideo.m in Sources */,
+				F4C6DFD11AF06490001F34C3 /* StyleKit.m in Sources */,
 				F40E92CD1AEEAB7E00439F43 /* ViewText.m in Sources */,
+				F4C6DFCB1AF05E80001F34C3 /* ViewHome.m in Sources */,
 				F40E928D1AEEA48E00439F43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

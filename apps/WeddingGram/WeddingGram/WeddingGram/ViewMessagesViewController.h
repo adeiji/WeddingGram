@@ -10,6 +10,7 @@
 #import "ParseSync.h"
 #import <AVFoundation/AVFoundation.h>
 #import "VideoTableViewCell.h"
+#import "ViewLittleVideoIcon.h"
 
 @interface ViewMessagesViewController : UITableViewController
 

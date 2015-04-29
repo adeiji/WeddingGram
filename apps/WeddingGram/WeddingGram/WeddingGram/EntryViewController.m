@@ -78,6 +78,9 @@ static NSString *TEXT_VIEW_CONTROLLER = @"InputTextViewController";
     picker.mediaTypes = [NSArray arrayWithObject:(NSString *) kUTTypeMovie];
     [self presentViewController:picker animated:YES completion:NULL];
 }
+- (IBAction)goHome:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void) viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];

@@ -18,6 +18,12 @@
     [super viewDidLoad];
     _messages = [[[ParseSync sharedManager] messages] copy];
     [self.navigationController setNavigationBarHidden:NO];
+    
+}
+
+- (void) reloadData {
+    _messages = [[[ParseSync sharedManager] messages] copy];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,6 +33,11 @@
 
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadData) name:@"com.weddinggram.reload.events" object:nil];
+}
+
+- (void) viewDidDisappear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -94,6 +105,10 @@
                 // You can play/pause using the AVPlayer object
                 [videoCell.player play];
                 [videoCell.player pause];
+                
+                ViewLittleVideoIcon *view = [[ViewLittleVideoIcon alloc] initWithFrame:CGRectMake(5, 5, 50, 36)];
+                [view setBackgroundColor:[UIColor clearColor]];
+                [videoCell addSubview:view];
             }
         }];
         
@@ -126,11 +141,14 @@
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     if ([cell isKindOfClass:[VideoTableViewCell class]]) {
-        [((VideoTableViewCell *) cell).player seekToTime:kCMTimeZero];
-        [((VideoTableViewCell *) cell).player play];
+        if (((VideoTableViewCell *) cell).player.rate > 0 && !((VideoTableViewCell *) cell).player.error) {
+            [((VideoTableViewCell *) cell).player pause];
+        }
+        else {
+            [((VideoTableViewCell *) cell).player seekToTime:kCMTimeZero];
+            [((VideoTableViewCell *) cell).player play];
+        }
     }
-    
-
 }
 
 
