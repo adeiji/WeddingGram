@@ -10,10 +10,12 @@
 #import "ParseSync.h"
 #import "EntryViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *btnJoin;
 @property (weak, nonatomic) IBOutlet UITextField *txtEventId;
+@property (strong, nonatomic) UITextField *activeField;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 

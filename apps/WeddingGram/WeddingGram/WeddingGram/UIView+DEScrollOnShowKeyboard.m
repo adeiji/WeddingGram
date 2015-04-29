@@ -26,9 +26,10 @@
 
 {
     NSDictionary *info = [aNotification userInfo];
-    CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    NSValue *keyboardFrameValue = [info valueForKey:UIKeyboardFrameBeginUserInfoKey];
+    CGSize kbSize = [keyboardFrameValue CGRectValue].size;
     
-    UIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0, kbSize.height, 0.0);
+    UIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0, kbSize.height + 50, 0.0);
     scrollView.contentInset = contentInsets;
     scrollView.scrollIndicatorInsets = contentInsets;
     

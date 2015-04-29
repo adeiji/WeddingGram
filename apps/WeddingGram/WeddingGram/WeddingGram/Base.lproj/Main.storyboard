@@ -53,6 +53,9 @@
                                                 <color key="textColor" red="0.30588235289999999" green="0.37647058820000001" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="ivY-yk-MTL"/>
+                                                </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding Gram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="262" translatesAutoresizingMaskIntoConstraints="NO" id="EVy-V6-j3n">
                                                 <rect key="frame" x="169" y="230" width="262" height="56"/>
@@ -126,6 +129,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="btnJoin" destination="KEP-ZY-RNx" id="lDi-UK-PrZ"/>
+                        <outlet property="scrollView" destination="7hG-yE-DnH" id="z2S-lD-b3C"/>
                         <outlet property="txtEventId" destination="QpL-Ci-TU3" id="xVt-ra-DGb"/>
                     </connections>
                 </viewController>
@@ -278,9 +282,24 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L8g-Og-dAL">
                                 <rect key="frame" x="36" y="75" width="529" height="187"/>
                                 <color key="backgroundColor" red="0.89411764709999997" green="0.96470588239999999" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="337" id="O2g-CP-pY8">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="221"/>
+                                    </constraint>
+                                </constraints>
                                 <color key="textColor" red="0.30588235294117649" green="0.37647058823529411" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="O2g-CP-pY8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="O2g-CP-pY8"/>
+                                    </mask>
+                                </variation>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPC-Ct-BU8">
                                 <rect key="frame" x="36" y="28" width="252" height="31"/>
@@ -337,15 +356,18 @@
                         <color key="backgroundColor" red="0.89411764709999997" green="0.96470588239999999" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="BPC-Ct-BU8" firstAttribute="top" secondItem="twS-24-Bfg" secondAttribute="bottom" constant="8" id="1F5-MY-dUd"/>
-                            <constraint firstItem="pZy-bj-2ym" firstAttribute="top" secondItem="L8g-Og-dAL" secondAttribute="bottom" constant="22" id="5ch-vB-vBZ"/>
+                            <constraint firstItem="pZy-bj-2ym" firstAttribute="top" secondItem="L8g-Og-dAL" secondAttribute="bottom" constant="22" id="5ch-vB-vBZ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="23"/>
+                            </constraint>
                             <constraint firstItem="L8g-Og-dAL" firstAttribute="leading" secondItem="yRf-Rw-Y5s" secondAttribute="leadingMargin" constant="20" id="IQH-YB-r5E"/>
-                            <constraint firstItem="wfA-y5-IS5" firstAttribute="top" secondItem="L8g-Og-dAL" secondAttribute="bottom" constant="13" id="TbS-ls-dUc"/>
+                            <constraint firstItem="wfA-y5-IS5" firstAttribute="top" secondItem="L8g-Og-dAL" secondAttribute="bottom" constant="13" id="TbS-ls-dUc">
+                                <variation key="heightClass=regular-widthClass=regular" constant="14"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="L8g-Og-dAL" secondAttribute="trailing" constant="19" id="W2C-IV-qtw"/>
                             <constraint firstItem="wfA-y5-IS5" firstAttribute="top" secondItem="drd-x1-RQZ" secondAttribute="top" id="cyW-1b-vaR"/>
                             <constraint firstItem="L8g-Og-dAL" firstAttribute="leading" secondItem="BPC-Ct-BU8" secondAttribute="leading" id="kq4-ZB-cHg"/>
                             <constraint firstItem="wfA-y5-IS5" firstAttribute="leading" secondItem="drd-x1-RQZ" secondAttribute="trailing" constant="8" id="m27-A3-mA0"/>
                             <constraint firstItem="wfA-y5-IS5" firstAttribute="trailing" secondItem="L8g-Og-dAL" secondAttribute="trailing" id="ojq-49-CeR"/>
-                            <constraint firstItem="sla-cT-qxl" firstAttribute="top" secondItem="L8g-Og-dAL" secondAttribute="bottom" constant="338" id="vCS-aq-nrS"/>
                             <constraint firstItem="L8g-Og-dAL" firstAttribute="top" secondItem="BPC-Ct-BU8" secondAttribute="bottom" constant="16" id="vbh-u0-ysk"/>
                             <constraint firstItem="pZy-bj-2ym" firstAttribute="leading" secondItem="yRf-Rw-Y5s" secondAttribute="leadingMargin" constant="20" id="whQ-Yg-0PR"/>
                         </constraints>
@@ -357,7 +379,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TbO-d1-yA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087" y="1319"/>
+            <point key="canvasLocation" x="1086.75" y="1318.5"/>
         </scene>
     </scenes>
 </document>

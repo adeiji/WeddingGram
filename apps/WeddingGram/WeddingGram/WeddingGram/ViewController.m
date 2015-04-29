@@ -25,19 +25,30 @@ static NSString *ENTRY_VIEW_CONTROLLER = @"EntryViewController";
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(eventJoined) name:@"com.weddinggram.event.joined" object:nil];
     [self.navigationController setNavigationBarHidden:YES];
     [_txtEventId becomeFirstResponder];
+    [self registerForKeyboardNotifications];
 }
 
+- (void) registerForKeyboardNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillShow:)
+                                                 name:UIKeyboardWillShowNotification
+                                               object:nil];
+}
+
+- (void) keyboardWillShow : (NSNotification *) aNotification {
+    [self.view scrollViewToTopOfKeyboard:self.scrollView Notification:aNotification View:self.view TextFieldOrView:_activeField];
+}
 
 - (void) eventJoined {
     EntryViewController *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:ENTRY_VIEW_CONTROLLER];
     [self showViewController:viewController sender:nil];
 }
 
-//- (void) textFieldDidBeginEditing:(UITextField *)textField  {
-//    [self.view scrollViewToTopOfKeyboard:(UIScrollView *) self.view Notification:nil View:self.view TextFieldOrView:textField];
-//    
-//    _activeField = textField;
-//}
+- (void) textFieldDidBeginEditing:(UITextField *)textField  {
+    
+    _activeField = textField;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
