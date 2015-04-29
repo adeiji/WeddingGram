@@ -25,6 +25,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
@@ -42,17 +46,22 @@
     CGFloat height = width;
     
     UITableViewCell *cell = [UITableViewCell new];
-    
+    [cell setBackgroundColor:[UIColor colorWithRed:228.0f/255.0f green:246.0f/255.0f blue:248.0f/255.0f alpha:1.0]];
     CGRect frame = [cell frame];
     frame.size.height = height;
     frame.size.width = width;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     PFObject *message = [_messages objectAtIndex:indexPath.row];
     
     if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_TEXT]) {
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
             if (!error) {
                 NSString *messageString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-                UILabel *label = [[UILabel alloc] initWithFrame:frame];
+                CGRect labelFrame = frame;
+                labelFrame.size.width -= 20;
+                labelFrame.origin.x += 10;
+                UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
                 label.text = messageString;
                 [label setTextAlignment:NSTextAlignmentCenter];
                 [label setFont:[UIFont systemFontOfSize:17.0f weight:1.0f]];
@@ -64,6 +73,8 @@
     }
     else if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_VIDEO]) {
         VideoTableViewCell *videoCell = [VideoTableViewCell new];
+        videoCell.selectionStyle = UITableViewCellSelectionStyleNone;
+        [videoCell setBackgroundColor:[UIColor colorWithRed:228.0f/255.0f green:246.0f/255.0f blue:248.0f/255.0f alpha:1.0]];
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
             if (!error) {
                 NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -76,6 +87,7 @@
                 videoCell.player = [AVPlayer playerWithPlayerItem:playerItem];
                 // Create an AVPlayerLayer using the player
                 AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:videoCell.player];
+                [playerLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
                 [playerLayer setFrame:frame];
                 // Add it to your view's sublayers
                 [videoCell.layer addSublayer:playerLayer];
@@ -117,11 +129,13 @@
         [((VideoTableViewCell *) cell).player seekToTime:kCMTimeZero];
         [((VideoTableViewCell *) cell).player play];
     }
+    
+
 }
 
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [[UIScreen mainScreen] bounds].size.width;
+    return [[UIScreen mainScreen] bounds].size.width + 5;
 }
 @end

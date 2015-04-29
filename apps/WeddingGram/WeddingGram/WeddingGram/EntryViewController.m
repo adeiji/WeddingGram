@@ -23,6 +23,11 @@ static NSString *TEXT_VIEW_CONTROLLER = @"InputTextViewController";
     [super viewDidLoad];
 }
 
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 

@@ -22,7 +22,9 @@ static NSString *ENTRY_VIEW_CONTROLLER = @"EntryViewController";
     
     [[_btnJoin layer] setCornerRadius:5.0f];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(eventJoined) name:@"com.weddinggram.event.joined" object:nil];
+    [self.navigationController setNavigationBarHidden:YES];
 }
+
 
 - (void) eventJoined {
     EntryViewController *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:ENTRY_VIEW_CONTROLLER];
