@@ -252,7 +252,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GqU-Uq-nwv" id="iLt-Nu-Gtp">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.89411764709999997" green="0.96470588239999999" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -286,6 +286,7 @@
                                     <constraint firstAttribute="height" constant="337" id="O2g-CP-pY8">
                                         <variation key="heightClass=regular-widthClass=regular" constant="221"/>
                                     </constraint>
+                                    <constraint firstAttribute="height" constant="187" id="d3F-3F-RIq"/>
                                 </constraints>
                                 <color key="textColor" red="0.30588235294117649" green="0.37647058823529411" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -293,6 +294,12 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="O2g-CP-pY8"/>
+                                        <exclude reference="d3F-3F-RIq"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="d3F-3F-RIq"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">

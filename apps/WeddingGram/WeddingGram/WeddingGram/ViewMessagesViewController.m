@@ -17,12 +17,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _messages = [[[ParseSync sharedManager] messages] copy];
+    [self sortArray];
+    
     [self.navigationController setNavigationBarHidden:NO];
     
 }
 
+- (void) sortArray {
+    _messages = [_messages sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        PFObject *object1 = obj1;
+        PFObject *object2 = obj2;
+        
+        return [[object1 createdAt] compare:[object2 createdAt]];
+    }];
+}
+
 - (void) reloadData {
     _messages = [[[ParseSync sharedManager] messages] copy];
+    [self sortArray];
     [self.tableView reloadData];
 }
 
@@ -57,25 +69,27 @@
     CGFloat height = width;
     
     UITableViewCell *cell = [UITableViewCell new];
-    [cell setBackgroundColor:[UIColor colorWithRed:228.0f/255.0f green:246.0f/255.0f blue:248.0f/255.0f alpha:1.0]];
-    CGRect frame = [cell frame];
+    __block CGRect frame = [cell frame];
     frame.size.height = height;
     frame.size.width = width;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    PFObject *message = [_messages objectAtIndex:indexPath.row];
+    PFObject *message = [_messages objectAtIndex:[_messages count] - (indexPath.row + 1)];
     
     if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_TEXT]) {
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
             if (!error) {
                 NSString *messageString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                frame.size.height = height - 150;
                 CGRect labelFrame = frame;
                 labelFrame.size.width -= 20;
                 labelFrame.origin.x += 10;
                 UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
+                [label setBackgroundColor:[UIColor colorWithRed:245.0f/255.0f green:245.0f/255.0f blue:245.0f/255.0f alpha:1.0f]];
+                UIFont *font = [UIFont fontWithName:@"Avenir-LightOblique" size:17.0f];
+                [label setFont:font];
                 label.text = messageString;
                 [label setTextAlignment:NSTextAlignmentCenter];
-                [label setFont:[UIFont systemFontOfSize:17.0f weight:1.0f]];
                 [label setLineBreakMode:NSLineBreakByWordWrapping];
                 label.numberOfLines = 15;
                 [cell addSubview:label];
@@ -85,7 +99,6 @@
     else if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_VIDEO]) {
         VideoTableViewCell *videoCell = [VideoTableViewCell new];
         videoCell.selectionStyle = UITableViewCellSelectionStyleNone;
-        [videoCell setBackgroundColor:[UIColor colorWithRed:228.0f/255.0f green:246.0f/255.0f blue:248.0f/255.0f alpha:1.0]];
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
             if (!error) {
                 NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -154,6 +167,13 @@
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [[UIScreen mainScreen] bounds].size.width + 5;
+    PFObject *message = [_messages objectAtIndex:[_messages count] - (indexPath.row + 1)];
+    
+    if ([message[MESSAGE_TYPE] isEqualToString:MESSAGE_TYPE_TEXT]) {
+        return [[UIScreen mainScreen] bounds].size.width - 120;
+    }
+    
+
+    return [[UIScreen mainScreen] bounds].size.width + 15;
 }
 @end
