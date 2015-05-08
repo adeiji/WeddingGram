@@ -24,12 +24,15 @@
 		F40E92CD1AEEAB7E00439F43 /* ViewText.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92CC1AEEAB7E00439F43 /* ViewText.m */; };
 		F40E92D31AEEAF1E00439F43 /* ViewEye.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D21AEEAF1E00439F43 /* ViewEye.m */; };
 		F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40E92D71AEEC16900439F43 /* InputTextViewController.m */; };
+		F44BD8101AFD4D69007E55CB /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44BD80F1AFD4D69007E55CB /* Images-2.xcassets */; };
+		F44BD8161AFD6898007E55CB /* ViewLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BD8151AFD6898007E55CB /* ViewLogo.m */; };
+		F44BD8201AFD6B10007E55CB /* StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BD81F1AFD6B10007E55CB /* StyleKit.m */; };
+		F44BD8221AFD6DA1007E55CB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F44BD8211AFD6DA1007E55CB /* logo.png */; };
 		F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFB61AEECC40001F34C3 /* ParseSync.m */; };
 		F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFBD1AEEEABF001F34C3 /* Constants.m */; };
 		F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */; };
 		F4C6DFC51AF0206A001F34C3 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */; };
 		F4C6DFCB1AF05E80001F34C3 /* ViewHome.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFCA1AF05E80001F34C3 /* ViewHome.m */; };
-		F4C6DFD11AF06490001F34C3 /* StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFD01AF06490001F34C3 /* StyleKit.m */; };
 		F4C6DFD41AF064B5001F34C3 /* ViewLittleVideoIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFD31AF064B5001F34C3 /* ViewLittleVideoIcon.m */; };
 		F4C6DFD71AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFD61AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m */; };
 /* End PBXBuildFile section */
@@ -77,6 +80,12 @@
 		F40E92D21AEEAF1E00439F43 /* ViewEye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEye.m; sourceTree = "<group>"; };
 		F40E92D61AEEC16900439F43 /* InputTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextViewController.h; sourceTree = "<group>"; };
 		F40E92D71AEEC16900439F43 /* InputTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextViewController.m; sourceTree = "<group>"; };
+		F44BD80F1AFD4D69007E55CB /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		F44BD8141AFD6898007E55CB /* ViewLogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLogo.h; sourceTree = "<group>"; };
+		F44BD8151AFD6898007E55CB /* ViewLogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLogo.m; sourceTree = "<group>"; };
+		F44BD81E1AFD6B10007E55CB /* StyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKit.h; sourceTree = "<group>"; };
+		F44BD81F1AFD6B10007E55CB /* StyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKit.m; sourceTree = "<group>"; };
+		F44BD8211AFD6DA1007E55CB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		F4C6DFB51AEECC40001F34C3 /* ParseSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseSync.h; sourceTree = "<group>"; };
 		F4C6DFB61AEECC40001F34C3 /* ParseSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseSync.m; sourceTree = "<group>"; };
 		F4C6DFBC1AEEEABF001F34C3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -87,8 +96,6 @@
 		F4C6DFC41AF0206A001F34C3 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
 		F4C6DFC91AF05E80001F34C3 /* ViewHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHome.h; sourceTree = "<group>"; };
 		F4C6DFCA1AF05E80001F34C3 /* ViewHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHome.m; sourceTree = "<group>"; };
-		F4C6DFCF1AF06490001F34C3 /* StyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKit.h; sourceTree = "<group>"; };
-		F4C6DFD01AF06490001F34C3 /* StyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKit.m; sourceTree = "<group>"; };
 		F4C6DFD21AF064B5001F34C3 /* ViewLittleVideoIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLittleVideoIcon.h; sourceTree = "<group>"; };
 		F4C6DFD31AF064B5001F34C3 /* ViewLittleVideoIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLittleVideoIcon.m; sourceTree = "<group>"; };
 		F4C6DFD51AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DEScrollOnShowKeyboard.h"; sourceTree = "<group>"; };
@@ -173,6 +180,7 @@
 				F40E92941AEEA48E00439F43 /* Main.storyboard */,
 				F40E92971AEEA48E00439F43 /* Images.xcassets */,
 				F40E92991AEEA48E00439F43 /* LaunchScreen.xib */,
+				F44BD80F1AFD4D69007E55CB /* Images-2.xcassets */,
 				F40E928A1AEEA48E00439F43 /* Supporting Files */,
 			);
 			path = WeddingGram;
@@ -207,8 +215,8 @@
 		F40E92B01AEEA4CE00439F43 /* StyleKit */ = {
 			isa = PBXGroup;
 			children = (
-				F4C6DFCF1AF06490001F34C3 /* StyleKit.h */,
-				F4C6DFD01AF06490001F34C3 /* StyleKit.m */,
+				F44BD81E1AFD6B10007E55CB /* StyleKit.h */,
+				F44BD81F1AFD6B10007E55CB /* StyleKit.m */,
 			);
 			name = StyleKit;
 			sourceTree = "<group>";
@@ -230,6 +238,8 @@
 				F4C6DFCA1AF05E80001F34C3 /* ViewHome.m */,
 				F4C6DFD21AF064B5001F34C3 /* ViewLittleVideoIcon.h */,
 				F4C6DFD31AF064B5001F34C3 /* ViewLittleVideoIcon.m */,
+				F44BD8141AFD6898007E55CB /* ViewLogo.h */,
+				F44BD8151AFD6898007E55CB /* ViewLogo.m */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -237,6 +247,7 @@
 		F40E92B81AEEA64400439F43 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F44BD8211AFD6DA1007E55CB /* logo.png */,
 				F40E92B91AEEA65B00439F43 /* rose.png */,
 			);
 			name = Images;
@@ -366,7 +377,9 @@
 			files = (
 				F40E92BA1AEEA65B00439F43 /* rose.png in Resources */,
 				F40E92961AEEA48E00439F43 /* Main.storyboard in Resources */,
+				F44BD8221AFD6DA1007E55CB /* logo.png in Resources */,
 				F40E929B1AEEA48E00439F43 /* LaunchScreen.xib in Resources */,
+				F44BD8101AFD4D69007E55CB /* Images-2.xcassets in Resources */,
 				F40E92981AEEA48E00439F43 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +437,7 @@
 				F40E92B71AEEA52C00439F43 /* ViewFlower.m in Sources */,
 				F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */,
 				F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */,
+				F44BD8201AFD6B10007E55CB /* StyleKit.m in Sources */,
 				F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */,
 				F40E92C71AEEAB2C00439F43 /* ViewCamera.m in Sources */,
 				F40E92901AEEA48E00439F43 /* AppDelegate.m in Sources */,
@@ -433,8 +447,8 @@
 				F4C6DFD71AF0BB7D001F34C3 /* UIView+DEScrollOnShowKeyboard.m in Sources */,
 				F40E92D81AEEC16900439F43 /* InputTextViewController.m in Sources */,
 				F40E92CA1AEEAB5700439F43 /* ViewVideo.m in Sources */,
-				F4C6DFD11AF06490001F34C3 /* StyleKit.m in Sources */,
 				F40E92CD1AEEAB7E00439F43 /* ViewText.m in Sources */,
+				F44BD8161AFD6898007E55CB /* ViewLogo.m in Sources */,
 				F4C6DFCB1AF05E80001F34C3 /* ViewHome.m in Sources */,
 				F40E928D1AEEA48E00439F43 /* main.m in Sources */,
 			);
@@ -563,6 +577,7 @@
 			baseConfigurationReference = A2192F9DF38AB9D7C60F25F0 /* Pods-WeddingGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WeddingGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,6 +590,7 @@
 			baseConfigurationReference = 05C82BB1F74F0BFAA242E0BB /* Pods-WeddingGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WeddingGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

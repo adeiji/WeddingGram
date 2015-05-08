@@ -44,6 +44,7 @@
     event[EVENT_NAME] = @"Ade's Wedding";
     event.objectId = [event.objectId lowercaseString];
     event[EVENT_ID] = [[self createUDID] lowercaseString];
+    event[EVENT_ACTIVE]= [NSNumber numberWithBool:YES];
     
     [event saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error)
@@ -55,26 +56,30 @@
 
 - (void) getAllMessagesForEvent {
 
-    PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_MESSAGE];
-    [query whereKey:MESSAGE_EVENT equalTo:_event];
-    [query whereKey:OBJECT_ID notContainedIn:_loadedObjects];
-    
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        for (PFObject *object in objects) {
-            if (![_loadedObjects containsObject:object.objectId]) {
-                [_loadedObjects addObject:object.objectId];
-                [_messages addObject:object];
-            }
-        }
+    if (_event)
+    {
+        PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_MESSAGE];
+        [query whereKey:MESSAGE_EVENT equalTo:_event];
+        [query whereKey:OBJECT_ID notContainedIn:_loadedObjects];
         
-        NSLog(@"Messages retrieved from server - com.WeddingGram.retrieved.messages");
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"com.weddinggram.reload.events" object:nil];
-    }];
+        [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+            for (PFObject *object in objects) {
+                if (![_loadedObjects containsObject:object.objectId]) {
+                    [_loadedObjects addObject:object.objectId];
+                    [_messages addObject:object];
+                }
+            }
+            
+            NSLog(@"Messages retrieved from server - com.WeddingGram.retrieved.messages");
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"com.weddinggram.reload.events" object:nil];
+        }];
+    }
 
 }
 
-- (void) joinEventWithId : (NSString *) objectId {
-    
+- (void) joinEventWithId : (NSString *) objectId
+                ErrorLabel : (UILabel *) errorLabel
+{
     PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_EVENT];
     [query whereKey:EVENT_ID equalTo:[objectId lowercaseString]];
     dispatch_semaphore_t sema_done = dispatch_semaphore_create(0);
@@ -88,8 +93,18 @@
     dispatch_semaphore_wait(sema_done, DISPATCH_TIME_FOREVER);
     // Now we have our result we free the resources and return
     _event = object;
-    [self getAllMessagesForEvent];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"com.weddinggram.event.joined" object:nil] ;
+    
+    if (!_event)
+    {
+        [errorLabel setText:@"Sorry, event does not exist"];
+    }
+    else if (_event[EVENT_ACTIVE] != [NSNumber numberWithBool:YES]) {
+        [errorLabel setText:@"Sorry, event has expired"];
+    }
+    else {
+        [self getAllMessagesForEvent];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"com.weddinggram.event.joined" object:nil] ;
+    }
 }
 
 - (void) storeToParseData : (id) object

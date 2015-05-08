@@ -20,7 +20,8 @@
 + (id)sharedManager;
 + (void) createEvent;
 - (void) getAllMessagesForEvent;
-- (void) joinEventWithId : (NSString *) objectId;
+- (void) joinEventWithId : (NSString *) objectId
+              ErrorLabel : (UILabel *) errorLabel;
 - (void) storeToParseData : (id) object
                  VideoUrl : (NSString *) filePath;
 

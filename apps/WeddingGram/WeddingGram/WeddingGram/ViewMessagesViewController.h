@@ -13,7 +13,9 @@
 #import "ViewLittleVideoIcon.h"
 
 @interface ViewMessagesViewController : UITableViewController
-
+{
+    NSString *userName;
+}
 @property (strong, nonatomic) NSArray *messages;
 @property (strong, nonatomic) NSMutableArray *players;
 

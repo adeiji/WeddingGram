@@ -14,8 +14,10 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *btnJoin;
 @property (weak, nonatomic) IBOutlet UITextField *txtEventId;
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
 @property (strong, nonatomic) UITextField *activeField;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UILabel *lblError;
 
 @end
 

@@ -24,7 +24,7 @@ static NSString *ENTRY_VIEW_CONTROLLER = @"EntryViewController";
     [[_btnJoin layer] setCornerRadius:5.0f];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(eventJoined) name:@"com.weddinggram.event.joined" object:nil];
     [self.navigationController setNavigationBarHidden:YES];
-    [_txtEventId becomeFirstResponder];
+    [_txtName becomeFirstResponder];
     [self registerForKeyboardNotifications];
 }
 
@@ -50,6 +50,15 @@ static NSString *ENTRY_VIEW_CONTROLLER = @"EntryViewController";
     _activeField = textField;
 }
 
+- (BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    
+    if ([_activeField isEqual:_txtEventId]) {
+        [_lblError setText:@""];
+    }
+    
+    return YES;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -57,7 +66,11 @@ static NSString *ENTRY_VIEW_CONTROLLER = @"EntryViewController";
 - (IBAction)joinEventPressed:(id)sender {
     if (![_txtEventId.text isEqualToString:@""])
     {
-        [[ParseSync sharedManager] joinEventWithId:_txtEventId.text];
+        NSString *eventId = [_txtEventId.text stringByReplacingOccurrencesOfString:@" " withString:@""];
+        [[ParseSync sharedManager] joinEventWithId:eventId ErrorLabel:_lblError];
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setObject:_txtName.text forKey:USER_DEFAULTS_NAME];
+        
     }
 }
 
