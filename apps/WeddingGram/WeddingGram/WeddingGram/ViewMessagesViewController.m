@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _messages = [[[ParseSync sharedManager] messages] copy];
+    
+    if ([_messages count] == 0) {
+        UIView *view = [[[NSBundle mainBundle] loadNibNamed:@"NoMessageView" owner:self options:nil] firstObject];
+        [self.tableView setBackgroundView:view];
+    }
+    
     [self sortArray];
     
     [self.navigationController setNavigationBarHidden:NO];
