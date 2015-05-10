@@ -24,11 +24,7 @@
     }
     
     [self sortArray];
-    
     [self.navigationController setNavigationBarHidden:NO];
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    userName = [defaults objectForKey:USER_DEFAULTS_NAME];
-    
 }
 
 - (void) sortArray {
@@ -89,7 +85,6 @@
         [message[MESSAGE_DATA] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
             if (!error) {
                 NSString *messageString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-                messageString = [NSString stringWithFormat:@"\"%@\",\n\n%@", messageString, userName];
                 frame.size.height = height - 150;
                 CGRect labelFrame = frame;
                 labelFrame.size.width -= 20;

@@ -69,8 +69,7 @@ static NSString *ENTRY_VIEW_CONTROLLER = @"EntryViewController";
         NSString *eventId = [_txtEventId.text stringByReplacingOccurrencesOfString:@" " withString:@""];
         [[ParseSync sharedManager] joinEventWithId:eventId ErrorLabel:_lblError];
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        [defaults setObject:_txtName.text forKey:USER_DEFAULTS_NAME];
-        
+        [defaults setObject:[_txtName.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] forKey:USER_DEFAULTS_NAME];
     }
 }
 

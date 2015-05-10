@@ -81,7 +81,7 @@
                 ErrorLabel : (UILabel *) errorLabel
 {
     PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_EVENT];
-    [query whereKey:EVENT_ID equalTo:[objectId lowercaseString]];
+    [query whereKey:EVENT_ID equalTo:[objectId uppercaseString]];
     dispatch_semaphore_t sema_done = dispatch_semaphore_create(0);
     __block PFObject *object;
     

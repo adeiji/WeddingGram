@@ -39,7 +39,14 @@
     [_txtMessage resignFirstResponder];
     [self dismissViewControllerAnimated:YES completion:NULL];
     
-    [[ParseSync sharedManager] storeToParseData:_txtMessage.text VideoUrl:nil];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *userName = [defaults objectForKey:USER_DEFAULTS_NAME];
+    if ([[userName stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] isEqualToString:@""] || !userName) {
+        userName = @"Anonymous";
+    }
+    NSString *messageString = [NSString stringWithFormat:@"\"%@\",\n\n%@", _txtMessage.text, userName];
+    
+    [[ParseSync sharedManager] storeToParseData:messageString VideoUrl:nil];
 }
 
 - (IBAction)cancelButtonPressed:(id)sender {

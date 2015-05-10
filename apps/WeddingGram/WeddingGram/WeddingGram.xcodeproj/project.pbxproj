@@ -36,6 +36,8 @@
 		F46B48F71AFD746200F83EEF /* icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B48F01AFD746200F83EEF /* icon-Small@2x.png */; };
 		F46B48F81AFD746200F83EEF /* icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B48F11AFD746200F83EEF /* icon-Small@3x.png */; };
 		F46B48FA1AFD755900F83EEF /* NoMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46B48F91AFD755900F83EEF /* NoMessageView.xib */; };
+		F46B48FE1AFD7E2D00F83EEF /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B48FC1AFD7E2D00F83EEF /* icon-76@2x.png */; };
+		F46B49001AFD7F3700F83EEF /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = F46B48FF1AFD7F3700F83EEF /* icon-76.png */; };
 		F4C6DFB71AEECC40001F34C3 /* ParseSync.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFB61AEECC40001F34C3 /* ParseSync.m */; };
 		F4C6DFBE1AEEEABF001F34C3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFBD1AEEEABF001F34C3 /* Constants.m */; };
 		F4C6DFC21AEEF88E001F34C3 /* ViewMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6DFC11AEEF88E001F34C3 /* ViewMessagesViewController.m */; };
@@ -102,6 +104,8 @@
 		F46B48F01AFD746200F83EEF /* icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Small@2x.png"; sourceTree = "<group>"; };
 		F46B48F11AFD746200F83EEF /* icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Small@3x.png"; sourceTree = "<group>"; };
 		F46B48F91AFD755900F83EEF /* NoMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoMessageView.xib; sourceTree = "<group>"; };
+		F46B48FC1AFD7E2D00F83EEF /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		F46B48FF1AFD7F3700F83EEF /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
 		F4C6DFB51AEECC40001F34C3 /* ParseSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseSync.h; sourceTree = "<group>"; };
 		F4C6DFB61AEECC40001F34C3 /* ParseSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseSync.m; sourceTree = "<group>"; };
 		F4C6DFBC1AEEEABF001F34C3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -264,6 +268,8 @@
 		F40E92B81AEEA64400439F43 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F46B48FF1AFD7F3700F83EEF /* icon-76.png */,
+				F46B48FC1AFD7E2D00F83EEF /* icon-76@2x.png */,
 				F46B48EB1AFD746200F83EEF /* icon-60@2x.png */,
 				F46B48EC1AFD746200F83EEF /* icon-60@3x.png */,
 				F46B48ED1AFD746200F83EEF /* icon-Small-40@2x.png */,
@@ -400,10 +406,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46B48F51AFD746200F83EEF /* icon-Small-40@3x.png in Resources */,
+				F46B49001AFD7F3700F83EEF /* icon-76.png in Resources */,
 				F46B48FA1AFD755900F83EEF /* NoMessageView.xib in Resources */,
 				F46B48F31AFD746200F83EEF /* icon-60@3x.png in Resources */,
 				F40E92BA1AEEA65B00439F43 /* rose.png in Resources */,
 				F46B48F61AFD746200F83EEF /* icon-Small.png in Resources */,
+				F46B48FE1AFD7E2D00F83EEF /* icon-76@2x.png in Resources */,
 				F40E92961AEEA48E00439F43 /* Main.storyboard in Resources */,
 				F46B48F81AFD746200F83EEF /* icon-Small@3x.png in Resources */,
 				F46B48F21AFD746200F83EEF /* icon-60@2x.png in Resources */,
@@ -615,6 +623,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -625,11 +634,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adebayo Ijidakinro (HJPTQ3N75W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adebayo Ijidakinro (HJPTQ3N75W)";
 				INFOPLIST_FILE = WeddingGram/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
